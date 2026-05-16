@@ -1,0 +1,707 @@
+{
+  "title": "Design Innovation Quiz 2",
+  "subtitle": "Multiple-choice questions on IoT and Blockchain.",
+  "totalQuestions": 70,
+  "questions": [
+    {
+      "question": "What best describes the Internet of Things (IoT)?",
+      "options": [
+        "A system where only humans exchange data through the Internet",
+        "A system of interconnected physical and digital devices that can transfer data over a network without human intervention",
+        "A blockchain-based ledger for financial transactions",
+        "A cloud-only architecture for storing databases"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which organization defines IoT as “a network of items – each embedded with sensors – which are connected to the Internet”?",
+      "options": [
+        "IEEE",
+        "ETSI",
+        "ITU",
+        "Wikipedia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "According to ETSI, M2M communications are primarily about:",
+      "options": [
+        "Human-to-human messaging",
+        "Communication between entities that do not necessarily need direct human intervention",
+        "Cryptocurrency mining",
+        "Data encryption algorithms"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The ITU definition of IoT emphasizes that it is:",
+      "options": [
+        "Only for industrial devices",
+        "Available anywhere, anytime, by anything and anyone",
+        "Limited to Wi-Fi-connected devices",
+        "A central database architecture"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the slides, the Internet today is described as including:",
+      "options": [
+        "Only people and websites",
+        "People, companies, machines, software, data, and network traffic",
+        "Only cloud platforms and apps",
+        "Only connected sensors"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which trend is highlighted regarding the Internet?",
+      "options": [
+        "Convergence is increasing and divergence is disappearing",
+        "The Internet is diverging as different domains specialize and separate",
+        "The Internet is becoming offline",
+        "The Internet is limited to social media"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is presented as an IoT enabling technology?",
+      "options": [
+        "RFID",
+        "SQL",
+        "HTML",
+        "JPEG"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the IoT context, sensors are mainly used for:",
+      "options": [
+        "Rendering graphics",
+        "Sensing and actuating",
+        "Blockchain consensus",
+        "Web indexing"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the slides, actuators are best described as:",
+      "options": [
+        "Input devices that collect information",
+        "Output units that implement decisions",
+        "Storage devices for IoT data",
+        "Protocols for machine communication"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Smart materials are described as materials that:",
+      "options": [
+        "Contain only sensors",
+        "Contain only actuators",
+        "Incorporate both sensors and actuators",
+        "Are unrelated to IoT"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is presented as a specific IoT protocol?",
+      "options": [
+        "Zigbee",
+        "FTP",
+        "SMTP",
+        "HTTP/2"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is classified in the slides as a general-purpose protocol used in IoT applications?",
+      "options": [
+        "LoRaWAN",
+        "Sigfox",
+        "Wi-Fi",
+        "Zigbee"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which protocol is included among general-purpose cellular technologies in the slides?",
+      "options": [
+        "NFC",
+        "GSM/GPRS/EDGE, UMTS/HSPA, LTE",
+        "Z-Wave",
+        "Sigfox"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The 5G generation is associated in the slides mainly with:",
+      "options": [
+        "Voice calls",
+        "Data messages only",
+        "Internet of Things",
+        "Analog communication"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In the slide comparing mobile generations, 4G is mainly associated with:",
+      "options": [
+        "Voice calls",
+        "Internet of Things",
+        "Video streaming",
+        "SMS only"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which of the following best represents a switching cost category mentioned in the slides?",
+      "options": [
+        "Emotional branding",
+        "Learning costs",
+        "Advertising reach",
+        "Market capitalization"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Costs of changing suppliers are associated with:",
+      "options": [
+        "Specialized suppliers",
+        "Generic websites",
+        "Social media platforms",
+        "Mobile operating systems"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Costs of converting data to new formats are associated with:",
+      "options": [
+        "Loyalty programs",
+        "Information and databases",
+        "Production capacity",
+        "Brand reputation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which item is listed as a key factor in standard-setting strategies?",
+      "options": [
+        "Installed base",
+        "Product packaging",
+        "Employee morale",
+        "Geographic weather"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is one of the seven factors in standard-setting strategies?",
+      "options": [
+        "IP rights",
+        "Tax policy",
+        "Office size",
+        "Social influence marketing only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In standard wars, the slide suggests that the weak can sometimes:",
+      "options": [
+        "Dominate by blocking the strong",
+        "Always lose immediately",
+        "Avoid compatibility issues by default",
+        "Eliminate installed base effects"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the slides, compatibility versus discontinuity is part of:",
+      "options": [
+        "Strategies in standard-setting",
+        "Blockchain mining",
+        "Data visualization",
+        "Sensor calibration"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a generic strategy when launching a new technology in network economics?",
+      "options": [
+        "Openness",
+        "Monopoly pricing only",
+        "Random adoption",
+        "Total secrecy without migration"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement best matches the slide’s view of IoT?",
+      "options": [
+        "IoT is only a consumer technology",
+        "IoT is a data generation technology set combining many technologies",
+        "IoT is only about blockchain integration",
+        "IoT is a single protocol"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is an example of a macro-level IoT use case mentioned in the slides?",
+      "options": [
+        "Smart Home",
+        "Email encryption",
+        "Cryptocurrency mining",
+        "Web browser caching"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is another macro-level IoT use case mentioned in the slides?",
+      "options": [
+        "Smart City",
+        "Password hashing",
+        "NFT minting",
+        "Server virtualization"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Connected cars are described in the slides as:",
+      "options": [
+        "Cars with no software",
+        "Cars that are essentially computers on wheels",
+        "Cars that only use barcode readers",
+        "Cars that cannot connect to the Internet"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In the slides, smart mobility is described as:",
+      "options": [
+        "A centralized taxi dispatch platform only",
+        "P2P applications for carpooling and on-demand car sharing",
+        "A protocol for vehicle sensors",
+        "A fuel efficiency standard"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Blockchain is defined in the slides as primarily a growing list of records called:",
+      "options": [
+        "Nodes",
+        "Blocks",
+        "Tokens",
+        "Ledgers"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A blockchain block typically contains:",
+      "options": [
+        "A hash of the previous block, a timestamp, and transaction data",
+        "A user interface and image files",
+        "Only a password list",
+        "A single central server address"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The blockchain architecture is best described as:",
+      "options": [
+        "Centralized",
+        "Distributed and resistant to modification",
+        "Offline-only",
+        "Manual ledger management"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A distributed ledger is best described as:",
+      "options": [
+        "A ledger controlled by one administrator",
+        "A consensus of replicated, shared, and synchronized digital data spread across multiple sites",
+        "A database stored only on smartphones",
+        "A temporary cache of transaction logs"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The role of the trusted third party in blockchain is replaced by:",
+      "options": [
+        "A bank branch",
+        "The system itself",
+        "A cloud password manager",
+        "A manual notary only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Blockchain relies on which of the following relationships?",
+      "options": [
+        "Peer-to-peer relationships",
+        "Only client-server relationships",
+        "Human-to-human messaging",
+        "Broadcast television relationships"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is an application domain of blockchain mentioned in the slides?",
+      "options": [
+        "Asset transfer",
+        "Spreadsheet formatting",
+        "Image compression",
+        "Voice recognition only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is another blockchain application domain mentioned in the slides?",
+      "options": [
+        "Traceability",
+        "Keyboard layout optimization",
+        "Network cabling",
+        "Weather forecasting only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Smart contracts are best associated with:",
+      "options": [
+        "Automatic execution of contracts",
+        "Manual arbitration by a central authority",
+        "Physical sensor calibration",
+        "Wireless signal amplification"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is listed as a main blockchain application type?",
+      "options": [
+        "Cryptocurrencies",
+        "Spreadsheet macros",
+        "Optical character recognition",
+        "Email spam filtering"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "NFTs are described as:",
+      "options": [
+        "Fungible tokens identical to cryptocurrencies",
+        "Pieces of code associated with a digital asset and typically a license to use, copy, or display it",
+        "Sensor data packets",
+        "Private keys for Wi-Fi access"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The term “non-fungible” means:",
+      "options": [
+        "Fully interchangeable with any other token",
+        "Not mutually interchangeable",
+        "Always anonymous",
+        "Always energy-free"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "One blockchain use case mentioned for NFTs is:",
+      "options": [
+        "Digital artwork",
+        "Smart meter reading",
+        "Cellular handoff",
+        "Wi-Fi roaming"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the slides, blockchain is described as a technology that is strategic because it could:",
+      "options": [
+        "Increase the cost of transactions",
+        "Dramatically reduce the cost of transactions",
+        "Eliminate all encryption",
+        "Replace all network traffic"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "According to the slides, blockchain could become:",
+      "options": [
+        "A system of record for all transactions",
+        "A replacement for all Internet services",
+        "A sensor protocol",
+        "A mobile operating system"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is an internal blockchain adoption challenge mentioned in the slides?",
+      "options": [
+        "Scalability",
+        "Fashion trends",
+        "Physical distance between users only",
+        "Screen resolution"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Interoperability is a challenge for blockchain because:",
+      "options": [
+        "All blockchain networks naturally work together seamlessly",
+        "Most blockchain networks are designed to work in silo mode",
+        "Blockchain does not use digital data",
+        "Blockchain only works with barcodes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Energy consumption is a blockchain adoption challenge because:",
+      "options": [
+        "Transaction validation requires significant processing power",
+        "Blockchain cannot store timestamps",
+        "It uses only analog hardware",
+        "It always runs on paper"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is also listed as a blockchain adoption challenge?",
+      "options": [
+        "Talent",
+        "Screen brightness",
+        "Cable length",
+        "Browser cookies"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which attack is described as overwhelming the target with rapid and repeated requests?",
+      "options": [
+        "Sybil attack",
+        "Eclipse attack",
+        "SYN flood attack",
+        "Man-in-the-middle attack"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A Sybil attack involves:",
+      "options": [
+        "A hacker controlling multiple nodes to gain network influence",
+        "A single user forgetting a password",
+        "A device running out of battery",
+        "A blockchain block being too large"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "An Eclipse attack causes:",
+      "options": [
+        "The network to split into several groups",
+        "Total energy recovery",
+        "Faster transaction speed",
+        "Automatic smart contract execution"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement best describes the “dark side” of blockchain in the slides?",
+      "options": [
+        "Blockchain is always fully decentralized in practice",
+        "Crypto trading often depends on centralized exchanges, and mining may be controlled by a few large actors",
+        "Blockchain has no security risks",
+        "Blockchain removes all need for governance"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which statement best matches the slide’s summary of blockchain adoption outside cryptocurrencies?",
+      "options": [
+        "It is relatively slow",
+        "It is already universal in all sectors",
+        "It has no complexity",
+        "It requires no legal adaptation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why is transparency a challenge for blockchain adoption?",
+      "options": [
+        "Because blockchain hides all transactions",
+        "Because trust and visibility raise governance and adoption issues",
+        "Because it prevents any data from being shared",
+        "Because it only works offline"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is a key reason blockchain adoption is difficult in real-world legal contexts?",
+      "options": [
+        "Existing legal provisions are difficult to embed at the technology layer",
+        "It cannot store timestamps",
+        "It requires only paper contracts",
+        "It cannot be used with digital data"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a basic characteristic of blockchain applications discussed in the slides?",
+      "options": [
+        "They are always centralized services",
+        "They often enable peer-to-peer transactions without a middleman",
+        "They cannot involve value transfer",
+        "They are limited to mobile phones"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which technology is described as more about trust and control?",
+      "options": [
+        "IoT",
+        "Blockchain",
+        "NFC",
+        "Wi-Fi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which technology is described as a data generation technology set?",
+      "options": [
+        "Blockchain",
+        "IoT",
+        "NFC",
+        "Ethereum only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following best reflects the strategic perspective on smart, connected products?",
+      "options": [
+        "They do not affect value creation or capture",
+        "They create new choices about value creation, data management, and business relationships",
+        "They are only useful for personal entertainment",
+        "They eliminate all channel partners automatically"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is a major internal factor influencing IoT adoption?",
+      "options": [
+        "Security challenges",
+        "Color of device casing",
+        "Social media popularity",
+        "Advertising slogans"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why is identity management important in IoT?",
+      "options": [
+        "Because devices are anonymous and access/authentication become difficult at large scale",
+        "Because IoT devices never communicate",
+        "Because identity management is only needed for paper records",
+        "Because IoT devices do not need networks"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is an architecture challenge in IoT?",
+      "options": [
+        "Edge, Core, and Endpoints",
+        "Mining pools, wallets, and exchanges",
+        "HTML, CSS, and JavaScript",
+        "Barcodes, QR codes, and PDFs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In IoT architecture, endpoints refer to:",
+      "options": [
+        "Datacenters only",
+        "Terminal devices such as PCs, smartphones, sensors, and wearables",
+        "Blockchain nodes only",
+        "Internet cables"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The long-term IoT technology challenge mentioned by IEEE is to:",
+      "options": [
+        "Remove all edge devices",
+        "Shift intelligence toward the edges of the network",
+        "Return all processing to paper systems",
+        "Eliminate sensors from devices"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which statement best describes IoT security challenges?",
+      "options": [
+        "They are caused only by a lack of Wi-Fi",
+        "They are driven by many devices, many transactions, complex networks, anonymity, and access/authentication issues",
+        "They disappear when systems become smart",
+        "They are unrelated to identity management"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following best captures IoT’s supply-side complexity?",
+      "options": [
+        "Few frameworks, few architectures, and one universal protocol",
+        "A large variety of frameworks, architectures, technologies, applications, and standards choices",
+        "No need for interoperability",
+        "Only one industry uses IoT"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is a major external factor influencing IoT adoption?",
+      "options": [
+        "Privacy and personal data collection concerns",
+        "Keyboard design",
+        "Screen refresh rate",
+        "CPU brand only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a major theme in IoT use cases from the slides?",
+      "options": [
+        "Industry 4.0",
+        "Offline photo editing",
+        "Manual bookkeeping",
+        "Paper-based identity systems"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is one of the main application types of blockchain beyond cryptocurrencies?",
+      "options": [
+        "Traceability",
+        "Spreadsheet formatting",
+        "Browser bookmarking",
+        "Audio compression"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which concept best explains why blockchain can be used for trust without a central administrator?",
+      "options": [
+        "Replicated and synchronized shared ledger with cryptography",
+        "A single master database controlled by one company",
+        "Manual approval by a human operator for every transaction",
+        "A hidden offline archive"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a common strategic tension in blockchain adoption?",
+      "options": [
+        "Openness versus control",
+        "Paper versus pencil",
+        "Color versus shape",
+        "Voice versus keyboard"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz DI1 - Digital Economy</title>
+  <link rel="stylesheet" href="layoutquiz.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="btn btn-back" href="index.html">← Back to index</a>
+      <div class="top-info">
+        <div class="stats-row">
+          <div class="stat">Score: <span id="scoreText">0</span></div>
+          <div class="stat">
+            Answered: <span id="answeredText">0</span>/<span id="totalText">—</span>
+          </div>
+        </div>
+        <div class="progress-wrap" aria-label="Progress bar">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+      </div>
+      <div class="stat" style="justify-self:end;">
+        Quiz Status: <span id="statusText">In progress</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 id="heroTitle">Quiz</h1>
+      <p class="subtitle" id="heroSubtitle"></p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Quiz Area</h2>
+        <p>Select an answer for each question. Each question locks after your choice and shows immediate feedback.</p>
+      </div>
+      <div class="quiz-area" id="quizArea"></div>
+      <div class="actions">
+        <button class="btn btn-submit" id="submitBtn">Submit &amp; See Results</button>
+      </div>
+    </section>
+
+    <section class="results" id="resultsSection"></section>
+    <div class="footer-space"></div>
+  </main>
+
+  <script>
+    window.QUIZ_DATA_FILE = "quiz_di1.json";
+  </script>
+  <script src="quiz.js"></script>
+</body>
+</html>
+

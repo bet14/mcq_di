@@ -1,0 +1,796 @@
+{
+  "title": "Design & Innovation for Digital Business Transformation - Quiz DI1",
+  "subtitle": "Multiple-choice questions based on Class 1 content (Slides 20–End) and student notes.",
+  "totalQuestions": 70,
+  "questions": [
+    {
+      "question": "According to the Technology Adoption Lifecycle, which group represents the smallest segment of adopters?",
+      "options": ["Early Majority", "Late Majority", "Innovators", "Early Adopters"],
+      "answerIndex": 2,
+      "explanation": "Innovators represent only about 2.5% of the market, making them the smallest segment in the adoption lifecycle.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Easy",
+      "tags": ["Technology Adoption", "Lifecycle"]
+    },
+    {
+      "question": "The Technology S-Curve describes which of the following phenomena?",
+      "options": [
+        "The linear growth of a technology's market share over time",
+        "The pattern of slow initial growth, rapid acceleration, and eventual maturity of a technology",
+        "The decline of old technologies as new ones emerge",
+        "The relationship between R&D investment and product revenue"
+      ],
+      "answerIndex": 1,
+      "explanation": "The S-Curve captures three phases: slow initial adoption, rapid growth, and plateau at maturity.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Easy",
+      "tags": ["S-Curve", "Adoption"]
+    },
+    {
+      "question": "Clayton Christensen's S-Curve framework distinguishes between two types of technologies. Which pair correctly identifies them?",
+      "options": [
+        "Disruptive technologies and sustaining technologies",
+        "Component technologies and architectural technologies",
+        "General-purpose technologies and specialized technologies",
+        "Incremental technologies and radical technologies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Christensen's S-Curve framework distinguishes between component technologies and architectural technologies.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Medium",
+      "tags": ["Christensen", "Innovation"]
+    },
+    {
+      "question": "In Geoffrey Moore's Market Development Lifecycle, what is \"The Chasm\"?",
+      "options": [
+        "The period of rapid growth when a technology reaches mainstream adoption",
+        "The gap between technology enthusiasts/visionaries and the pragmatic mainstream market",
+        "The decline phase when a technology becomes obsolete",
+        "The moment when a dominant design emerges in the market"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Chasm is the critical gap between early market adopters and the pragmatic mainstream.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Easy",
+      "tags": ["Chasm", "Moore"]
+    },
+    {
+      "question": "According to the course framework, which phase comes AFTER \"The Chasm\" in Geoffrey Moore's model?",
+      "options": ["Early Market", "Maturity", "Bowling Alley and Tornado", "Decline"],
+      "answerIndex": 2,
+      "explanation": "After crossing the Chasm, technologies enter the Bowling Alley and then the Tornado.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Medium",
+      "tags": ["Moore", "Lifecycle"]
+    },
+    {
+      "question": "A technology is described as being in the \"Uncertainty Zone\" in the course's adoption framework. What does this most likely correspond to?",
+      "options": [
+        "The technology has reached full market saturation",
+        "The technology is in the Chasm — it has early adopters but has not yet proven mainstream viability",
+        "The technology is declining due to a superior replacement",
+        "The technology is in the innovators phase with no commercial application yet"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Uncertainty Zone maps to the Chasm — a critical period where mainstream adoption is uncertain.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Medium",
+      "tags": ["Chasm", "Uncertainty Zone"]
+    },
+    {
+      "question": "What does a \"Dominant Design\" mean in the context of technology adoption?",
+      "options": [
+        "The technology with the highest R&D investment in a given market",
+        "The product design that wins marketplace allegiance and becomes the standard competitors must follow",
+        "The technology adopted exclusively by large enterprises",
+        "The first technology to enter a new market"
+      ],
+      "answerIndex": 1,
+      "explanation": "A dominant design is the one that wins the allegiance of the marketplace.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Easy",
+      "tags": ["Dominant Design", "Utterback"]
+    },
+    {
+      "question": "Which of the following is the best example of a \"dominant design\" transition in the audio industry?",
+      "options": [
+        "From vinyl LP records to audio cassettes to CDs to streaming",
+        "From AM radio to FM radio to digital radio",
+        "From mono sound to stereo sound to surround sound",
+        "From physical music stores to online music stores"
+      ],
+      "answerIndex": 0,
+      "explanation": "LP → cassette → CD → streaming perfectly illustrates successive dominant designs in home audio.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Medium",
+      "tags": ["Dominant Design", "Audio Industry"]
+    },
+    {
+      "question": "According to the student notes, where is Generative AI (e.g., ChatGPT, Copilot) positioned in the Technology Adoption Lifecycle?",
+      "options": ["Early Adopters", "Early Majority", "Late Majority", "Laggards"],
+      "answerIndex": 2,
+      "explanation": "Generative AI tools like ChatGPT and Microsoft Copilot are in the Late Majority phase.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Medium",
+      "tags": ["AI", "Adoption"]
+    },
+    {
+      "question": "According to the student notes, what is the PRIMARY bottleneck preventing Agentic AI from moving from Early Majority to Late Majority?",
+      "options": [
+        "Lack of computational power",
+        "High cost of hardware infrastructure",
+        "Reliability, security, observability, and lack of human control",
+        "Absence of large language model capabilities"
+      ],
+      "answerIndex": 2,
+      "explanation": "The main barriers are reliability, security, observability, and lack of control.",
+      "category": "Technology Adoption & S-Curve",
+      "level": "Hard",
+      "tags": ["Agentic AI", "Trust"]
+    },
+    {
+      "question": "What does Moore's Law (1975 revision) state?",
+      "options": [
+        "The number of internet users doubles every 18 months",
+        "The number of transistors in a microprocessor doubles every 2 years",
+        "The value of a network is proportional to the square of its users",
+        "The cost of computing halves every 5 years"
+      ],
+      "answerIndex": 1,
+      "explanation": "Moore revised his law to state that transistor count doubles approximately every 2 years.",
+      "category": "Fundamental Laws and Principles",
+      "level": "Easy",
+      "tags": ["Moore's Law", "Semiconductors"]
+    },
+    {
+      "question": "Which of the following is a direct consequence of Moore's Law?",
+      "options": [
+        "The rise of social networks",
+        "Miniaturization of computing devices and the emergence of cyber-physical systems",
+        "The convergence of television, radio, and telecommunications",
+        "The growth of the attention economy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Moore's Law enables miniaturization, embedded processors, sensors, and cyber-physical systems.",
+      "category": "Fundamental Laws and Principles",
+      "level": "Medium",
+      "tags": ["Moore's Law", "Cyber-Physical Systems"]
+    },
+    {
+      "question": "Metcalfe's Law states that the value of a network is:",
+      "options": [
+        "Equal to the number of its users",
+        "Proportional to the square of the number of its users",
+        "Inversely proportional to the number of competing networks",
+        "Determined by the quality of its infrastructure"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metcalfe's Law states that network value is proportional to n², where n is the number of users.",
+      "category": "Fundamental Laws and Principles",
+      "level": "Easy",
+      "tags": ["Metcalfe's Law", "Networks"]
+    },
+    {
+      "question": "Reed's Law extends Metcalfe's Law by emphasizing which additional dimension of network value?",
+      "options": [
+        "The speed of data transmission within the network",
+        "The importance of subgroups and communities within a network",
+        "The geographic reach of a network",
+        "The revenue generated per user"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reed's Law highlights the value created by subgroups and communities within a network.",
+      "category": "Fundamental Laws and Principles",
+      "level": "Medium",
+      "tags": ["Reed's Law", "Communities"]
+    },
+    {
+      "question": "Claude Shannon's Information Theory has which of the following key implications for the digital economy?",
+      "options": [
+        "It proves that all information can be transmitted without loss",
+        "It establishes the relationship between data and information, and the capacity of media to handle signals",
+        "It defines the economic value of data as equivalent to oil",
+        "It explains why attention is a scarce resource in the digital age"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shannon's theory formalizes the relationship between signals, bits of information, and channel capacity.",
+      "category": "Fundamental Laws and Principles",
+      "level": "Medium",
+      "tags": ["Shannon", "Information Theory"]
+    },
+    {
+      "question": "According to Russel Ackoff (1967), what happens beyond a certain threshold of data?",
+      "options": [
+        "The amount of information increases proportionally",
+        "The amount of information diminishes",
+        "The value of data becomes infinite",
+        "Data transforms automatically into knowledge"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ackoff stated that beyond a certain amount of data, the amount of information actually diminishes.",
+      "category": "Fundamental Laws and Principles",
+      "level": "Medium",
+      "tags": ["Ackoff", "Data"]
+    },
+    {
+      "question": "According to Bresnahan & Trajtenberg (1992), which THREE characteristics define a General Purpose Technology (GPT)?",
+      "options": [
+        "Affordability, scalability, and network effects",
+        "Pervasiveness, inherent potential for technical improvements, and innovational complementarities",
+        "Disruption, speed of adoption, and market dominance",
+        "Open-source nature, global reach, and government support"
+      ],
+      "answerIndex": 1,
+      "explanation": "The three defining GPT characteristics are pervasiveness, inherent potential for improvements, and innovational complementarities.",
+      "category": "General Purpose Technologies & Long Innovation Cycles",
+      "level": "Hard",
+      "tags": ["GPT", "Innovation"]
+    },
+    {
+      "question": "Which of the following is identified in the course as the most important General Purpose Technology of our era?",
+      "options": [
+        "The Internet",
+        "Blockchain",
+        "Artificial Intelligence (particularly Machine Learning)",
+        "The Smartphone"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course cites AI, particularly machine learning, as the most important GPT of our era.",
+      "category": "General Purpose Technologies & Long Innovation Cycles",
+      "level": "Easy",
+      "tags": ["AI", "GPT"]
+    },
+    {
+      "question": "The concept of \"long innovation cycles\" (Kondratiev waves / Schumpeter) suggests that:",
+      "options": [
+        "Technology adoption always takes more than 100 years",
+        "Each major economic cycle (50–60 years) is driven by a distinct technological innovation that permeates the entire economy",
+        "Innovation slows down as economies mature",
+        "Only government-funded research produces economy-wide technological change"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each major economic cycle lasts about 50–60 years and is driven by a distinct cluster of innovations.",
+      "category": "General Purpose Technologies & Long Innovation Cycles",
+      "level": "Medium",
+      "tags": ["Schumpeter", "Kondratiev"]
+    },
+    {
+      "question": "Why does a General Purpose Technology like electricity deliver its economic benefits with a delay?",
+      "options": [
+        "Because governments are slow to regulate new technologies",
+        "Because it requires reorganizing work, adapting infrastructure, and innovating at all levels of the value chain",
+        "Because consumers are inherently resistant to new technologies",
+        "Because GPTs are initially too expensive for widespread adoption"
+      ],
+      "answerIndex": 1,
+      "explanation": "GPTs require reorganizing systems, infrastructure, and processes before full benefits appear.",
+      "category": "General Purpose Technologies & Long Innovation Cycles",
+      "level": "Medium",
+      "tags": ["Electricity", "GPT"]
+    },
+    {
+      "question": "Joseph Schumpeter's concept of \"creative destruction\" in the context of the digital economy means:",
+      "options": [
+        "Digital technologies physically destroy old infrastructure",
+        "Innovation permanently disrupts existing economic structures, replacing old industries and jobs with new ones",
+        "Companies must destroy their existing products before launching new ones",
+        "Governments must deregulate industries to allow digital innovation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Innovation permanently disrupts existing structures and replaces old industries and jobs with new ones.",
+      "category": "General Purpose Technologies & Long Innovation Cycles",
+      "level": "Easy",
+      "tags": ["Creative Destruction", "Schumpeter"]
+    },
+    {
+      "question": "The \"Productivity Paradox\" in the information society refers to:",
+      "options": [
+        "The fact that digital workers are more productive than manual workers",
+        "The observation that remarkable increases in computing power have not translated into proportionally fast productivity growth",
+        "The paradox that more data leads to less information",
+        "The contradiction between digital growth and environmental sustainability"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Productivity Paradox refers to the gap between rapid technological progress and relatively slow measured productivity growth.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Medium",
+      "tags": ["Productivity Paradox", "Solow"]
+    },
+    {
+      "question": "Herbert Simon's concept of the \"Attention Economy\" is based on which fundamental insight?",
+      "options": [
+        "Advertising revenue is the primary source of value in digital markets",
+        "Human attention is a scarce resource overwhelmed by the abundance of information",
+        "Artificial intelligence can replace human attention in decision-making",
+        "Social media platforms deliberately manipulate user attention for profit"
+      ],
+      "answerIndex": 1,
+      "explanation": "Simon argued that in an information-rich world, human attention becomes the scarce resource.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Medium",
+      "tags": ["Attention Economy", "Herbert Simon"]
+    },
+    {
+      "question": "According to the course, the digital economy can be understood as a convergence of several sub-economies. Which of the following is NOT listed as one of these sub-economies?",
+      "options": [
+        "The Attention Economy",
+        "The Platform Economy",
+        "The Manufacturing Economy",
+        "The Sharing Economy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Manufacturing Economy is not listed; the course lists attention, knowledge, sharing, subscription, platform, and access economies.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Easy",
+      "tags": ["Sub-economies", "Digital Economy"]
+    },
+    {
+      "question": "The \"Access Economy\" is characterized by:",
+      "options": [
+        "Free access to all digital content and services",
+        "A preference for being given access to goods rather than owning them",
+        "Universal broadband internet access as a public utility",
+        "Open-source software replacing proprietary systems"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Access Economy is defined by a shift from ownership to access.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Easy",
+      "tags": ["Access Economy", "Consumption"]
+    },
+    {
+      "question": "What is the \"common element\" that underlies all the sub-economies of the digital economy (Attention, Knowledge, Sharing, Subscription, Platform, Access)?",
+      "options": [
+        "The dominance of American technology companies",
+        "The adoption of digital technologies",
+        "The replacement of physical goods with digital services",
+        "Government regulation of digital markets"
+      ],
+      "answerIndex": 1,
+      "explanation": "The common element across all these sub-economies is the adoption of digital technologies.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Medium",
+      "tags": ["Digital Adoption", "Economy"]
+    },
+    {
+      "question": "The course states that \"digitalization of all industries is rapidly blurring traditional sector borders.\" Which of the following best illustrates this phenomenon?",
+      "options": [
+        "A bank opening more physical branches",
+        "A telecom company becoming a bank, or an industrial company becoming an IT company",
+        "A technology company hiring more engineers",
+        "A media company merging with another media company"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course uses examples like a telecom company becoming a bank to show how digital transformation erases industry boundaries.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Medium",
+      "tags": ["Digitalization", "Industry Boundaries"]
+    },
+    {
+      "question": "According to the McKinsey Digital America Report (2015) referenced in the course, which sectors are BEST positioned to further digitize their activities?",
+      "options": [
+        "Agricultural and extractive industries",
+        "Capital-intensive manufacturing sectors",
+        "Knowledge-intensive sectors such as ICT and media",
+        "Public sector and government services"
+      ],
+      "answerIndex": 2,
+      "explanation": "Knowledge-intensive sectors such as ICT and media are best placed to further digitize.",
+      "category": "Digital Economy — Forces, Paradoxes, and Sub-Economies",
+      "level": "Medium",
+      "tags": ["McKinsey", "Digitization"]
+    },
+    {
+      "question": "According to the student notes, where is IoT currently positioned in the Technology Adoption Lifecycle?",
+      "options": ["Early Adopters", "Early Majority", "Late Majority", "Innovators"],
+      "answerIndex": 2,
+      "explanation": "According to the student notes, IoT is in the Late Majority phase.",
+      "category": "IoT in the Adoption Lifecycle",
+      "level": "Medium",
+      "tags": ["IoT", "Adoption"]
+    },
+    {
+      "question": "According to the student notes, what is the PRIMARY barrier preventing IoT from reaching full market saturation (Laggards)?",
+      "options": [
+        "Insufficient processing power in IoT devices",
+        "Lack of wireless connectivity standards",
+        "Trust, privacy concerns, and complexity of setup",
+        "High cost of semiconductor components"
+      ],
+      "answerIndex": 2,
+      "explanation": "The main barriers are trust, privacy concerns, and complexity of setup.",
+      "category": "IoT in the Adoption Lifecycle",
+      "level": "Medium",
+      "tags": ["IoT", "Trust"]
+    },
+    {
+      "question": "The EU Cyber Resilience Act is mentioned in the student notes as relevant to IoT adoption. What role does it play?",
+      "options": [
+        "It subsidizes IoT hardware for small businesses",
+        "It mandates IoT security standards, addressing privacy and security concerns",
+        "It establishes a universal IoT communication protocol",
+        "It regulates the data collected by IoT devices for commercial use"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Cyber Resilience Act is cited as a step toward mandatory IoT security standards.",
+      "category": "IoT in the Adoption Lifecycle",
+      "level": "Medium",
+      "tags": ["IoT", "EU Regulation"]
+    },
+    {
+      "question": "According to the student notes, where is Blockchain currently positioned in the Technology Adoption Lifecycle, and what is the associated risk?",
+      "options": [
+        "Late Majority, with risk of market saturation",
+        "Early Majority, with significant chasm risk",
+        "Early Adopters, with risk of never reaching mainstream",
+        "Laggards, with risk of complete obsolescence"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blockchain is positioned in the Early Majority phase with significant chasm risk.",
+      "category": "Blockchain in the Adoption Lifecycle",
+      "level": "Hard",
+      "tags": ["Blockchain", "Chasm Risk"]
+    },
+    {
+      "question": "What does the student notes identify as Blockchain's \"identity crisis\" that prevents it from reaching the Late Majority?",
+      "options": [
+        "Uncertainty about whether it is a public or private technology",
+        "Being simultaneously a financial instrument, a database, a governance tool, and a social movement without a clear dominant use case",
+        "Confusion between Blockchain and cryptocurrency among regulators",
+        "Disagreement between developers about which programming language to use"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blockchain's core problem is identity crisis — it lacks a clear dominant use case.",
+      "category": "Blockchain in the Adoption Lifecycle",
+      "level": "Hard",
+      "tags": ["Blockchain", "Value Proposition"]
+    },
+    {
+      "question": "The student notes mention a \"WhatsApp moment\" as what Blockchain needs. What does this metaphor mean?",
+      "options": [
+        "Blockchain needs to be acquired by a major tech company like Meta",
+        "Blockchain needs one application so useful that users adopt it without caring about the underlying technology",
+        "Blockchain needs to achieve the same number of users as WhatsApp",
+        "Blockchain needs to focus exclusively on messaging applications"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blockchain needs one killer application where users get value without understanding the underlying technology.",
+      "category": "Blockchain in the Adoption Lifecycle",
+      "level": "Hard",
+      "tags": ["Blockchain", "UX"]
+    },
+    {
+      "question": "According to the student notes, where is Big Data currently positioned in the Technology Adoption Lifecycle?",
+      "options": ["Early Majority", "Late Majority, approaching Laggards", "Early Adopters", "Innovators"],
+      "answerIndex": 1,
+      "explanation": "Big Data is in Late Majority / Approaching Laggards.",
+      "category": "Big Data in the Adoption Lifecycle",
+      "level": "Medium",
+      "tags": ["Big Data", "Adoption"]
+    },
+    {
+      "question": "According to the student notes, what is the PRIMARY remaining challenge for Big Data reaching full market saturation?",
+      "options": [
+        "Insufficient storage capacity and processing speed",
+        "Organizational culture and cost accessibility, not technology maturity",
+        "Lack of qualified data scientists globally",
+        "Absence of cloud computing infrastructure in developing countries"
+      ],
+      "answerIndex": 1,
+      "explanation": "The remaining challenge is organizational culture and cost accessibility, not technology.",
+      "category": "Big Data in the Adoption Lifecycle",
+      "level": "Medium",
+      "tags": ["Big Data", "Organization"]
+    },
+    {
+      "question": "According to the student notes, what is the consistent cross-cutting insight across all four technologies (IoT, AI, Big Data, Blockchain)?",
+      "options": [
+        "All four technologies require massive government subsidies to achieve mainstream adoption",
+        "Technology readiness is no longer the bottleneck — the real barriers are human: regulation, trust, culture, and simplicity",
+        "All four technologies will eventually be replaced by quantum computing",
+        "The speed of adoption depends primarily on the size of the technology company promoting it"
+      ],
+      "answerIndex": 1,
+      "explanation": "Across all four technologies, the real barriers are human: regulation, trust, culture, and simplicity.",
+      "category": "Cross-Cutting Insights on Technology Adoption",
+      "level": "Medium",
+      "tags": ["Adoption", "Trust"]
+    },
+    {
+      "question": "The concept of \"invisible technology\" is implied in the student notes as a key condition for reaching the Late Majority. What does this mean?",
+      "options": [
+        "Technologies that operate without consuming electricity",
+        "Technologies that deliver value without requiring users to understand the underlying mechanisms",
+        "Technologies that are hidden from government regulation",
+        "Technologies that replace human workers without being noticed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Invisible technology means users benefit without needing to understand how it works.",
+      "category": "Cross-Cutting Insights on Technology Adoption",
+      "level": "Medium",
+      "tags": ["Invisible Technology", "User Experience"]
+    },
+    {
+      "question": "In the Technology Adoption Lifecycle, what typically happens to companies that fail to cross \"The Chasm\"?",
+      "options": [
+        "They become dominant in niche markets permanently",
+        "They are acquired by larger competitors",
+        "They fail to achieve mainstream adoption and often disappear or remain marginal",
+        "They automatically transition to the Late Majority phase"
+      ],
+      "answerIndex": 2,
+      "explanation": "Failing to cross the Chasm usually means failing to achieve mainstream adoption.",
+      "category": "Cross-Cutting Insights on Technology Adoption",
+      "level": "Medium",
+      "tags": ["Chasm", "Adoption Failure"]
+    },
+    {
+      "question": "Which of the following pairs correctly matches a \"component technology\" with its corresponding \"architectural technology\"?",
+      "options": [
+        "Compilers → Internet browser",
+        "Routers → Internet browser",
+        "Magnetic tape → Audio cassette player/recorder",
+        "Antenna → Mobile phone"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course explicitly lists magnetic tape as a component technology and audio cassette player/recorder as the corresponding architectural technology.",
+      "category": "Cross-Cutting Insights on Technology Adoption",
+      "level": "Medium",
+      "tags": ["Component Technology", "Architectural Technology"]
+    },
+    {
+      "question": "The course describes the Internet's evolution as moving from \"convergence\" to \"divergence.\" What does this mean?",
+      "options": [
+        "The Internet first unified different media and is now splitting into specialized ecosystems",
+        "The Internet first served consumers and is now serving businesses",
+        "The Internet first operated in the USA and is now global",
+        "The Internet first used wired connections and is now wireless"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Internet first unified different media and is now splitting into specialized ecosystems.",
+      "category": "Digital Economy — Convergence, Divergence, and Industry Transformation",
+      "level": "Medium",
+      "tags": ["Internet", "Convergence"]
+    },
+    {
+      "question": "The course defines \"Today's Internet\" as a combination of which elements?",
+      "options": [
+        "Hardware, software, and data centers",
+        "People, machines, companies, software, databases, and network traffic",
+        "Consumers, producers, and regulators",
+        "Servers, clients, and protocols"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explicitly defines Today's Internet as People + Companies + Machines + Software + Data + Network Traffic.",
+      "category": "Digital Economy — Convergence, Divergence, and Industry Transformation",
+      "level": "Medium",
+      "tags": ["Internet", "Socio-technical System"]
+    },
+    {
+      "question": "The course states that the Digital Economy has evolved from \"self-contained, local machines\" to what?",
+      "options": [
+        "A purely virtual economy with no physical components",
+        "A hyperconnected system of interrelated heterogeneous entities governed by different and possibly conflicting logics",
+        "A single global network controlled by a few dominant technology companies",
+        "A fully automated economy where human labor is no longer needed"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Digital Economy has evolved into a hyperconnected system of interrelated heterogeneous entities governed by different logics.",
+      "category": "Digital Economy — Convergence, Divergence, and Industry Transformation",
+      "level": "Hard",
+      "tags": ["Digital Economy", "Complex Systems"]
+    },
+    {
+      "question": "The course compares the \"Old Economy\" and the \"New Economy.\" Which of the following correctly contrasts them?",
+      "options": [
+        "Old Economy = asset light; New Economy = asset heavy",
+        "Old Economy = diminishing returns; New Economy = increasing returns",
+        "Old Economy = global; New Economy = local",
+        "Old Economy = data-driven; New Economy = resource-driven"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Old Economy is diminishing returns, while the New Economy is increasing returns.",
+      "category": "Digital Economy — Convergence, Divergence, and Industry Transformation",
+      "level": "Easy",
+      "tags": ["Old Economy", "New Economy"]
+    },
+    {
+      "question": "The course notes that the Digital Economy is \"highly virtual but not so immaterial.\" What does this apparent contradiction mean?",
+      "options": [
+        "Digital services are free but require expensive hardware to access",
+        "While digital products and services appear virtual, they rely on massive physical infrastructure",
+        "Virtual reality technologies are still dependent on physical controllers",
+        "Digital companies have virtual offices but employ real people"
+      ],
+      "answerIndex": 1,
+      "explanation": "The digital economy appears virtual but depends on enormous physical infrastructure.",
+      "category": "Digital Economy — Convergence, Divergence, and Industry Transformation",
+      "level": "Medium",
+      "tags": ["Digital Infrastructure", "Virtuality"]
+    },
+    {
+      "question": "The course uses the telecommunications industry as an illustration of technology adoption. Which of the following best describes the transformation that occurred?",
+      "options": [
+        "Telecom companies simply upgraded their cables from copper to fiber",
+        "The industry transitioned from analog circuit switching to digital packet switching, transforming companies and eliminating jobs like switchboard operators",
+        "Telecom companies merged into a single global monopoly",
+        "The industry shifted from voice calls to video calls as the primary service"
+      ],
+      "answerIndex": 1,
+      "explanation": "The fundamental change was the move from analog circuit switching to digital packet switching.",
+      "category": "Telecommunications and Computer Industry Evolution",
+      "level": "Hard",
+      "tags": ["Telecom", "Digital Transformation"]
+    },
+    {
+      "question": "The course mentions that companies like Nokia, Siris, Cegetel, and LDCOM have \"RIP\" status. What concept does this illustrate?",
+      "options": [
+        "The importance of patent protection in the digital economy",
+        "Schumpeter's creative destruction — companies that failed to adapt to technological transitions disappeared",
+        "The danger of government regulation for private companies",
+        "The superiority of American technology companies over European ones"
+      ],
+      "answerIndex": 1,
+      "explanation": "These companies illustrate Schumpeter's creative destruction.",
+      "category": "Telecommunications and Computer Industry Evolution",
+      "level": "Medium",
+      "tags": ["Creative Destruction", "Industry Change"]
+    },
+    {
+      "question": "In the computer industry evolution shown in the course, which sequence correctly represents the dominant design progression?",
+      "options": [
+        "PC → Mainframe → Smartphone → Cloud computing",
+        "Mainframe → PC → Smartphone → Cloud computing",
+        "Cloud computing → Smartphone → PC → Mainframe",
+        "Smartphone → PC → Mainframe → Cloud computing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct sequence is Mainframe → PC → Smartphone → Cloud computing.",
+      "category": "Telecommunications and Computer Industry Evolution",
+      "level": "Medium",
+      "tags": ["Computing", "Dominant Design"]
+    },
+    
+   
+    {
+      "question": "According to the course, the Digital Economy creates a situation where \"abundance of something creates scarcity in other areas.\" Which pair best illustrates this dynamic?",
+      "options": [
+        "Abundance of hardware → scarcity of software",
+        "Abundance of information/data → scarcity of human attention",
+        "Abundance of digital companies → scarcity of physical companies",
+        "Abundance of internet users → scarcity of bandwidth"
+      ],
+      "answerIndex": 1,
+      "explanation": "The abundance of information creates scarcity of human attention.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Medium",
+      "tags": ["Attention Economy", "Scarcity"]
+    },
+    {
+      "question": "The course argues that \"not all industries are equal\" in the digital race. What is the key differentiating factor?",
+      "options": [
+        "The geographic location of the industry's headquarters",
+        "The level of knowledge intensity — knowledge-intensive sectors are best positioned to digitalize",
+        "The age of the industry — older industries digitalize faster due to more experience",
+        "The size of the industry — larger industries have more resources to invest in digitalization"
+      ],
+      "answerIndex": 1,
+      "explanation": "Knowledge intensity is the key differentiating factor in digitalization success.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Medium",
+      "tags": ["Industry", "Knowledge Intensity"]
+    },
+    {
+      "question": "The concept of \"Cyber-Physical Systems\" (mentioned as a consequence of Moore's Law) refers to:",
+      "options": [
+        "Computer systems that simulate physical environments in virtual reality",
+        "Systems where the boundary between the analog/physical world and the digital world has disappeared through sensors and processors",
+        "Physical security systems controlled by cybersecurity software",
+        "Industrial robots that replace human physical labor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cyber-physical systems are where the analog and digital worlds have gradually disappeared through sensors and processors.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Hard",
+      "tags": ["Cyber-Physical Systems", "Sensors"]
+    },
+    {
+      "question": "The course identifies \"network effects\" as important for understanding two phenomena. Which pair correctly identifies these two phenomena?",
+      "options": [
+        "Technology pricing and market regulation",
+        "Economic value generation in information-driven industries AND technology adoption influenced by social dynamics",
+        "Hardware performance and software compatibility",
+        "Government policy and corporate strategy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Network effects help explain value generation in information-driven industries and technology adoption via social dynamics.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Hard",
+      "tags": ["Network Effects", "Value Creation"]
+    },
+    {
+      "question": "The course presents the \"Knowledge Economy\" as one of the sub-economies of the digital economy. What is its defining characteristic?",
+      "options": [
+        "Economies where patents and intellectual property are the primary assets",
+        "Performing in today's world requires mastering different perspectives on data, information, and knowledge",
+        "Economies where universities and research institutions drive GDP growth",
+        "The replacement of manual labor with knowledge workers"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Knowledge Economy requires mastering different perspectives on data, information, and knowledge.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Medium",
+      "tags": ["Knowledge Economy", "Data"]
+    },
+    {
+      "question": "The course discusses the \"Subscription Economy\" as one of the digital sub-economies. Which of the following best characterizes it?",
+      "options": [
+        "Economies where consumers subscribe to political parties or civic organizations",
+        "Economies where consumers increasingly rely on recurrent purchase patterns rather than one-time transactions",
+        "Economies where businesses subscribe to government services",
+        "Economies where data subscriptions replace physical product ownership"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Subscription Economy relies on recurrent purchase patterns.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Easy",
+      "tags": ["Subscription Economy", "Recurring Revenue"]
+    },
+    {
+      "question": "According to the course, what distinguishes the \"5th technological wave\" (Global Digital Economy) from previous waves?",
+      "options": [
+        "It is the first wave driven by private sector investment rather than government funding",
+        "It started in a single industry and is now permeating the entire economy, with AI as its most important GPT",
+        "It is the first wave to create unemployment at a global scale",
+        "It is exclusively driven by American and Chinese technology companies"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 5th wave started in ICT and is now permeating the entire economy, with AI as its most important GPT.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Hard",
+      "tags": ["5th Wave", "AI"]
+    },
+    {
+      "question": "The course mentions that \"data, information, and knowledge are increasingly becoming essential ingredients of our modern economy.\" How does this relate to Shannon's and Ackoff's contributions?",
+      "options": [
+        "Shannon proved data has no value without information; Ackoff proved information has no value without knowledge",
+        "Shannon formalized the relationship between signals and information; Ackoff showed that beyond a certain data threshold, information diminishes — together suggesting that quality matters more than quantity",
+        "Both Shannon and Ackoff argued that more data always leads to more knowledge",
+        "Shannon focused on hardware transmission; Ackoff focused on software processing — together they define the modern data pipeline"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shannon and Ackoff together suggest that in the data-rich digital economy, quality matters more than quantity.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Hard",
+      "tags": ["Shannon", "Ackoff", "Data Economy"]
+    },
+    {
+      "question": "The course describes the transition from \"convergence\" to \"divergence\" in today's internet. Which of the following correctly identifies the CURRENT divergent ecosystems?",
+      "options": [
+        "Email, SMS, phone calls, and fax",
+        "Social networks, web navigation/content indexing, cloud computing, and IoT",
+        "Television, radio, newspapers, and magazines",
+        "Wi-Fi, Bluetooth, 4G, and 5G"
+      ],
+      "answerIndex": 1,
+      "explanation": "The current divergent ecosystems are social networks, web navigation/content indexing, cloud computing, and IoT.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Medium",
+      "tags": ["Internet", "Ecosystems"]
+    },
+    {
+      "question": "The course's final summary states that \"the Digital Economy blurs the borders between traditional industrial sectors.\" Which of the following is the BEST conceptual explanation for why this happens?",
+      "options": [
+        "Digital companies are legally allowed to operate in multiple sectors simultaneously",
+        "Digital technologies, especially GPTs like AI, are pervasive — they can be applied as inputs across all sectors, dissolving the technological distinctiveness that once separated industries",
+        "Globalization has made national industrial policies ineffective",
+        "Large technology companies have enough capital to acquire companies in any sector"
+      ],
+      "answerIndex": 1,
+      "explanation": "Digital technologies are pervasive GPTs, so they blur sector boundaries by being applied across all sectors.",
+      "category": "Advanced Conceptual Integration",
+      "level": "Hard",
+      "tags": ["Digital Economy", "GPT"]
+    }
+  ]
+}
