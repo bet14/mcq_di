@@ -1,0 +1,75 @@
+╔═══════════════════════════════════════════════════════════════╗
+║         Hướng dẫn Push Files đến Repository (mcq_di)          ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📋 YÊU CẦU:
+- Đã clone repo mcq_di vào: D:\Code\Quiz layout - Copy\Design_quiz\mcq_di
+- Đã cấu hình git (user.name, user.email)
+- Đã set up SSH hoặc HTTPS credentials (tùy loại repo)
+
+═══════════════════════════════════════════════════════════════
+
+🚀 CÁCH CHẠY SCRIPT:
+
+1. Mở Command Prompt hoặc PowerShell
+2. Chuyển tới folder: D:\Code\Quiz layout - Copy\Design_quiz
+3. Chạy lệnh:
+
+   python push_to_repo.py
+
+═══════════════════════════════════════════════════════════════
+
+📝 SCRIPT SẼ:
+✓ Copy tất cả file (.html, .css, .js, .json, index.html) vào mcq_di folder
+✓ Chạy: git add .
+✓ Chạy: git commit (với message mặc định)
+✓ Chạy: git push
+
+═══════════════════════════════════════════════════════════════
+
+⚠️  LƯU Ý:
+- Script sẽ bỏ qua: .git folder, mcq_di subfolder, và push_to_repo.py
+- Git phải được cài đặt trên máy
+- Repo phải là một valid git repository (có .git folder)
+
+═══════════════════════════════════════════════════════════════
+
+🔧 CẤU HÌNH GIT (Nếu chưa làm):
+
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+
+═══════════════════════════════════════════════════════════════
+
+🛠️  KHẮC PHỤC LỖI:
+
+1. Lỗi "Git lock file":
+   - Xóa file: mcq_di\.git\index.lock
+   - Chạy script lại
+
+2. Lỗi "Permission denied":
+   - Chạy Command Prompt as Administrator
+   - Xóa .git\index.lock
+   - Chạy script
+
+3. Lỗi "git push failed":
+   - Kiểm tra SSH key: ssh -T git@github.com
+   - Hoặc dùng HTTPS instead of SSH
+   - Kiểm tra git credentials
+
+═══════════════════════════════════════════════════════════════
+
+💡 TỰ CHỈNH SỬA SCRIPT:
+- Mở file push_to_repo.py bằng text editor
+- Sửa dòng commit message nếu muốn (dòng có "Update quiz files...")
+- Save và chạy lại
+
+═══════════════════════════════════════════════════════════════
+
+📊 SCRIPT LÀM GÌ:
+1. Copy file từ Design_quiz → mcq_di folder
+2. git add . (thêm tất cả thay đổi)
+3. git commit (tạo commit với message)
+4. git push (đẩy lên remote)
+
+═══════════════════════════════════════════════════════════════

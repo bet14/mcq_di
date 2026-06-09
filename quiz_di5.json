@@ -1,0 +1,1387 @@
+{
+  "title": "Digital Platforms — Design & Innovation for Digital Business Transformation (Class 5)",
+  "subtitle": "75 questions covering platform definitions, network effects, ecosystems, multi-sided markets, competition strategies, economies of scale, platform decay, and the journey to becoming a platform.",
+  "totalQuestions": 75,
+  "questions": [
+    {
+      "question": "Hagiu and Wright define a multi-sided platform as an organisation that 'creates value primarily by enabling direct interactions between two or more distinct types of affiliated customers.' The key word 'affiliated' implies which platform role?",
+      "options": [
+        "The platform manufactures the goods exchanged between customers",
+        "The platform employs the service providers on its network",
+        "The platform requires members to formally join or register before interacting",
+        "The platform sets the price for every transaction between members"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Affiliated' in Hagiu and Wright's definition means that members must opt into the platform (join, register, subscribe) rather than interacting purely in an open market. The platform does not manufacture goods (that would make it a product company), does not employ providers, and in many platforms does not fix transaction prices directly.",
+      "category": "Platform Definitions & Categories",
+      "level": "Hard",
+      "tags": [
+        "Hagiu",
+        "Wright",
+        "affiliation",
+        "MSP"
+      ]
+    },
+    {
+      "question": "A telephone network has 10 users. Under Metcalfe's Law, if the network grows to 100 users, the value of the network increases by a factor of approximately:",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metcalfe's Law states that value is proportional to n². With 10 users, value ∝ 100. With 100 users, value ∝ 10,000. The ratio is 10,000 / 100 = 100. The network does not merely grow by the factor of new users (10×) but by the square of the growth in users.",
+      "category": "Network Effects",
+      "level": "Hard",
+      "tags": [
+        "Metcalfe",
+        "calculation",
+        "network value"
+      ]
+    },
+    {
+      "question": "Direct network effects 'increase the perceived value of the platform as more users join.' The course notes that this perception exists 'independently of the pricing strategies of the platform company.' What is the implication for platform managers?",
+      "options": [
+        "Pricing is irrelevant to platform growth; only user base size matters",
+        "Network effects operate as a structural demand-side force that pricing alone cannot override",
+        "Platforms should always offer free access to maximise network size regardless of revenue",
+        "Once network effects exist, the platform no longer needs to invest in product quality"
+      ],
+      "answerIndex": 1,
+      "explanation": "The independence from pricing means network effects are a fundamental demand-side mechanism, not an artefact of pricing. Managers must understand that user expectations of a large network pre-exist pricing decisions, but pricing still matters for revenue and adoption — just not for the existence of the effect itself. The other options are overstatements or misapplications.",
+      "category": "Network Effects",
+      "level": "Hard",
+      "tags": [
+        "network effects",
+        "pricing",
+        "demand-side"
+      ]
+    },
+    {
+      "question": "Indirect network effects are also called 'cross-group effects.' Which scenario best illustrates a cross-group effect?",
+      "options": [
+        "More iOS users messaging each other via iMessage increases iMessage's value for all iOS users",
+        "More advertisers joining a media platform attracts more readers, who in turn attract more advertisers",
+        "A social network's value grows as its user base expands because each user can connect with more friends",
+        "A gaming console's value increases when more players buy the same console to play multiplayer games"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cross-group (indirect) effects arise between distinct groups: advertisers on one side and readers on the other reinforce each other across the platform. Options (a), (c), and (d) all describe within-group (direct) network effects — users of the same type benefiting from more users of the same type.",
+      "category": "Network Effects",
+      "level": "Hard",
+      "tags": [
+        "cross-group effect",
+        "indirect",
+        "two-sided"
+      ]
+    },
+    {
+      "question": "Why does the course present 'network effects' as relevant to both value generation and technology adoption?",
+      "options": [
+        "Because network effects reduce production costs, making technologies cheaper to adopt",
+        "Because network effects create positive externalities that increase economic value while also driving adoption through social dynamics",
+        "Because network effects guarantee a winner-takes-all outcome in every digital market",
+        "Because network effects are the sole mechanism determining which technology achieves a dominant design"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states network effects explain two phenomena: (1) how economic value is generated in information-driven industries, and (2) how social dynamics influence technology adoption (more users → more perceived value → more adoption). They do not guarantee winner-takes-all (that requires additional conditions) and are not the 'sole' mechanism for dominant design.",
+      "category": "Network Effects",
+      "level": "Hard",
+      "tags": [
+        "network effects",
+        "value",
+        "adoption"
+      ]
+    },
+    {
+      "question": "The course presents the smartphone as an example of a platform ecosystem. Which of the following is correctly placed in the ecosystem's LOWEST infrastructure layer?",
+      "options": [
+        "Social media apps (Facebook, TikTok)",
+        "Communication service providers (Orange, Vodafone)",
+        "Assembled smartphone devices running an OS (iOS, Android)",
+        "Hardware parts (camera, touchscreen, gyroscope)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The smartphone ecosystem diagram in the course shows hardware parts (camera, touchscreen, gyroscope, SIM) at the lowest layer, followed by assembled devices, then CSPs, then application stores, OTT services, financial services, and social media apps at the user-facing layer. Component parts are the foundational stratum, not assembled devices.",
+      "category": "Platform Ecosystems",
+      "level": "Hard",
+      "tags": [
+        "smartphone ecosystem",
+        "layers",
+        "infrastructure"
+      ]
+    },
+    {
+      "question": "According to the course, 'competition may happen between ecosystems AND within the ecosystem.' Which example illustrates within-ecosystem competition?",
+      "options": [
+        "Android versus iOS competing for smartphone users",
+        "Amazon competing with the merchants it hosts on its own marketplace",
+        "Google Search competing with Bing for internet users",
+        "Spotify competing with Apple Music for streaming subscribers"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course cites Amazon versus the hosted merchants as the canonical example of within-ecosystem competition — the platform competes with participants it also hosts. Android versus iOS and Google versus Bing are between-ecosystem competition. Spotify versus Apple Music is between-ecosystem competition in music streaming.",
+      "category": "Platform Ecosystems",
+      "level": "Hard",
+      "tags": [
+        "within-ecosystem",
+        "competition",
+        "Amazon"
+      ]
+    },
+    {
+      "question": "The course lists Spotify, Netflix, PlayStation, and Amazon Kindle Reader as examples of what type of platform structure?",
+      "options": [
+        "Innovation platforms with open developer ecosystems",
+        "Content ecosystems where the platform curates and distributes content for affiliated users",
+        "Multi-sided marketplaces with transaction fees on both sides",
+        "Internal platforms built for intra-firm coordination"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spotify (audio content), Netflix (video), PlayStation (games), and Amazon Kindle (publishing) are examples of content ecosystems — platforms that organise access to specific categories of content for their affiliated users. They are not open innovation platforms (where anyone can build), nor pure marketplaces or internal platforms.",
+      "category": "Platform Ecosystems",
+      "level": "Hard",
+      "tags": [
+        "content ecosystem",
+        "Spotify",
+        "Netflix"
+      ]
+    },
+    {
+      "question": "When a platform requires users to formally affiliate before interacting, it creates switching costs. Which type of switching cost is most directly generated by proprietary data formats or standards?",
+      "options": [
+        "Learning costs",
+        "Contractual lock-in",
+        "Compatibility lock-in",
+        "Relational switching costs"
+      ],
+      "answerIndex": 2,
+      "explanation": "Proprietary data formats or technology standards create compatibility lock-in: users cannot move their data or content to a competing platform without incurring significant conversion effort or loss. Learning costs arise from mastering a new interface. Contractual lock-in comes from legally binding agreements. Relational switching costs arise from personal ties to providers or communities.",
+      "category": "Platform Ecosystems",
+      "level": "Hard",
+      "tags": [
+        "lock-in",
+        "switching costs",
+        "proprietary standard",
+        "compatibility"
+      ]
+    },
+    {
+      "question": "Doctolib charges subscription fees to medical practitioners but offers free access to patients. This pricing architecture is best explained by which platform economics concept?",
+      "options": [
+        "Price discrimination based on income levels",
+        "Asymmetric pricing in a two-sided market to maximise participation on the more price-sensitive side",
+        "Predatory pricing to eliminate competing appointment platforms",
+        "Economies of scope allowing cross-subsidisation between unrelated products"
+      ],
+      "answerIndex": 1,
+      "explanation": "Classic two-sided market strategy involves subsidising the side that is more sensitive to price (patients, who would not pay for appointment booking) while monetising the side that derives clearer commercial value (practitioners, who gain a full calendar and reduced admin costs). This asymmetric pricing maximises overall platform participation.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Hard",
+      "tags": [
+        "Doctolib",
+        "asymmetric pricing",
+        "two-sided market"
+      ]
+    },
+    {
+      "question": "eBay generates revenue from listing fees, final value fees, promoted listings, eBay Plus subscriptions, and advertising. Which of these revenue streams targets a distinct third member group beyond buyers and sellers?",
+      "options": [
+        "Listing fees",
+        "Final value fees",
+        "Advertising (display of product ads leading to external retail sites)",
+        "eBay Plus subscription"
+      ],
+      "answerIndex": 2,
+      "explanation": "Advertising revenue from display ads that lead to external retail websites targets a third group — advertisers (external businesses paying to reach eBay's audience). Listing fees, final value fees, and eBay Plus subscriptions are all charged to sellers or buyers, i.e. the two primary member groups.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Hard",
+      "tags": [
+        "eBay",
+        "multi-sided",
+        "advertising",
+        "revenue streams"
+      ]
+    },
+    {
+      "question": "Which statement best explains why two-sided platforms face a 'chicken-and-egg' problem at launch?",
+      "options": [
+        "Platforms must invest in hardware before generating software revenue",
+        "Each side's participation depends on the other side already being present, so neither side wants to join first",
+        "Regulatory approval requires a minimum user base before a platform can operate legally",
+        "Platforms cannot generate indirect network effects until both sides are equally large"
+      ],
+      "answerIndex": 1,
+      "explanation": "The chicken-and-egg problem arises because indirect (cross-group) network effects mean that side A's value depends on side B being present and vice versa. Without users, developers won't build apps; without apps, users won't join. This circular dependency makes launch particularly challenging. Regulatory minimums and equal-size requirements are not the source of the problem.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Hard",
+      "tags": [
+        "chicken-and-egg",
+        "launch",
+        "cross-group effects"
+      ]
+    },
+    {
+      "question": "The course mentions that Uber's mission evolved from car-hailing to encompass Uber Eats, Jump (bicycles), and Uber Copter. From a multi-sided market perspective, this expansion primarily:",
+      "options": [
+        "Reduces the switching costs for existing riders",
+        "Adds new member groups and transaction types, creating additional sides to the platform",
+        "Converts Uber from a transaction platform into an innovation platform",
+        "Reduces indirect network effects by spreading users across multiple services"
+      ],
+      "answerIndex": 1,
+      "explanation": "Expanding into food delivery, bicycles, and helicopters adds new service providers and user groups, making Uber increasingly multi-sided. It does not convert Uber into an innovation platform (it remains transaction-oriented), does not primarily reduce switching costs, and does not necessarily dilute network effects — it may even reinforce the platform's overall attractiveness.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Hard",
+      "tags": [
+        "Uber",
+        "multi-sided",
+        "expansion"
+      ]
+    },
+    {
+      "question": "The 'tipping' strategy is described as 'useful for competition between platforms.' It relies on:",
+      "options": [
+        "Designing a new technology element and placing it at the market's centre",
+        "Leveraging installed base, intellectual property rights, and strength in complements across multiple markets",
+        "Bundling a competitor's product as a feature within a more comprehensive suite",
+        "Setting prices below cost until the competitor exits the market"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tipping involves using existing leverage — installed base, IP rights, complementary product strength — to tip a market in one's favour. The course cites Linux with its Apache web server in the server OS market. Designing a new core element is coring; bundling is envelopment; price-cutting below cost is predatory pricing.",
+      "category": "Platform Competition Strategies",
+      "level": "Hard",
+      "tags": [
+        "tipping",
+        "installed base",
+        "Linux",
+        "Apache"
+      ]
+    },
+    {
+      "question": "Google's success in internet search is cited as a successful example of the 'coring' strategy. What made Google's search algorithm the 'core' in this market?",
+      "options": [
+        "Google entered the market first and benefited from a first-mover advantage",
+        "Google designed an element (PageRank) that became the de facto standard for search quality, centering the entire search market around it",
+        "Google acquired its main competitors early in the internet search market",
+        "Google used envelopment by bundling search into the Chrome browser"
+      ],
+      "answerIndex": 1,
+      "explanation": "PageRank was the technological innovation that Google designed and placed at the centre of the search market, making it the defining algorithm for relevance ranking. Google was not the first search engine (AltaVista, Yahoo predated it). It did not acquire competitors to establish dominance, and Chrome came much later than its search dominance.",
+      "category": "Platform Competition Strategies",
+      "level": "Hard",
+      "tags": [
+        "Google",
+        "PageRank",
+        "coring",
+        "search"
+      ]
+    },
+    {
+      "question": "The course attributes the competitive risk of envelopment strategy to 'antitrust actions against Microsoft and, recently, Apple.' What underlying market behaviour triggers these regulatory responses?",
+      "options": [
+        "Platforms charging excessive prices to consumers",
+        "Platforms using market dominance in one area to foreclose competition in adjacent markets through bundling",
+        "Platforms colluding with competitors to fix prices",
+        "Platforms acquiring start-ups before they can become competitors"
+      ],
+      "answerIndex": 1,
+      "explanation": "Envelopment leverages dominance in one market (e.g. OS) to eliminate competition in adjacent markets (e.g. browsers, media players) by bundling. This is the classic tying/bundling abuse under competition law. Price-fixing is collusion (different offence), predatory acquisition (kill zone) is a separate concern, and excessive pricing is a different abuse of dominance.",
+      "category": "Platform Competition Strategies",
+      "level": "Hard",
+      "tags": [
+        "antitrust",
+        "envelopment",
+        "bundling",
+        "tying"
+      ]
+    },
+    {
+      "question": "The Oxford English Dictionary definition cited in the course states economies of scale are 'a proportionate saving in costs gained by an increased level of production.' For a platform company, 'production' most accurately refers to:",
+      "options": [
+        "The number of physical servers installed in data centres",
+        "The volume of interactions, transactions, or user sessions facilitated by the platform",
+        "The number of employees hired to manage platform operations",
+        "The total number of product lines offered by the platform"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a platform, 'output' is the facilitation of interactions — transactions matched, users served, sessions processed. As this volume grows, fixed infrastructure costs are spread across more units, yielding economies of scale. Physical servers, headcount, and product lines are inputs or strategic choices, not the measure of output.",
+      "category": "Economies of Scale & Scope",
+      "level": "Hard",
+      "tags": [
+        "economies of scale",
+        "output",
+        "platform"
+      ]
+    },
+    {
+      "question": "Economies of scope (Panzar and Willig) suggest that joint production of multiple outputs is cheaper than separate production. How does this apply to a platform like Google, which offers search, maps, email, cloud, and advertising?",
+      "options": [
+        "Each product benefits from shared data infrastructure and user base, reducing the average cost of each service",
+        "Google charges higher prices for bundled services than for individual ones",
+        "Google uses profits from advertising to subsidise unprofitable hardware divisions",
+        "Each product line operates independently and achieves scale on its own merits"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google's diverse services share common data infrastructure, user identity systems, and a unified data pool — the cost of providing any individual service is lower because it shares fixed assets with others. This is economies of scope: joint production lowers average costs. Cross-subsidisation (option c) describes a pricing strategy, not economies of scope per se.",
+      "category": "Economies of Scale & Scope",
+      "level": "Hard",
+      "tags": [
+        "economies of scope",
+        "Google",
+        "joint production"
+      ]
+    },
+    {
+      "question": "The course states that economies of scale describe 'the internal side of the platform,' contrasting them with network effects and ecosystems. What does 'internal' mean in this context?",
+      "options": [
+        "Economies of scale relate to the platform's cost structure and operational efficiency, not to user-side dynamics",
+        "Economies of scale apply only to internal (proprietary) platforms, not to open ones",
+        "Economies of scale are captured entirely inside the platform firm and never shared with users",
+        "Economies of scale require the platform to vertically integrate its supply chain"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course distinguishes the 'environment' of the platform (network effects, ecosystems, multi-sided markets — all about external participants) from the 'internal' side (economies of scale — about the platform's own cost structure and production efficiency). It does not imply the platform type (open vs. proprietary) or supply chain integration.",
+      "category": "Economies of Scale & Scope",
+      "level": "Hard",
+      "tags": [
+        "economies of scale",
+        "internal",
+        "cost structure"
+      ]
+    },
+    {
+      "question": "The course states that market tipping results from 'the combination of direct and indirect network effects and economies of scale.' Why is the combination of all three necessary for tipping, rather than any single factor alone?",
+      "options": [
+        "Each factor alone creates value but not the self-reinforcing feedback loop that drives exponential dominance",
+        "Network effects alone always result in market tipping, so economies of scale are a bonus factor",
+        "Economies of scale alone are sufficient for tipping in digital markets; network effects amplify but are not required",
+        "Tipping only requires indirect network effects; direct effects and scale are not necessary conditions"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tipping is a self-reinforcing dynamic: direct effects (within-group value), indirect effects (cross-group reinforcement), and economies of scale (cost advantages that widen the gap) together create a compounding advantage that prevents rivals from catching up. Any one factor in isolation generates competitive advantage but not necessarily the runaway dominance of tipping.",
+      "category": "Market Tipping & Winner-Takes-All",
+      "level": "Hard",
+      "tags": [
+        "tipping",
+        "network effects",
+        "economies of scale",
+        "feedback loop"
+      ]
+    },
+    {
+      "question": "The course uses eBay's founding story to illustrate the pivot from a general marketplace to an auction platform. What economic concept does eBay's rapid growth after this pivot most directly illustrate?",
+      "options": [
+        "Economies of scope from multiple product categories",
+        "Direct and indirect network effects reinforcing platform growth",
+        "Coring through the development of a proprietary auction algorithm",
+        "Platform envelopment of physical auction houses"
+      ],
+      "answerIndex": 1,
+      "explanation": "eBay's growth illustrates both direct effects (more buyers = more value for sellers and vice versa) and indirect effects (more sellers attracting more buyers, more buyers attracting more sellers). The auction mechanism was a product feature, not a coring strategy in the Gawer/Cusumano sense. eBay did not envelop physical auction houses — it created a new market.",
+      "category": "Market Tipping & Winner-Takes-All",
+      "level": "Hard",
+      "tags": [
+        "eBay",
+        "network effects",
+        "marketplace"
+      ]
+    },
+    {
+      "question": "Which conditions make winner-takes-all outcomes MORE likely in a digital platform market?",
+      "options": [
+        "Low switching costs, easy multihoming, and weak network effects",
+        "Strong network effects, high switching costs, and significant economies of scale",
+        "Regulatory price controls and mandatory interoperability requirements",
+        "Fragmented geographic markets and strong local competitors"
+      ],
+      "answerIndex": 1,
+      "explanation": "Winner-takes-all is reinforced by: strong network effects (more users = more value, pulling users to the largest platform), high switching costs (users cannot easily leave once committed), and economies of scale (the dominant platform has cost advantages rivals cannot match). Low switching costs, easy multihoming, and regulatory interoperability work against winner-takes-all outcomes.",
+      "category": "Market Tipping & Winner-Takes-All",
+      "level": "Hard",
+      "tags": [
+        "winner-takes-all",
+        "switching costs",
+        "network effects"
+      ]
+    },
+    {
+      "question": "The course states that platforms exchange 'free digital goods and services for consumer data.' This arrangement is described as 'no free lunch in the digital economy.' What economic concept does this reflect?",
+      "options": [
+        "The Productivity Paradox — technology does not deliver proportional economic returns",
+        "The attention economy — consumers pay with their attention rather than money",
+        "Barter exchange — consumers trade data (a resource) for services (another resource)",
+        "Creative destruction — old business models are replaced by data-driven ones"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'no free lunch' framing reflects a barter arrangement: consumers exchange personal data (a scarce economic resource that platforms monetise) for seemingly free services. The Productivity Paradox concerns IT investment returns. The attention economy concerns advertising-funded content. Creative destruction concerns industrial change.",
+      "category": "Platform as Asset",
+      "level": "Hard",
+      "tags": [
+        "data",
+        "free services",
+        "barter",
+        "no free lunch"
+      ]
+    },
+    {
+      "question": "The course distinguishes two categories of digital technologies as platform assets: 'platform core' and 'marketplace/intermediation.' Which of the following is correctly classified as a 'platform core' asset?",
+      "options": [
+        "PageRank (Google Search)",
+        "Cassini (eBay's search algorithm)",
+        "Microsoft Teams",
+        "Amazon's A9 ranking algorithm"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course classifies operating systems, office applications (including Teams, Gmail, Office Suite), and business cloud applications as 'platform core' assets. PageRank, Cassini, and A9 are listed under 'marketplace/intermediation' — algorithms that govern how the platform matches buyers and sellers or ranks content.",
+      "category": "Platform as Asset",
+      "level": "Hard",
+      "tags": [
+        "platform core",
+        "Teams",
+        "intermediation",
+        "classification"
+      ]
+    },
+    {
+      "question": "The course distinguishes between 'value creation' and 'value sharing' in platforms over the long term. Which dynamic most directly threatens value sharing as a platform matures?",
+      "options": [
+        "Increased competition from new market entrants",
+        "The platform progressively prioritising one user group's interests at the expense of others",
+        "Rising infrastructure costs reducing the platform's profit margin",
+        "Regulatory requirements to open APIs to competitors"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course's discussion of platform decay focuses on platforms shifting value extraction toward one group (typically advertisers or new third sides) at the expense of earlier user groups. This is the 'enshittification' dynamic — not competition, cost pressures, or regulatory API requirements, which may affect value creation but not directly drive the inter-group value redistribution.",
+      "category": "Platform Decay",
+      "level": "Hard",
+      "tags": [
+        "value sharing",
+        "platform decay",
+        "enshittification"
+      ]
+    },
+    {
+      "question": "The term 'platform enshittification' was coined by Cory Doctorow in 2022-23. The course's economic analysis (Belleflamme, 2025) identifies which two structural causes that could lead to this decay?",
+      "options": [
+        "Technological obsolescence and rising data storage costs",
+        "Abuse of dominant position and value diminishment through cut-throat competition",
+        "Regulatory failure and platform founder departure",
+        "User migration to social media and mobile-first competitors"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course identifies: (1) quality loss due to abuse of dominant position (the platform extracting value by degrading service for early user groups), and (2) value creation diminished by cut-throat competition. These are structural economic causes, not technological obsolescence, founder changes, or user behaviour shifts.",
+      "category": "Platform Decay",
+      "level": "Hard",
+      "tags": [
+        "enshittification",
+        "Doctorow",
+        "Belleflamme",
+        "dominant position"
+      ]
+    },
+    {
+      "question": "The course argues that platform decay is 'not unavoidable.' Which argument does it use to support this position?",
+      "options": [
+        "Technology will eventually create better platforms that replace decaying ones",
+        "Effective regulation and competition can counterbalance value extraction and quality decline",
+        "User education will make consumers better at identifying and avoiding degraded platforms",
+        "Platforms naturally self-regulate to maintain quality because decay reduces long-term revenue"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explicitly argues that while platform decay is a real risk, it is not inevitable because effective regulatory measures (both ex ante and ex post) and competitive pressures can counterbalance it. Technological substitution, user education, and platform self-regulation are not the course's stated counterarguments.",
+      "category": "Platform Decay",
+      "level": "Hard",
+      "tags": [
+        "platform decay",
+        "regulation",
+        "competition",
+        "inevitability"
+      ]
+    },
+    {
+      "question": "The course presents a matrix framework for understanding platform types, with axes for interdependence (independent member group vs. interdependent groups with cross-network effects) and openness (internal, semi-open, open). In which quadrant would an 'open, multi-sided platform' be placed?",
+      "options": [
+        "Independent member group / Internal",
+        "Independent member group / Open",
+        "Interdependent groups / Internal",
+        "Interdependent groups / Open"
+      ],
+      "answerIndex": 3,
+      "explanation": "An open, multi-sided platform has interdependent groups (cross-network effects between distinct user groups) and is open (customers, partners, and the public can participate). The matrix places this in the Interdependent / Open quadrant. A pure product platform (no cross-network effects, internal R&D) would be in the Independent / Internal area.",
+      "category": "Becoming a Platform",
+      "level": "Hard",
+      "tags": [
+        "platform matrix",
+        "Gawer",
+        "open",
+        "multi-sided"
+      ]
+    },
+    {
+      "question": "The course summary states that 'organisations of all industries and backgrounds — traditional and digital-native alike, commercial or not — strive to implement the Digital Platform model.' Which thesis from the wider course does this observation most directly support?",
+      "options": [
+        "Thesis #8: Networks as coordination mechanisms are becoming central to value creation",
+        "The Productivity Paradox: remarkable computing advances have not translated to productivity growth",
+        "Thesis #9: Technocentric design reinforces algorithmic agency at the expense of human agency",
+        "Creative destruction: digital innovation permanently disrupts existing economic structures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thesis #8 (explicitly cited at the start of Class 5) states that 'networks, as coordination mechanisms, are becoming central to value creation in the Digital Economy.' The universal adoption of platform models across industries directly illustrates this thesis — platforms are essentially network-based coordination mechanisms. The Productivity Paradox, Thesis #9, and creative destruction are related but distinct ideas.",
+      "category": "Becoming a Platform",
+      "level": "Hard",
+      "tags": [
+        "Thesis 8",
+        "network",
+        "coordination",
+        "value creation"
+      ]
+    },
+    {
+      "question": "Jean Tirole's characterisation of platforms as 'gatekeepers of the Digital Economy' implies which concern about platform power?",
+      "options": [
+        "Platforms slow down digital innovation by controlling access to essential infrastructure",
+        "Platforms control which participants can access digital markets, giving them structural power to include or exclude market actors",
+        "Platforms generate excessive profits that should be redistributed to users",
+        "Platform gatekeeping is primarily a cybersecurity risk rather than an economic one"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tirole's 'gatekeeper' framing (echoed in EU regulatory language via the Digital Markets Act) highlights that platforms controlling access to large user bases have structural power to determine which businesses can reach customers. Gatekeeping is an access and inclusion/exclusion problem, not primarily about innovation pace, profit distribution, or cybersecurity.",
+      "category": "Platform Definitions & Categories",
+      "level": "Hard",
+      "tags": [
+        "Tirole",
+        "gatekeeper",
+        "Digital Markets Act",
+        "access"
+      ]
+    },
+    {
+      "question": "The Malt platform grew its freelance community from 5,000 (2014) to 260,000 (2021). The initiatives Malt Open, Pass Sésame, Malt Insights, and Malt Plus are listed as 'community building initiatives.' Why are community-building initiatives particularly important for a two-sided platform?",
+      "options": [
+        "Community initiatives reduce Malt's server costs by encouraging users to self-host content",
+        "Strong freelancer communities generate direct network effects within the supply side, increasing quality and retention, which in turn attracts more client companies",
+        "Community events allow Malt to comply with French labour regulations for freelancers",
+        "Building a community is required by French competition law for marketplace platforms"
+      ],
+      "answerIndex": 1,
+      "explanation": "Community-building strengthens the freelancer supply side through peer learning, professional development, and belonging — this generates direct network effects within that group (more quality freelancers → more value for freelancers). A stronger supply side then attracts more client companies through cross-group (indirect) effects. The other options misattribute server costs, regulatory compliance, or legal requirements as the rationale.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Hard",
+      "tags": [
+        "Malt",
+        "community building",
+        "direct network effects",
+        "supply side"
+      ]
+    },
+    {
+      "question": "eBay's acquisition of PayPal in 2002 and Skype in 2005 illustrates which strategic motivation for platform companies?",
+      "options": [
+        "Platform envelopment — bundling complementary capabilities to foreclose competition",
+        "Coring — placing a new technological element at the centre of the marketplace",
+        "Reducing transaction friction and adding complementary functionality to increase platform stickiness",
+        "Tipping — leveraging installed base across adjacent markets to achieve dominance"
+      ],
+      "answerIndex": 2,
+      "explanation": "PayPal addressed the trust and payment friction problem inherent in peer-to-peer e-commerce (making transactions safer and easier). Skype added communication capability between buyers and sellers. Both acquisitions targeted ecosystem completeness and user stickiness. This is not envelopment (no competitor was being absorbed into a bundle), not coring (no central element created), and not tipping (no cross-market leverage).",
+      "category": "Platform Competition Strategies",
+      "level": "Hard",
+      "tags": [
+        "eBay",
+        "PayPal",
+        "Skype",
+        "acquisition",
+        "stickiness"
+      ]
+    },
+    {
+      "question": "The course discusses Thesis #9: 'Technocentric design of digital technologies leads, invariably, to the reinforcement of algorithmic agency, while sacrificing human agency.' How does this thesis apply specifically to platform algorithms like PageRank or A9?",
+      "options": [
+        "These algorithms make platforms more efficient and therefore increase human agency in digital markets",
+        "By controlling the ranking and visibility of content and products, these algorithms shape market outcomes in ways that users and suppliers cannot easily understand or contest",
+        "These algorithms are neutral tools that simply reflect existing market preferences without introducing bias",
+        "These algorithms are subject to democratic oversight through open-source publication"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thesis #9 critiques how algorithmic systems concentrate decision-making power in the platform's code, reducing the ability of users and suppliers to influence market outcomes. Ranking algorithms that determine who is seen and who is not exercise enormous power that is opaque to those affected — reinforcing algorithmic (platform) agency over human agency. Claiming neutrality contradicts the evidence of algorithmic bias; open-source publication does not exist for these proprietary systems.",
+      "category": "Platform as Asset",
+      "level": "Hard",
+      "tags": [
+        "Thesis 9",
+        "algorithmic agency",
+        "human agency",
+        "ranking"
+      ]
+    },
+    {
+      "question": "The course notes that Thesis #9 bis calls for 'new forms of regulation AND reimagination and redesign of digital technologies.' Why does the course argue that regulation alone is insufficient?",
+      "options": [
+        "Regulations are always adopted too slowly to keep pace with digital innovation",
+        "Addressing algorithmic agency imbalances requires both rule-setting AND redesigning how technologies allocate power — regulation cannot fix design problems",
+        "Regulators lack the technical expertise to understand platform algorithms",
+        "Regulation increases compliance costs and stifles innovation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thesis #9 bis recognises that structural imbalances (algorithmic agency vs. human agency) are embedded in how technologies are designed, not just in how markets are organised. Rules can constrain behaviour but cannot redesign the underlying architecture — hence the need for reimagination and redesign of technologies in addition to regulation. Speed, technical expertise, and innovation costs are pragmatic concerns, not the theoretical justification given.",
+      "category": "Platform Decay",
+      "level": "Hard",
+      "tags": [
+        "Thesis 9 bis",
+        "regulation",
+        "redesign",
+        "algorithmic agency"
+      ]
+    },
+    {
+      "question": "The course's case study framework for digital platforms uses two axes: (1) type of member group relationship and (2) openness of the platform. A 'semi-open platform' with interdependent groups would be positioned where in this framework?",
+      "options": [
+        "Independent member group / Internal",
+        "Interdependent groups / Open (customers and partners)",
+        "Independent member group / Open (customers and partners)",
+        "Interdependent groups / Semi-open (partners and suppliers)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course's matrix places 'semi-open' as between internal and fully open — accessible to partners and suppliers but not the general public. Combined with interdependent groups (cross-network effects), this places the configuration in the Interdependent / Semi-open quadrant. Examples include industry platforms like My JohnDeere or MindSphere.",
+      "category": "Becoming a Platform",
+      "level": "Hard",
+      "tags": [
+        "platform matrix",
+        "semi-open",
+        "interdependent"
+      ]
+    },
+    {
+      "question": "The course mentions Nike+ SNKRS as an example of a fitness/health platform in the product-to-platform transformation. Which statement best explains why this represents a genuine platform transformation rather than just a product upgrade?",
+      "options": [
+        "Nike+ SNKRS is a mobile app, which makes it digital by definition",
+        "Nike+ SNKRS connects runners, fitness data providers, and potentially health service partners, creating cross-group value beyond the physical shoe product",
+        "Nike+ SNKRS offers a subscription model, which qualifies it as a platform",
+        "Nike+ SNKRS uses AI algorithms to recommend shoe sizes"
+      ],
+      "answerIndex": 1,
+      "explanation": "A platform transformation means moving beyond a product transaction to enabling multi-sided interactions with ecosystem participants. Nike+ creates connections between users, their fitness data, and complementary services — generating cross-group value. Being a mobile app (digital) does not make something a platform; nor does subscription pricing or AI recommendations alone.",
+      "category": "Becoming a Platform",
+      "level": "Hard",
+      "tags": [
+        "Nike+",
+        "product to platform",
+        "transformation"
+      ]
+    },
+    {
+      "question": "MVNOs (Mobile Virtual Network Operators) are shown in the smartphone ecosystem diagram as participants. What role do they play relative to the platform?",
+      "options": [
+        "They are the primary platform operators providing the OS layer",
+        "They are complementary service providers that sit between infrastructure CSPs and end users, participating in the ecosystem without owning the platform",
+        "They are hardware manufacturers producing smartphone components",
+        "They are application developers building apps for the App Store"
+      ],
+      "answerIndex": 1,
+      "explanation": "MVNOs buy wholesale network capacity from Communication Service Providers (CSPs) and resell it under their own brand. In the smartphone ecosystem, they are complementary service providers — participants in the ecosystem who neither own the platform (OS) nor manufacture hardware. They add commercial service variety without controlling the ecosystem's core.",
+      "category": "Platform Ecosystems",
+      "level": "Hard",
+      "tags": [
+        "MVNO",
+        "smartphone ecosystem",
+        "complementary service"
+      ]
+    },
+    {
+      "question": "A software developer selling applications through both the Apple App Store and Google Play simultaneously is engaging in which behaviour, and what effect does this have on each platform's leverage?",
+      "options": [
+        "Platform switching — the developer is abandoning one platform for another, which weakens both platforms",
+        "Multihoming — the developer participates in both ecosystems simultaneously, reducing each platform's exclusive hold over the developer",
+        "Coring — the developer is placing an application at the centre of both markets",
+        "Tipping — the developer's presence on both platforms accelerates the dominance of the larger one"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multihoming means participating in multiple platforms simultaneously. When developers multihome, neither iOS nor Android has exclusive access to their apps, which weakens each platform's ability to use developer relationships as a competitive moat. Platform switching is a one-time move. Coring and tipping are supply-side strategies, not developer participation choices.",
+      "category": "Platform Competition Strategies",
+      "level": "Hard",
+      "tags": [
+        "multihoming",
+        "developer",
+        "App Store",
+        "Google Play"
+      ]
+    },
+    {
+      "question": "According to Cusumano, Gawer, and Yoffie (2019), what are the two main categories of digital platforms?",
+      "options": [
+        "Product platforms and service platforms",
+        "Transaction platforms and innovation platforms",
+        "Sharing platforms and subscription platforms",
+        "Marketplace platforms and social platforms"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cusumano, Gawer, and Yoffie distinguish between transaction platforms (intermediaries for direct exchanges between user groups, e.g. Airbnb, Uber) and innovation platforms (foundations upon which others build complementary innovations, e.g. Apple iOS, Android). Product, service, and subscription are not the classification they propose.",
+      "category": "Platform Definitions & Categories",
+      "level": "Easy",
+      "tags": [
+        "Cusumano",
+        "Gawer",
+        "Yoffie",
+        "categories"
+      ]
+    },
+    {
+      "question": "Gartner defines a platform as 'a product that serves or enables other products or services.' Which of the following best illustrates this definition?",
+      "options": [
+        "A supermarket chain that stocks goods from multiple suppliers",
+        "An operating system on which third-party applications are built and run",
+        "A logistics company that delivers parcels for online retailers",
+        "A subscription streaming service that licenses content from studios"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gartner's definition emphasises the enabling role: an OS enables other products (applications) to exist on top of it. A supermarket, logistics company, and streaming service distribute or consume content — they do not primarily serve as a foundation for other products or services in the same sense.",
+      "category": "Platform Definitions & Categories",
+      "level": "Easy",
+      "tags": [
+        "Gartner",
+        "definition",
+        "enabling"
+      ]
+    },
+    {
+      "question": "Which of the following is classified as an innovation platform rather than a transaction platform?",
+      "options": [
+        "Airbnb",
+        "Tripadvisor",
+        "Amazon AWS",
+        "eBay"
+      ],
+      "answerIndex": 2,
+      "explanation": "Amazon AWS is an innovation platform — it is a technological foundation on which other companies build their own products and services. Airbnb, Tripadvisor, and eBay are transaction platforms: they intermediary between distinct user groups (e.g. hosts and guests, buyers and sellers).",
+      "category": "Platform Definitions & Categories",
+      "level": "Easy",
+      "tags": [
+        "innovation platform",
+        "transaction platform",
+        "AWS"
+      ]
+    },
+    {
+      "question": "Snapchat is listed in the course as an example of which category of platform?",
+      "options": [
+        "Innovation platform",
+        "Transaction platform",
+        "Industry platform",
+        "Internal platform"
+      ],
+      "answerIndex": 1,
+      "explanation": "Snapchat is given as an example of a transaction (sharing/matching) platform — it intermediates direct exchanges between users. Innovation platforms (e.g. iOS, AWS) are foundations for third-party development. Industry and internal platforms are categories in the firm-transformation framework, not in the Cusumano/Gawer/Yoffie taxonomy.",
+      "category": "Platform Definitions & Categories",
+      "level": "Easy",
+      "tags": [
+        "Snapchat",
+        "transaction platform",
+        "taxonomy"
+      ]
+    },
+    {
+      "question": "The course lists four core 'platform ingredients.' Which of the following is NOT among them?",
+      "options": [
+        "Several types of network effects",
+        "Platform ecosystems",
+        "Vertical integration of supply chains",
+        "Economies of scale"
+      ],
+      "answerIndex": 2,
+      "explanation": "The four ingredients listed are: (1) several types of network effects, (2) platform ecosystems, (3) two-sided or multi-sided markets, and (4) economies of scale. Vertical integration of supply chains is not part of this framework — it belongs to traditional industrial organisation logic.",
+      "category": "Platform Definitions & Categories",
+      "level": "Easy",
+      "tags": [
+        "platform ingredients",
+        "framework"
+      ]
+    },
+    {
+      "question": "According to the course, which underlying economic laws or principles are most directly associated with direct network effects?",
+      "options": [
+        "Moore's Law and Ackoff's data hierarchy",
+        "Metcalfe's Law and Reed's Law",
+        "Shannon's Information Theory and Moore's Law",
+        "Economies of scale and Kondratiev waves"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explicitly links direct network effects to Metcalfe's Law (network value proportional to n²) and Reed's Law (value of group-forming networks grows even faster). Shannon's theory concerns information transmission. Moore's Law concerns transistor density. Kondratiev waves concern long economic cycles.",
+      "category": "Network Effects",
+      "level": "Easy",
+      "tags": [
+        "Metcalfe",
+        "Reed",
+        "direct network effects"
+      ]
+    },
+    {
+      "question": "In the context of platform economics, what is a 'platform ecosystem'?",
+      "options": [
+        "The natural environment impacted by the energy consumption of data centres",
+        "A configuration in which the platform hosts more than one member group, creating interdependencies between them",
+        "A regulatory framework governing how platforms must treat third-party developers",
+        "The set of algorithms and data models that power a platform's recommendation engine"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course defines a platform ecosystem as arising when a platform attracts and hosts multiple member groups, generating mutual interdependencies. The biological/environmental metaphor (data centres), regulatory frameworks, and algorithmic systems are related but do not capture the course's specific definition.",
+      "category": "Platform Ecosystems",
+      "level": "Easy",
+      "tags": [
+        "ecosystem",
+        "member groups",
+        "definition"
+      ]
+    },
+    {
+      "question": "The course mentions APIs and SDKs in the context of platform ecosystems. What strategic function do these tools primarily serve?",
+      "options": [
+        "They allow the platform to monitor competitors' product development",
+        "They enable the platform to open itself to external developers and partners, supporting interoperability",
+        "They allow the platform to encrypt data to prevent regulatory scrutiny",
+        "They serve as revenue-generating products sold to enterprise customers"
+      ],
+      "answerIndex": 1,
+      "explanation": "APIs (Application Programming Interfaces) and SDKs (Software Development Kits) are the technical mechanisms by which platforms open themselves to third-party developers, enabling the building of complementary products and services. While APIs can generate revenue, their primary ecosystem role is interoperability and openness.",
+      "category": "Platform Ecosystems",
+      "level": "Easy",
+      "tags": [
+        "API",
+        "SDK",
+        "interoperability",
+        "openness"
+      ]
+    },
+    {
+      "question": "In a two-sided platform, the platform charges both a membership fee and a usage charge. Which of the following correctly distinguishes these two charges?",
+      "options": [
+        "Membership fees are paid by developers; usage charges are paid by consumers",
+        "Membership fees grant access to the platform; usage charges are levied per interaction between users",
+        "Membership fees are one-time payments; usage charges recur monthly",
+        "Membership fees fund platform infrastructure; usage charges fund marketing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course defines membership (access) fees as charges for joining/accessing the platform, and usage fees as charges levied per interaction or transaction. The distinction is between access and activity, not between payer type, payment frequency, or use of funds.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Easy",
+      "tags": [
+        "membership fee",
+        "usage charge",
+        "pricing"
+      ]
+    },
+    {
+      "question": "The course gives credit card networks as an example of a two-sided market. Which two groups constitute the two sides?",
+      "options": [
+        "Banks and central banks",
+        "Card manufacturers and payment processors",
+        "Credit card holders and merchants accepting card payments",
+        "Card issuers and card network operators"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course explicitly lists credit card holders and merchants as the two sides of a credit card platform. The platform (e.g. Visa, Mastercard) creates value by enabling interaction between these two groups. Banks, processors, and network operators are infrastructure participants, not the direct end-user member groups.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Easy",
+      "tags": [
+        "credit card",
+        "two-sided market",
+        "member groups"
+      ]
+    },
+    {
+      "question": "Which pair of competing platforms illustrates between-ecosystem competition at the smartphone OS level?",
+      "options": [
+        "Instagram versus TikTok",
+        "iOS versus Android",
+        "App Store versus individual app developers",
+        "Google Maps versus Apple Maps within iOS"
+      ],
+      "answerIndex": 1,
+      "explanation": "iOS and Android are competing ecosystems — each is a distinct platform with its own developer community, app store, and user base. Instagram versus TikTok is competition between apps within both ecosystems. App Store versus developers is within-ecosystem tension. Google Maps versus Apple Maps is within-platform (iOS) competition between apps.",
+      "category": "Platform Competition Strategies",
+      "level": "Easy",
+      "tags": [
+        "iOS",
+        "Android",
+        "ecosystem competition"
+      ]
+    },
+    {
+      "question": "According to the course, what is the key distinction between economies of scale and economies of scope?",
+      "options": [
+        "Economies of scale result from size/output increases; economies of scope result from diversification of products",
+        "Economies of scale apply only to digital goods; economies of scope apply only to physical goods",
+        "Economies of scale reduce variable costs; economies of scope reduce fixed costs",
+        "Economies of scale are internal to the firm; economies of scope are always external"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course draws directly on the definitions: economies of scale arise from increasing volume of output (unit costs fall as production scales), while economies of scope (Panzar and Willig, 1977/1981) arise from producing a diversified range of outputs — the cost of producing multiple products together is lower than producing them separately. The other distinctions are not how the course presents them.",
+      "category": "Economies of Scale & Scope",
+      "level": "Easy",
+      "tags": [
+        "economies of scale",
+        "economies of scope",
+        "Panzar",
+        "Willig"
+      ]
+    },
+    {
+      "question": "Market 'tipping' as defined by Katz and Shapiro refers to:",
+      "options": [
+        "The gradual fragmentation of a market into multiple competing platforms",
+        "The tendency of one system to pull away from rivals in popularity once it has gained an initial edge",
+        "The regulatory intervention that prevents a dominant platform from abusing its position",
+        "The moment when a new technology replaces an existing dominant design"
+      ],
+      "answerIndex": 1,
+      "explanation": "Katz and Shapiro's definition of tipping is explicitly quoted in the course: 'the tendency of one system to pull away from its rivals in popularity once it has gained an initial edge.' It is not about fragmentation, regulatory intervention, or technological substitution — though those may follow from or prevent tipping.",
+      "category": "Market Tipping & Winner-Takes-All",
+      "level": "Easy",
+      "tags": [
+        "tipping",
+        "Katz",
+        "Shapiro",
+        "winner-takes-all"
+      ]
+    },
+    {
+      "question": "According to Gawer (2014), a traditional company that builds an internal platform between its own sub-units is at which stage of the platform transformation journey?",
+      "options": [
+        "The most advanced stage — the company has already become an open industry platform",
+        "An intermediate stage — it has opened the platform to partners and suppliers",
+        "The earliest stage — it is applying platform logic internally before opening externally",
+        "A special case applicable only to digital-native companies"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course describes Gawer's three stages: (1) internal platform (between sub-units of the same firm — the earliest stage), (2) semi-open platform (between the firm and its partners/suppliers), and (3) open industry platform (with open access to developers and clients). An internal platform is stage 1, not the most advanced.",
+      "category": "Becoming a Platform",
+      "level": "Easy",
+      "tags": [
+        "Gawer",
+        "platform transformation",
+        "internal platform"
+      ]
+    },
+    {
+      "question": "The course gives ShareNow and Free2move as examples of which type of platform transformation for car manufacturers?",
+      "options": [
+        "Innovation platforms (open to third-party developers)",
+        "Mobility platforms (transaction platforms enabling car sharing between users)",
+        "Industry MSPs (multi-sided platforms serving manufacturers, dealers, and fleet managers)",
+        "Internal platforms (digitising internal manufacturing processes)"
+      ],
+      "answerIndex": 1,
+      "explanation": "ShareNow (formerly car2go/DriveNow) and Free2move are mobility platforms — they transform a car manufacturer's product asset (vehicles) into a transaction platform enabling urban mobility services. My JohnDeere and MindSphere are industry MSPs. Predix and EcoStruxure are innovation platforms.",
+      "category": "Becoming a Platform",
+      "level": "Easy",
+      "tags": [
+        "mobility platform",
+        "car manufacturer",
+        "ShareNow"
+      ]
+    },
+    {
+      "question": "The course identifies 'network goods' as a specific type of economic good. Which characteristic defines a network good?",
+      "options": [
+        "A good whose production requires a network of suppliers",
+        "A good whose usage value resides in its ability to enable communication, interaction, and synchronisation between users",
+        "A good that is distributed exclusively through digital networks",
+        "A good with zero marginal cost of reproduction"
+      ],
+      "answerIndex": 1,
+      "explanation": "A network good's defining feature — as stated in the course — is that its value to each user derives from connecting and interacting with other users (e.g. telecom networks, instant messaging). Distribution via digital networks is a logistical fact, not a value-defining property. Zero marginal cost applies to digital goods broadly, not specifically to network goods.",
+      "category": "Network Effects",
+      "level": "Easy",
+      "tags": [
+        "network good",
+        "definition",
+        "communication"
+      ]
+    },
+    {
+      "question": "What does 'multihoming' mean in the context of platform competition as presented in the course?",
+      "options": [
+        "A platform serving users across multiple geographic markets simultaneously",
+        "A user or participant belonging to and using more than one competing platform at the same time",
+        "A platform hosting multiple distinct product categories under one interface",
+        "A strategy of acquiring multiple smaller platforms to build market share"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multihoming refers to a user (or provider) participating in multiple competing platforms concurrently — e.g. a driver registered with both Uber and Bolt, or a restaurant listed on both Deliveroo and Uber Eats. This reduces the exclusivity of any single platform. The other definitions describe geographic expansion, product diversification, or M&A strategy.",
+      "category": "Platform Ecosystems",
+      "level": "Easy",
+      "tags": [
+        "multihoming",
+        "competition",
+        "switching costs"
+      ]
+    },
+    {
+      "question": "Microsoft's bundling of Internet Explorer into Windows in the 1990s is the classic example of platform envelopment. Why does the course note that this strategy is 'somehow risky'?",
+      "options": [
+        "Bundling reduces economies of scale and increases unit costs",
+        "Bundled products are often inferior to standalone competitors, damaging brand reputation",
+        "The strategy can trigger antitrust investigations and regulatory actions",
+        "Bundling permanently prevents the platform from charging usage fees"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course explicitly cites antitrust actions against Microsoft (Internet Explorer case) and Apple as the risk associated with envelopment strategies. Bundling's competitive impact on rivals raises abuse-of-dominance concerns. The other options are plausible risks but are not the course's stated reason.",
+      "category": "Platform Competition Strategies",
+      "level": "Easy",
+      "tags": [
+        "envelopment",
+        "antitrust",
+        "Microsoft",
+        "Apple"
+      ]
+    },
+    {
+      "question": "The course suggests that 'effective regulatory measures, ex ante and/or ex post' can counterbalance platform decay. What is the distinction between ex ante and ex post regulation?",
+      "options": [
+        "Ex ante regulation applies to foreign platforms; ex post regulation applies to domestic platforms",
+        "Ex ante regulation sets rules before problems arise; ex post regulation intervenes after a market failure has occurred",
+        "Ex ante regulation is voluntary; ex post regulation is mandatory",
+        "Ex ante regulation addresses privacy; ex post regulation addresses competition"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ex ante means 'before the event' — regulatory conditions or obligations set proactively (e.g. the EU Digital Markets Act imposing obligations on designated gatekeepers). Ex post means 'after the event' — intervention following demonstrated harm (e.g. a competition authority fine for an existing abuse). The distinction is temporal, not geographic, mandatory/voluntary, or thematic.",
+      "category": "Platform Decay",
+      "level": "Easy",
+      "tags": [
+        "regulation",
+        "ex ante",
+        "ex post",
+        "Digital Markets Act"
+      ]
+    },
+    {
+      "question": "A 'pure P2P (peer-to-peer) relationship' as shown in the course diagram differs from a platform-mediated relationship primarily in that:",
+      "options": [
+        "Prices are always lower in pure P2P relationships",
+        "There is no intermediary platform enabling or governing the exchange",
+        "Transactions in P2P relationships are always digital",
+        "P2P relationships have no network effects"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course's diagram shows pure (un-intermediated) P2P as a direct relationship with no platform in the middle. The platform introduces intermediation — rules, matching, trust mechanisms, etc. Price, digitality, and presence/absence of network effects are not the defining difference.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Medium",
+      "tags": [
+        "P2P",
+        "intermediation",
+        "platform"
+      ]
+    },
+    {
+      "question": "Which of the following best explains why digital platforms can achieve economies of scale faster than traditional manufacturing firms?",
+      "options": [
+        "Digital platforms face less government regulation, reducing compliance costs",
+        "The marginal cost of serving an additional digital user is close to zero once infrastructure is in place",
+        "Digital platforms benefit from lower labour costs because they employ fewer workers",
+        "Platform products do not require quality control, reducing operational costs"
+      ],
+      "answerIndex": 1,
+      "explanation": "The key driver is near-zero marginal cost of replication for digital products: adding one more user to a platform (e.g. one more Spotify listener) costs almost nothing once the platform is built. This allows rapid scaling where average costs fall steeply. Regulation, labour, and quality control affect costs but are not the primary economic mechanism.",
+      "category": "Economies of Scale & Scope",
+      "level": "Medium",
+      "tags": [
+        "economies of scale",
+        "marginal cost",
+        "digital"
+      ]
+    },
+    {
+      "question": "The 'platform envelopment' strategy described by Eisenmann, Parker, and Van Alstyne involves:",
+      "options": [
+        "A platform acquiring a competitor through a hostile takeover",
+        "Bundling a standalone competitor's functionality as a feature within a more integrated product suite",
+        "Opening the platform's API to allow competitors to build on top of it",
+        "Setting the platform's price below cost to drive competitors out of the market"
+      ],
+      "answerIndex": 1,
+      "explanation": "Platform envelopment means absorbing a competitor's standalone product by bundling equivalent functionality into a broader product suite (e.g. Windows Media Player bundled into Windows, making standalone media players redundant). It is different from acquisition (a legal/financial act), API opening (which is pro-competitive), or predatory pricing.",
+      "category": "Platform Competition Strategies",
+      "level": "Medium",
+      "tags": [
+        "envelopment",
+        "bundling",
+        "Eisenmann"
+      ]
+    },
+    {
+      "question": "In the gaming ecosystem diagram presented in the course, which of the following occupies the central platform layer (i.e. the primary platform around which the ecosystem is organised)?",
+      "options": [
+        "Game studios such as Blizzard and Valve",
+        "Streaming services such as Twitch",
+        "Gaming consoles (Sony, Microsoft, Nintendo, etc.)",
+        "E-sports and cosplay artists"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course places gaming consoles (Sony, Microsoft, Nintendo, Atari, Sega, Nvidia) at the central platform layer, with game publishers, developers, streaming services, accessories providers, and players organised around them. Game studios and Twitch are participants in the ecosystem, not the platform itself.",
+      "category": "Platform Ecosystems",
+      "level": "Medium",
+      "tags": [
+        "gaming ecosystem",
+        "console",
+        "platform layer"
+      ]
+    },
+    {
+      "question": "Malt is described as charging 'fees as a percentage of engagement between freelance and client company.' Economically, this is best characterised as:",
+      "options": [
+        "A membership fee levied on both sides",
+        "A usage (transaction) charge levied on the interaction itself",
+        "A subscription fee paid by freelancers only",
+        "An advertising fee paid by client companies"
+      ],
+      "answerIndex": 1,
+      "explanation": "A percentage of the transaction value is a usage (transaction) charge — it is levied on the engagement (interaction) between freelancer and client, not on membership/access. Malt does not charge a flat subscription or advertising fee under this model.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Medium",
+      "tags": [
+        "Malt",
+        "transaction fee",
+        "usage charge"
+      ]
+    },
+    {
+      "question": "The course notes that 'economies of scale require considerable upfront investments.' For a digital platform, which type of upfront investment is most characteristic?",
+      "options": [
+        "Inventory and warehousing costs",
+        "Technology infrastructure, software development, and data systems",
+        "Raw materials and component procurement",
+        "Retail store network and physical distribution"
+      ],
+      "answerIndex": 1,
+      "explanation": "Digital platforms' fixed-cost investments are primarily in technology infrastructure (servers, cloud, data centres), software engineering, and data systems. Once built, these have near-zero marginal cost of serving additional users — hence the economies of scale dynamic. Physical inventory, raw materials, and retail networks are characteristic of traditional product companies.",
+      "category": "Economies of Scale & Scope",
+      "level": "Medium",
+      "tags": [
+        "economies of scale",
+        "fixed costs",
+        "infrastructure"
+      ]
+    },
+    {
+      "question": "The course presents Google as a case study with the question 'What is Google's middle name?' The implied answer relates to Google's identity. What core characteristic is being highlighted?",
+      "options": [
+        "Google is primarily a hardware company that happens to offer software services",
+        "Google is fundamentally an advertising platform that uses its other services to capture user data and attention for monetisation",
+        "Google is a cloud computing infrastructure provider that uses search as a user acquisition tool",
+        "Google is an AI research lab that commercialises its findings through consumer products"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course lists Google's businesses (Search + Advertising, Android, Google Apps, YouTube) and the implied 'middle name' is Advertising — the commercial engine behind virtually all of Google's free services. Data capture and attention monetisation through advertising is Google's core revenue mechanism, structuring its entire multi-sided platform strategy.",
+      "category": "Market Tipping & Winner-Takes-All",
+      "level": "Medium",
+      "tags": [
+        "Google",
+        "advertising",
+        "data",
+        "monetisation"
+      ]
+    },
+    {
+      "question": "The course states that platform ecosystems 'foster innovation.' Which three mechanisms are identified?",
+      "options": [
+        "Reducing R&D costs, attracting government subsidies, and training developers",
+        "Adding functionalities/services, increasing content value, and opening platform development to the outside world",
+        "Acquiring complementary companies, filing patents, and standardising APIs",
+        "Setting regulatory standards, partnering with universities, and funding start-ups"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course lists three ecosystem innovation mechanisms: (1) allowing additional functionalities/services to be added, (2) increasing the value of the platform's content, and (3) opening platform development to external parties. The other options describe corporate strategies (M&A, patents) or public policy roles not cited in the course.",
+      "category": "Platform Ecosystems",
+      "level": "Medium",
+      "tags": [
+        "ecosystem",
+        "innovation",
+        "open platform"
+      ]
+    },
+    {
+      "question": "Which of the following correctly describes the difference between a 'transaction platform' and an 'innovation platform' in terms of the primary value they create?",
+      "options": [
+        "Transaction platforms create value through financial returns; innovation platforms create value through user engagement",
+        "Transaction platforms create value by enabling exchanges between distinct user groups; innovation platforms create value by enabling third parties to build complementary products",
+        "Transaction platforms are B2C; innovation platforms are B2B",
+        "Transaction platforms are digital; innovation platforms can be physical or digital"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course's two-category taxonomy (Cusumano, Gawer, Yoffie) defines: transaction platforms as intermediaries for direct exchanges (matching, sharing, marketplaces), and innovation platforms as foundations upon which third parties develop complementary products. The B2C/B2B and digital/physical distinctions are not the primary differentiators in this taxonomy.",
+      "category": "Platform Definitions & Categories",
+      "level": "Medium",
+      "tags": [
+        "transaction platform",
+        "innovation platform",
+        "value creation"
+      ]
+    },
+    {
+      "question": "The course identifies two ways platform companies monetise user data. Which pair correctly captures both methods?",
+      "options": [
+        "Selling data directly to governments and using data to train AI models",
+        "Licensing access to the data and providing data-targeting services",
+        "Using data to reduce platform operating costs and using data for regulatory compliance",
+        "Publishing data in academic research and monetising data through subscriptions"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explicitly cites: (i) licensing access to the data (selling data access to third parties) and (ii) providing data-targeting services (using data insights to offer targeted advertising or analytics to paying clients). Government sales, AI training, cost reduction, and academic publishing are not the mechanisms identified.",
+      "category": "Platform as Asset",
+      "level": "Medium",
+      "tags": [
+        "data monetisation",
+        "data licensing",
+        "targeting"
+      ]
+    },
+    {
+      "question": "Reed's Law extends Metcalfe's Law by emphasising which additional source of value in networks?",
+      "options": [
+        "The bandwidth of data transmission within the network",
+        "The formation of sub-groups and communities within the network",
+        "The geographic reach of the network's infrastructure",
+        "The number of transactions completed per unit of time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reed's Law focuses on group-forming networks: when users can form sub-groups (communities, teams, chat groups), the number of possible groups grows exponentially, dwarfing even Metcalfe's n² calculation. Bandwidth, geography, and transaction speed are not the basis of Reed's extension.",
+      "category": "Network Effects",
+      "level": "Medium",
+      "tags": [
+        "Reed's Law",
+        "sub-groups",
+        "communities"
+      ]
+    },
+    {
+      "question": "The course describes social networks as initially 'a way to stay connected with family and friends' that later became 'sales channels benefitting brands and advertisers.' This trajectory exemplifies platform decay because:",
+      "options": [
+        "Social networks became too large for users to manage their own feeds",
+        "The platform progressively degraded the experience for its original user group (side 1) to serve the interests of later-added commercial groups (sides 2 and 3)",
+        "Social networks were never profitable and needed to shift to advertising to survive",
+        "Users demanded more advertising content as the platform grew"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is the canonical platform decay pattern: side 1 (users) initially gets high-quality, relevant content; the platform then attracts brands (side 2) and advertisers (side 3) whose commercial interests conflict with side 1's original experience, resulting in degraded content quality for side 1. It is not about platform size, profitability, or user preference for ads.",
+      "category": "Platform Decay",
+      "level": "Medium",
+      "tags": [
+        "social network",
+        "platform decay",
+        "sides",
+        "advertiser"
+      ]
+    },
+    {
+      "question": "Parker, Van Alstyne, and Choudary define platforms as business models that 'connect people, organisations, and resources in an interactive ecosystem.' Which concept from economics most directly underpins the value generated in such ecosystems?",
+      "options": [
+        "Diminishing marginal returns",
+        "Comparative advantage",
+        "Network externalities",
+        "Perfect competition equilibrium"
+      ],
+      "answerIndex": 2,
+      "explanation": "Network externalities (effects) are the economic mechanism by which value increases as more participants join an ecosystem. Diminishing marginal returns apply to production factor inputs. Comparative advantage explains trade specialisation. Perfect competition assumes homogeneous goods with no externalities.",
+      "category": "Platform Definitions & Categories",
+      "level": "Medium",
+      "tags": [
+        "Parker",
+        "ecosystem",
+        "network externalities"
+      ]
+    },
+    {
+      "question": "The course uses the print media industry as an example of a two-sided platform. Which correctly identifies both sides and the nature of the interaction?",
+      "options": [
+        "Side 1: journalists; Side 2: editors — the platform mediates content production",
+        "Side 1: readers; Side 2: advertisers — readers are attracted by content and advertisers pay to reach readers",
+        "Side 1: subscribers; Side 2: newsagents — the platform connects content consumers with physical distributors",
+        "Side 1: content producers; Side 2: aggregators — the platform hosts and distributes news content"
+      ],
+      "answerIndex": 1,
+      "explanation": "Print media (newspapers, magazines) are classic two-sided platforms: readers (side 1) consume content, and advertisers (side 2) pay to reach those readers. The indirect network effect: more readers → more valuable to advertisers → more advertising revenue → better content → more readers. This is the course's explicitly cited example.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Medium",
+      "tags": [
+        "print media",
+        "advertising",
+        "readers",
+        "two-sided"
+      ]
+    },
+    {
+      "question": "The course presents two types of two-sided market configurations: one with a usage charge and one without. In which market does the platform charge one side but offer free access to the other (illustrated by internet search and free magazines)?",
+      "options": [
+        "Mobile communications services and credit cards",
+        "Game and app stores",
+        "Internet search and free magazines",
+        "Ride-hailing and food delivery"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course's diagram explicitly labels internet search and free magazines as examples of two-sided platforms where one side (advertisers) pays while the other (users/readers) receives free access. Mobile communications, credit cards, and game/app stores are listed as examples with charges on both sides.",
+      "category": "Two-sided & Multi-sided Markets",
+      "level": "Medium",
+      "tags": [
+        "free side",
+        "advertising-supported",
+        "internet search"
+      ]
+    },
+    {
+      "question": "The course lists Lyft, Bolt, Careem, Ola, DiDi, and others as platforms competing with Uber. What platform strategy concept does this competitive landscape most directly illustrate?",
+      "options": [
+        "Coring — each platform designs its own core matching algorithm",
+        "Envelopment — each competitor bundles ride-hailing into a broader app",
+        "Multihoming and platform competition with 'wannabes and lookalikes'",
+        "Tipping — each platform leverages its installed base to win the market"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course labels these competitors 'wannabes and lookalikes' — platforms replicating Uber's model globally or locally. The scenario illustrates platform competition and the possibility of multihoming (drivers working across multiple platforms). Coring, envelopment, and tipping describe specific strategies, not the landscape of me-too competitors.",
+      "category": "Platform Competition Strategies",
+      "level": "Medium",
+      "tags": [
+        "Uber",
+        "competition",
+        "lookalikes",
+        "multihoming"
+      ]
+    },
+    {
+      "question": "In the course's framework, what distinguishes a direct network effect from an indirect (cross-group) network effect?",
+      "options": [
+        "Direct network effects arise between users of the same group; indirect effects arise between distinct groups on the platform",
+        "Direct effects are positive; indirect effects are always negative",
+        "Direct effects apply only to transaction platforms; indirect effects apply only to innovation platforms",
+        "Direct effects depend on economies of scale; indirect effects depend on economies of scope"
+      ],
+      "answerIndex": 0,
+      "explanation": "Direct network effects occur within a single user group — more users of the same type make the platform more valuable for each other (e.g. more WhatsApp users = more value for each user). Indirect effects arise across distinct groups — more sellers attracting more buyers, and vice versa. The other distinctions (positive/negative, platform type, scale/scope) are not how the course separates them.",
+      "category": "Network Effects",
+      "level": "Medium",
+      "tags": [
+        "direct network effect",
+        "indirect network effect",
+        "cross-group"
+      ]
+    },
+    {
+      "question": "The 'coring' strategy is described as useful for 'setting up a platform when none exists.' It involves:",
+      "options": [
+        "Leveraging existing assets and installed base across multiple markets",
+        "Designing an element and placing it at the centre of a technological product and market",
+        "Acquiring the leading complementary product to control the ecosystem",
+        "Reducing platform fees to zero to maximise user adoption before monetisation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Coring (Gawer, Cusumano 2007) means creating a core technological element — product, feature, or technology — and positioning it as the centre of a product and market. The course gives Google Search as a successful example. Leveraging existing assets describes the 'tipping' strategy. Acquisition and fee reduction are tactical moves, not the definition of coring.",
+      "category": "Platform Competition Strategies",
+      "level": "Medium",
+      "tags": [
+        "coring",
+        "Gawer",
+        "Cusumano",
+        "platform creation"
+      ]
+    }
+  ]
+}

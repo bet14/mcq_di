@@ -1,0 +1,1043 @@
+{
+  "title": "Digital Innovation & Big Data/AI — Chapter 3",
+  "subtitle": "EPITA D&I4DBT Course, pages 5–63: Digital Transformation, AI fundamentals, Big Data, GenAI, value chains, adoption barriers, triple challenge, combinatorial effects.",
+  "totalQuestions": 76,
+  "questions": [
+    {
+      "question": "According to Thesis #1 in the course, digital transformation is primarily the consequence of:",
+      "options": [
+        "Government regulation mandating technology upgrades",
+        "Technology adoption by individuals and organizations",
+        "Invention of new hardware components in research labs",
+        "Decline of traditional manufacturing industries"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thesis #1 states explicitly: 'Digital Transformation is the consequence of technology adoption by individuals and organizations.' The other options — regulation, hardware invention, and manufacturing decline — are not cited as the primary driver in this thesis.",
+      "category": "Digital Transformation",
+      "level": "Easy",
+      "tags": ["digital transformation", "thesis 1", "technology adoption"]
+    },
+    {
+      "question": "The telephone leading to telecom networks is cited as an illustration of which thesis?",
+      "options": [
+        "Technology adoption at scale builds global infrastructures supporting the economy",
+        "Discontinuous technology replacement drives industrial disruption",
+        "Artificial intelligence is the answer to information overload",
+        "New industries emerge from the combination of Big Data and AI"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thesis #2 holds that as technology gets adopted by larger numbers, global infrastructures get built. The telephone → telecom networks example directly illustrates this. The other options relate to different theses or unrelated concepts.",
+      "category": "Digital Transformation",
+      "level": "Easy",
+      "tags": ["digital transformation", "thesis 2", "infrastructure"]
+    },
+    {
+      "question": "Thesis #3 distinguishes between continuous and discontinuous technology replacement. Which example is explicitly labeled as *discontinuous* in the course material?",
+      "options": [
+        "5G technology replacing 4G technology",
+        "Cloud-based software replacing on-premise IT resources",
+        "A smartphone replacing a feature phone",
+        "Big data technology replacing traditional storage systems"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course explicitly labels 'Smart phone replacing feature phone' as discontinuous. The other three examples — 5G/4G, cloud vs. on-premise, big data vs. traditional storage — are listed as part of Thesis #3 but without the 'discontinuous' qualifier, implying they are more incremental/continuous replacements.",
+      "category": "Digital Transformation",
+      "level": "Medium",
+      "tags": ["digital transformation", "thesis 3", "discontinuous", "replacement"]
+    },
+    {
+      "question": "Thesis #4 states that 'technology itself creates new types of jobs that it shall destroy as it develops further.' Which classical economic theory does this most directly echo?",
+      "options": [
+        "Schumpeter's creative destruction",
+        "Keynesian aggregate demand stimulus",
+        "Ricardo's comparative advantage in trade",
+        "Malthusian resource constraint theory"
+      ],
+      "answerIndex": 0,
+      "explanation": "Schumpeter's creative destruction describes how innovation continuously creates and destroys economic structures, including jobs and industries. Keynesian theory addresses demand management, Ricardo addresses trade specialization, and Malthus addresses resource limits — none capture the self-destructive innovation cycle described in Thesis #4.",
+      "category": "Digital Transformation",
+      "level": "Hard",
+      "tags": ["digital transformation", "thesis 4", "schumpeter", "creative destruction"]
+    },
+    {
+      "question": "The course describes a paradox: abundance of data creates scarcity in another area. What becomes scarce as data volume grows?",
+      "options": [
+        "Storage infrastructure capacity",
+        "Open-source software licenses",
+        "Human attention and ability to process massive information",
+        "Network bandwidth for data transmission"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course states 'abundance of something (data) creates a scarcity in other areas (attention).' Human cognitive bandwidth — the ability to process information — becomes the scarce resource. Storage, bandwidth, and licenses are supply-side concerns, not the attention scarcity the course highlights.",
+      "category": "Big Data & AI Introduction",
+      "level": "Easy",
+      "tags": ["information overload", "attention economy", "scarcity", "data paradox"]
+    },
+    {
+      "question": "The course frames AI as a potential answer to both rarity (scarce processing capacity) and efficiency challenges. What implicit assumption underlies this framing?",
+      "options": [
+        "AI can perfectly replicate human emotional intelligence",
+        "AI's augmented processing capacity can substitute for scarce human cognitive bandwidth",
+        "AI will eliminate the production of data at its source",
+        "AI renders all human decision-making obsolete"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course argues that since human processing capacity is scarce and valuable, AI can augment it — providing the rare capability of handling massive information. The other options either overstate AI's role (replacing all decisions) or mischaracterize the problem (eliminating data production or replicating emotions).",
+      "category": "Big Data & AI Introduction",
+      "level": "Hard",
+      "tags": ["AI", "scarcity", "augmented processing", "data economy"]
+    },
+    {
+      "question": "The IDC Digital Universe report and class discussion suggest that 'more data doesn't necessarily mean more information.' Which explanation best captures this?",
+      "options": [
+        "Data compression algorithms reduce information entropy automatically",
+        "Network latency prevents real-time data access and analysis",
+        "Without processing capacity and quality filters, data excess creates noise rather than signal",
+        "Legal restrictions prevent full utilization of collected data"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course raises the question of trustworthiness and usefulness of data, and discusses how information overload emerges precisely because volume does not equal value. Compression, latency, and legal issues are distinct technical or regulatory problems not central to this paradox.",
+      "category": "Big Data & AI Introduction",
+      "level": "Hard",
+      "tags": ["big data", "information overload", "data quality", "signal vs noise"]
+    },
+    {
+      "question": "'Bad Bots' and 'duplication of data' are cited in class discussion as illustrations of what concern?",
+      "options": [
+        "Technical limitations in parallel computing architectures",
+        "Qualitative concerns about how and why data is generated and used",
+        "Regulatory gaps in data protection legislation",
+        "Inefficiencies in cloud storage pricing models"
+      ],
+      "answerIndex": 1,
+      "explanation": "These examples appear under 'Quantity & Quality of Data Usages' in the class discussion, illustrating that data is not always trustworthy or purposefully useful. They are not arguments about computing architecture, regulation, or pricing.",
+      "category": "Big Data & AI Introduction",
+      "level": "Medium",
+      "tags": ["data quality", "bots", "data usage", "class discussion"]
+    },
+    {
+      "question": "The Turing Test (1950) was designed to assess:",
+      "options": [
+        "The processing speed of early mainframe computers",
+        "Whether a machine can exhibit intelligent behavior indistinguishable from a human",
+        "The energy efficiency of AI inference systems",
+        "The accuracy of early speech recognition algorithms"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Turing Test proposes that if a machine's conversational responses are indistinguishable from a human's, the machine can be said to exhibit intelligence. Processing speed, energy efficiency, and speech accuracy are separate engineering concerns.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Easy",
+      "tags": ["Turing Test", "AI history", "milestones"]
+    },
+    {
+      "question": "The term 'Artificial Intelligence' was officially coined at which event?",
+      "options": [
+        "The publication of Turing's 1950 paper",
+        "Deep Blue's defeat of Kasparov in 1997",
+        "The 1956 Dartmouth College conference",
+        "The 2018 Turing Prize ceremony for Bengio, Hinton, and LeCun"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course cites 1956 and the Dartmouth College conference as the moment the term 'Artificial Intelligence' was coined. Turing's 1950 paper introduced the Turing Test but predates the term; Deep Blue and the Turing Prize are much later milestones.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Easy",
+      "tags": ["AI history", "Dartmouth", "milestones", "1956"]
+    },
+    {
+      "question": "According to the White House Report (2016) first classification, a robot that achieves goals via perception, planning, reasoning, and decision-making belongs to which category?",
+      "options": [
+        "Systems that think like humans",
+        "Systems that act like humans",
+        "Systems that think rationally",
+        "Systems that act rationally"
+      ],
+      "answerIndex": 3,
+      "explanation": "Category (4) — 'Systems that act rationally' — covers intelligent software agents and embodied robots that achieve goals via perception, planning, reasoning, learning, and decision-making. 'Acting like humans' focuses on passing the Turing test; 'thinking' categories focus on cognitive modeling or logic rather than goal-directed action.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Medium",
+      "tags": ["AI classification", "White House Report", "rational agents"]
+    },
+    {
+      "question": "In the second AI classification ('five tribes'), which tribe uses probabilistic inference?",
+      "options": [
+        "Symbolists",
+        "Connectionists",
+        "Evolutionaries",
+        "Bayesians"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bayesians use probabilistic inference. Symbolists use logical reasoning based on abstract symbols; Connectionists build brain-inspired structures (neural networks); Evolutionaries use Darwinian methods. Analogizers extrapolate from similar cases.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Easy",
+      "tags": ["AI tribes", "Bayesian", "classification", "White House Report"]
+    },
+    {
+      "question": "A system using k-nearest neighbor reasoning — matching new inputs to the most similar previously seen cases — belongs to which AI tribe?",
+      "options": [
+        "Symbolist",
+        "Connectionist",
+        "Evolutionary",
+        "Analogizer"
+      ],
+      "answerIndex": 3,
+      "explanation": "Analogizers 'extrapolate from similar cases seen previously,' which is exactly what k-NN does. Symbolists use explicit rules; Connectionists use neural architectures; Evolutionaries use selection-and-mutation processes.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["AI tribes", "Analogizer", "k-NN", "classification"]
+    },
+    {
+      "question": "Symbolic AI and Connectionist AI are presented as two fundamental forms of AI. What is the core architectural difference between them?",
+      "options": [
+        "Symbolic AI requires more compute; Connectionist AI requires less data",
+        "Symbolic AI uses explicit logical rules and knowledge representations; Connectionist AI learns internal representations from data via neural-like structures",
+        "Symbolic AI is restricted to text processing; Connectionist AI handles only image data",
+        "Symbolic AI is a recent development; Connectionist AI dates to the 1950s"
+      ],
+      "answerIndex": 1,
+      "explanation": "The fundamental divide is: Symbolic AI encodes knowledge explicitly as rules/symbols (GOFAI, expert systems); Connectionist AI learns distributed representations from data (neural networks, deep learning). The other options mischaracterize the history, data modality, or compute requirements.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["symbolic AI", "connectionist AI", "neural networks", "GOFAI"]
+    },
+    {
+      "question": "The third AI classification (White House Report) includes 'knowledge representation' as a category. Which of the following would NOT belong to this category?",
+      "options": [
+        "Ontologies describing domain concepts and their relationships",
+        "Expert system rule bases encoding domain knowledge",
+        "Semantic networks linking concepts",
+        "Gradient descent optimization of neural network weights"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gradient descent is an optimization algorithm used in neural network training — it falls under Machine Learning/Deep Learning, not knowledge representation. Ontologies, rule bases, and semantic networks are all knowledge representation formalisms.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["knowledge representation", "AI classification", "gradient descent"]
+    },
+    {
+      "question": "ANI (Artificial Narrow Intelligence) and AGI (Artificial General Intelligence) are distinguished primarily by:",
+      "options": [
+        "The size of the training dataset used during development",
+        "Whether a single technique or a combination of techniques is needed to solve problems beyond a limited scope",
+        "The hardware platform on which the system is deployed",
+        "Whether supervised or unsupervised learning is the primary training method"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explains: 'as soon as there is a need to solve problems beyond the limited scope of a given AI technique, then several AI techniques need to be combined' — this is what motivates AGI. ANI handles a specific task with one technique; AGI requires multi-technique integration for general problem-solving. Dataset size and hardware are not the defining criteria.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["ANI", "AGI", "narrow AI", "general AI"]
+    },
+    {
+      "question": "Arthur Samuel's 1962 checkers-playing program is cited as an early ANI illustration. What specific capability made it significant?",
+      "options": [
+        "It used purely symbolic rule-based logic with hand-crafted heuristics",
+        "It incorporated self-learning capabilities",
+        "It demonstrated reasoning that generalized across multiple game types",
+        "It passed the Turing Test for conversational game commentary"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states that Arthur Samuel 'created in 1962 a computer program designed to play checkers, based on self-learning capabilities.' This is notable as an early ML example. It was task-specific (ANI), not general across games, and did not pass the Turing Test.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["Arthur Samuel", "ANI", "self-learning", "milestones"]
+    },
+    {
+      "question": "In the Narrow AI subtype classification, 'Limited Memory AI' differs from 'Reactive Machine AI' in which key respect?",
+      "options": [
+        "Limited Memory AI plans for future scenarios without referencing past data",
+        "Limited Memory AI uses past experience to inform current decisions",
+        "Reactive Machine AI processes sequential data streams over time",
+        "Reactive Machine AI relies on Bayesian inference over stored observations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reactive Machine AI responds only to current inputs with no memory of past interactions. Limited Memory AI extends this by incorporating past observations to improve current responses (e.g., self-driving cars using recent sensor history). The other options invert or mischaracterize these definitions.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["reactive machine", "limited memory", "ANI subtypes"]
+    },
+    {
+      "question": "AlphaGo's 2016 victory is listed as a milestone. What made Go a significantly harder challenge for AI than chess (Deep Blue, 1997)?",
+      "options": [
+        "Go has fewer pieces, making pattern recognition more difficult",
+        "Go's enormous search space makes exhaustive tree search computationally intractable, requiring neural pattern evaluation",
+        "Chess was solved by symbolic AI alone, while Go required only reinforcement learning",
+        "Go matches are played in real time while chess allows unlimited thinking time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Go has a branching factor roughly 250 times larger than chess (approximately 250 legal moves per position vs. 35 for chess), making brute-force search impossible. AlphaGo required deep neural networks combined with Monte Carlo tree search. The other options contain factual inaccuracies about piece counts, real-time play, or the role of symbolic AI in chess.",
+      "category": "AI Fundamentals & Classifications",
+      "level": "Hard",
+      "tags": ["AlphaGo", "milestones", "game AI", "search space"]
+    },
+    {
+      "question": "Machine Learning is defined in the course as the study of algorithms and statistical models that perform tasks:",
+      "options": [
+        "Using explicit step-by-step programming instructions written by engineers",
+        "Without explicit instructions, relying on patterns and inference instead",
+        "Only when supervised by human operators in real time",
+        "Based exclusively on symbolic logic and hand-crafted rule sets"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Wikipedia definition cited in the course: 'ML is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead.' Options A and D describe rule-based programming; option C confuses human oversight with ML's operating principle.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Easy",
+      "tags": ["machine learning", "definition", "patterns", "inference"]
+    },
+    {
+      "question": "Which of the following is NOT listed as a learning method in the course's ML taxonomy?",
+      "options": [
+        "Reinforcement learning",
+        "Anomaly detection",
+        "Supervised learning",
+        "Causal inference"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course lists: supervised learning, unsupervised learning, reinforcement learning, self learning, feature learning, sparse dictionary learning, anomaly detection, and association rules. Causal inference is a separate statistical methodology not included in this taxonomy.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Medium",
+      "tags": ["machine learning", "learning methods", "taxonomy"]
+    },
+    {
+      "question": "Deep Learning is distinguished from broader Machine Learning primarily by its reliance on:",
+      "options": [
+        "Decision trees and ensemble methods such as random forests",
+        "Artificial Neural Networks with representation learning",
+        "Purely rule-based symbolic expert systems",
+        "Bayesian probabilistic graphical models"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course defines DL as 'part of a broader family of machine learning methods based on artificial neural networks with representation learning.' Decision trees and random forests are classical ML but not DL. Rule-based systems are GOFAI. Bayesian models are a separate ML paradigm.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Easy",
+      "tags": ["deep learning", "ANN", "representation learning", "definition"]
+    },
+    {
+      "question": "In ML, the distinction between 'training data' and 'test data' serves what fundamental purpose?",
+      "options": [
+        "Training data is used for production deployment; test data for development iterations",
+        "Training data teaches the model parameters; test data evaluates generalization to unseen examples",
+        "Both are used interchangeably during hyperparameter optimization",
+        "Test data is used to correct labeling errors in the training set"
+      ],
+      "answerIndex": 1,
+      "explanation": "Training data is used to fit model parameters; test data — which the model has never seen — measures how well the learned patterns generalize. Option A inverts the roles. Option C describes cross-validation, not the train/test distinction. Option D conflates data cleaning with evaluation.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Medium",
+      "tags": ["training data", "test data", "generalization", "ML fundamentals"]
+    },
+    {
+      "question": "DL and ML share one critical requirement that differentiates them from most traditional AI techniques. What is it?",
+      "options": [
+        "Real-time data streaming architecture",
+        "Deployment exclusively on GPU clusters",
+        "Use of large datasets",
+        "Integration with blockchain for data provenance"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course explicitly states: 'DL and ML have in common the use of LARGE DATA SETS.' Traditional AI (GOFAI, expert systems) can function with small, hand-curated knowledge bases. GPU deployment and streaming are implementation choices, not defining requirements.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Hard",
+      "tags": ["deep learning", "machine learning", "large datasets", "data requirements"]
+    },
+    {
+      "question": "The NLP rules-based pipeline (speech → phonemes → text database → document) has a fundamental limitation compared to LLM-based NLP. What is it?",
+      "options": [
+        "Rules-based NLP cannot handle audio input formats",
+        "Rules-based NLP requires hand-crafted linguistic rules and fails to generalize flexibly across diverse language contexts",
+        "Rules-based NLP lacks access to any training data",
+        "Rules-based NLP can only process a single language"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rules-based NLP depends on manually engineered phoneme databases, tokenization rules, and text-to-speech mappings. It cannot generalize to new contexts without human-authored updates. LLMs learn flexible representations from data. Options A, C, and D are not correct generalizations — rules-based systems can handle audio input and multiple languages via rule sets.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Hard",
+      "tags": ["NLP", "rules-based", "LLM", "generalization"]
+    },
+    {
+      "question": "Deep Neural Networks use 'representation learning.' What does this mean in practice?",
+      "options": [
+        "The network memorizes all training examples verbatim as a lookup table",
+        "The network learns hierarchical feature representations automatically from raw data, without manual feature engineering",
+        "The network applies manually engineered features to structured tabular inputs",
+        "The network uses symbolic logic to represent domain knowledge"
+      ],
+      "answerIndex": 1,
+      "explanation": "Representation learning means the network autonomously discovers useful internal representations (features) at multiple levels of abstraction from raw data — e.g., pixels → edges → shapes → objects in vision. This eliminates the need for manual feature engineering. Options A, C, and D describe memorization, classical ML pipelines, or symbolic AI respectively.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Hard",
+      "tags": ["deep learning", "representation learning", "feature learning", "DNN"]
+    },
+    {
+      "question": "The course notes that ML accuracy is 'largely dependent on the size of training data sets.' What does this imply specifically for medical AI applications?",
+      "options": [
+        "Medical AI is the easiest domain to train because patient records are digitized and abundant",
+        "Building comprehensive medical training ensembles is 'gruesomely difficult' due to data scarcity and sensitivity constraints",
+        "Medical AI can bypass the data size requirement by using rule-based expert systems instead",
+        "Reinforcement learning fully circumvents the large-data requirement in clinical settings"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states: 'for some specific cases (for instance, in medical applications) building such comprehensive training data ensembles may turn out to be gruesomely difficult.' This reflects that medical data is scarce, privacy-protected, and expensive to label. Options C and D are incorrect — neither expert systems nor RL fundamentally eliminate the data dependency.",
+      "category": "Machine Learning & Deep Learning",
+      "level": "Hard",
+      "tags": ["ML", "medical AI", "training data", "data scarcity"]
+    },
+    {
+      "question": "GOFAI (Good Old-Fashioned AI) is defined by which core characteristic?",
+      "options": [
+        "Use of deep neural networks for perceptual tasks",
+        "Rules-based expert systems using explicit symbolic knowledge representations",
+        "Probabilistic inference over large statistical corpora",
+        "Reinforcement learning with environmental feedback loops"
+      ],
+      "answerIndex": 1,
+      "explanation": "GOFAI refers to the earlier generation of AI built on explicit rules, logic, and symbolic representations — notably expert systems. Deep learning, probabilistic inference, and reinforcement learning are all post-GOFAI paradigms.",
+      "category": "GOFAI vs New AI & Neuro-Symbolic",
+      "level": "Easy",
+      "tags": ["GOFAI", "expert systems", "symbolic AI", "rules-based"]
+    },
+    {
+      "question": "The question 'Is coexistence of GOFAI and new AI forms possible?' is made urgent by which LLM failure mode?",
+      "options": [
+        "LLMs are too computationally expensive to scale to general use",
+        "LLMs hallucinate — producing plausible but factually incorrect outputs — suggesting pure neural approaches have fundamental, possibly intractable limits",
+        "GOFAI systems have been deprecated from all production deployments",
+        "New AI forms cannot process structured knowledge bases"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course cites: 'large language models continue to get things wrong, and the problem is intractable — these phenomena are known as hallucinations.' This motivates neuro-symbolic AI as a hybrid. Options A, C, and D are either inaccurate or irrelevant to the coexistence question.",
+      "category": "GOFAI vs New AI & Neuro-Symbolic",
+      "level": "Hard",
+      "tags": ["GOFAI", "LLM", "hallucination", "neuro-symbolic"]
+    },
+    {
+      "question": "Neuro-symbolic AI is proposed as a response to LLM hallucinations. What does it specifically integrate?",
+      "options": [
+        "Hardware acceleration with software-level optimization layers",
+        "Neural learning architectures with symbolic reasoning architectures",
+        "Supervised learning pipelines with unsupervised clustering modules",
+        "Cloud infrastructure management with on-premise expert system deployment"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wikipedia (cited in the course): 'Neuro-symbolic AI integrates neural and symbolic AI architectures to address the weaknesses of each, providing a robust AI capable of reasoning, learning, and cognitive modeling.' The other options combine unrelated technical layers.",
+      "category": "GOFAI vs New AI & Neuro-Symbolic",
+      "level": "Hard",
+      "tags": ["neuro-symbolic AI", "neural networks", "symbolic AI", "hybrid AI"]
+    },
+    {
+      "question": "Y. LeCun's 2023 position concerns 'sensory grounding for meaning and understanding' in LLMs. What fundamental critique does this represent?",
+      "options": [
+        "LLMs consume too much energy during inference operations",
+        "LLMs lack grounding in physical and sensory experience, which may limit genuine semantic understanding",
+        "LLMs cannot process multimodal inputs such as images and audio",
+        "LLMs require more parameters to achieve human-level commonsense reasoning"
+      ],
+      "answerIndex": 1,
+      "explanation": "LeCun's 'grounding' argument is that language-only models lack contact with the physical world — they manipulate statistical word patterns without embodied understanding. Options A and D concern scale/efficiency; option C is factually false (multimodal LLMs exist and predate the critique).",
+      "category": "GOFAI vs New AI & Neuro-Symbolic",
+      "level": "Hard",
+      "tags": ["LeCun", "grounding", "LLM", "semantic understanding"]
+    },
+    {
+      "question": "The philosophical side of the class discussion references 'ontology.' In AI, an ontology refers to:",
+      "options": [
+        "The chronological history and milestones of AI research",
+        "A formal representation of knowledge as a set of concepts, categories, and their relationships",
+        "The ethical framework governing responsible AI deployment",
+        "The process of training neural networks on symbolically annotated datasets"
+      ],
+      "answerIndex": 1,
+      "explanation": "In AI and knowledge engineering, an ontology is a formal specification of concepts and relationships in a domain — used in symbolic AI for knowledge representation. It is not a history, an ethics framework, or a training method.",
+      "category": "GOFAI vs New AI & Neuro-Symbolic",
+      "level": "Hard",
+      "tags": ["ontology", "knowledge representation", "symbolic AI", "philosophy"]
+    },
+    {
+      "question": "The original three Vs of Big Data, as defined in the course, are:",
+      "options": [
+        "Value, Velocity, Virtualization",
+        "Volume, Variety, Velocity",
+        "Veracity, Visualization, Volume",
+        "Variety, Validity, Velocity"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explicitly states: 'Big data was originally associated with three key concepts: volume, variety, and velocity.' The other combinations include V-words that were added later (veracity, value) or are not part of the canonical Big Data vocabulary (visualization, virtualization, validity).",
+      "category": "Big Data Concepts & Technologies",
+      "level": "Easy",
+      "tags": ["big data", "3Vs", "volume", "variety", "velocity"]
+    },
+    {
+      "question": "Hadoop is a core Big Data technology. What fundamentally distinguishes it from traditional relational database management systems?",
+      "options": [
+        "Hadoop requires strict schema-on-write before any data can be ingested",
+        "Hadoop is designed for distributed processing of very large, potentially unstructured datasets across commodity hardware",
+        "Hadoop is exclusively optimized for real-time streaming data processing",
+        "Hadoop replaces in-memory processing with disk-only sequential operations for reliability"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hadoop's HDFS and MapReduce framework distributes both storage and computation across many nodes, enabling processing of datasets too large for single machines. Traditional RDBMS rely on schema-on-write and vertical scaling. Hadoop is not limited to streaming, and it does not eliminate in-memory processing (Spark adds that capability on top).",
+      "category": "Big Data Concepts & Technologies",
+      "level": "Medium",
+      "tags": ["Hadoop", "distributed computing", "big data", "RDBMS"]
+    },
+    {
+      "question": "NoSQL databases differ from traditional SQL databases primarily in that they:",
+      "options": [
+        "Cannot handle structured data under any circumstances",
+        "Sacrifice strict ACID guarantees for horizontal scalability and schema flexibility",
+        "Are designed exclusively for graph-structured data",
+        "Require NewSQL middleware to achieve distributed operation"
+      ],
+      "answerIndex": 1,
+      "explanation": "NoSQL databases prioritize availability and scalability (CAP theorem trade-offs) over strict consistency, and they accommodate flexible schemas (document, key-value, column-family, graph). They can handle structured data (option A is false). Not all NoSQL databases are graph databases (option C). NewSQL is a different category that adds distributed SQL capabilities (option D).",
+      "category": "Big Data Concepts & Technologies",
+      "level": "Medium",
+      "tags": ["NoSQL", "SQL", "scalability", "ACID", "schema flexibility"]
+    },
+    {
+      "question": "The course lists 'LLM, RAG, AI Agents' alongside Hadoop and NoSQL in the Big Data/AI technologies section. What does this co-listing imply about the current landscape?",
+      "options": [
+        "LLMs are simply a rebranding of NoSQL document stores",
+        "Modern AI infrastructure is converging with and layering on top of Big Data engineering stacks",
+        "RAG technology completely replaces the need for traditional data pipelines",
+        "Streaming technology is deprecated in favor of LLM-based batch processing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Placing LLMs and RAG alongside Hadoop, NoSQL, and streaming indicates that modern AI systems build on and integrate with existing Big Data infrastructure. LLMs are architecturally different from NoSQL stores. RAG extends rather than replaces pipelines. Streaming technology remains active and relevant.",
+      "category": "Big Data Concepts & Technologies",
+      "level": "Hard",
+      "tags": ["LLM", "RAG", "big data stack", "technology convergence"]
+    },
+    {
+      "question": "'In-Memory processing' is listed as a key Big Data technology. What specific bottleneck does it address compared to disk-based processing?",
+      "options": [
+        "Network latency between distributed cluster nodes",
+        "I/O latency — RAM access is orders of magnitude faster than disk, enabling real-time analytics",
+        "CPU instruction cycle limitations in parallel computing",
+        "Bandwidth constraints in machine-to-machine sensor communication"
+      ],
+      "answerIndex": 1,
+      "explanation": "In-memory processing (e.g., Apache Spark vs. MapReduce) moves working data into RAM instead of reading from and writing to disk between each computation step. Disk I/O is the primary bottleneck it eliminates. Network latency, CPU limitations, and M2M bandwidth are separate bottlenecks addressed by other architectural choices.",
+      "category": "Big Data Concepts & Technologies",
+      "level": "Hard",
+      "tags": ["in-memory processing", "Spark", "I/O", "real-time analytics"]
+    },
+    {
+      "question": "The MAD 2025 landscape is described as featuring 'a large variety of frameworks, architectures, technologies.' What is the primary strategic challenge this creates for adopting organizations?",
+      "options": [
+        "It forces all companies to build proprietary tools internally",
+        "It creates vendor lock-in through open standards",
+        "It makes selecting, integrating, and maintaining the right technology stack extremely complex",
+        "It leads to full standardization that eliminates competitive differentiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'complex world' framing highlights that the sheer variety of options — storage, databases, analytics, AI, open vs. proprietary — creates decision complexity and integration challenges. Building everything in-house, vendor lock-in through open standards, and full standardization are all contradicted by the landscape's fragmentation.",
+      "category": "Big Data Concepts & Technologies",
+      "level": "Hard",
+      "tags": ["MAD landscape", "technology complexity", "adoption strategy"]
+    },
+    {
+      "question": "Generative AI models produce outputs based on:",
+      "options": [
+        "Manually crafted rule sets encoding domain-specific knowledge",
+        "Learning underlying patterns and structures from training data and generating new data from prompts",
+        "Direct retrieval from pre-indexed databases without any generation step",
+        "Human-in-the-loop annotation performed at inference time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wikipedia's definition (cited in the course): Generative AI 'uses generative models to produce text, images, videos, or other forms of data. These models learn the underlying patterns and structures of their training data and use them to produce new data based on the input, which often comes in the form of natural language prompts.' Rules-based systems, pure retrieval (like search), and human annotation are all non-generative.",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Easy",
+      "tags": ["generative AI", "LLM", "definition", "prompts"]
+    },
+    {
+      "question": "Retrieval-Augmented Generation (RAG) addresses which core limitation of standard LLMs?",
+      "options": [
+        "LLMs cannot process natural language queries without structured prompts",
+        "LLMs cannot generate text beyond a fixed context window length",
+        "LLMs lack access to domain-specific or recently updated information not present in their training data",
+        "LLMs are architecturally incompatible with cloud-based deployment infrastructure"
+      ],
+      "answerIndex": 2,
+      "explanation": "RAG's Wikipedia definition (cited in the course): it 'enables LLMs to retrieve and incorporate new information from external data sources... allowing LLMs to use domain-specific and/or updated information that is not available in the training data.' Options A and B mischaracterize how LLMs work; option D is factually false.",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Medium",
+      "tags": ["RAG", "LLM", "domain knowledge", "retrieval"]
+    },
+    {
+      "question": "The transformer architecture is described as the foundation of GenAI. What most distinguishes it from earlier sequence models such as RNNs?",
+      "options": [
+        "Transformers process tokens sequentially while maintaining recurrent hidden states",
+        "Transformers use attention mechanisms enabling parallel processing of entire input sequences",
+        "Transformers require significantly smaller datasets than RNNs for comparable performance",
+        "Transformers were originally designed exclusively for image generation tasks"
+      ],
+      "answerIndex": 1,
+      "explanation": "The transformer's self-attention mechanism allows it to process all tokens in a sequence simultaneously and model long-range dependencies directly, unlike RNNs which process tokens sequentially and struggle with long-range dependencies. Transformers actually require more data than RNNs, and they were originally designed for NLP (not images).",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Medium",
+      "tags": ["transformer", "attention", "LLM", "architecture"]
+    },
+    {
+      "question": "RAG systems 'first refer to a specified set of documents, then respond to user queries.' What core priority does this architectural choice reflect?",
+      "options": [
+        "Faster inference speed by caching common query responses",
+        "Reduced hallucination risk by grounding responses in retrieved, verifiable source documents",
+        "Lower hardware requirements by offloading computation to external document stores",
+        "Broader coverage of unseen language patterns not in the parametric model"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAG's purpose is to anchor model responses in specific, retrievable documents — reducing the reliance on potentially stale or incorrect parametric knowledge that causes hallucinations. It does not primarily target inference speed, hardware reduction, or language coverage.",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Hard",
+      "tags": ["RAG", "hallucination", "grounding", "LLM architecture"]
+    },
+    {
+      "question": "The course notes that 'biased or inaccurate training data can make an LLM's output less reliable.' How does RAG partially mitigate this issue?",
+      "options": [
+        "RAG retrains the base LLM dynamically on curated corpora after each query",
+        "RAG allows the model to reference authoritative external documents at inference time, partially bypassing stale or biased parametric knowledge",
+        "RAG eliminates the need for pre-training the underlying language model entirely",
+        "RAG uses reinforcement learning to detect and correct biased outputs before they are shown to users"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAG retrieves up-to-date, authoritative source documents at query time and conditions the LLM's response on them. This means the model can override or supplement its potentially biased parametric knowledge with verified external content. RAG does not retrain the model, eliminate pre-training, or use RL for bias correction.",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Hard",
+      "tags": ["RAG", "bias mitigation", "LLM", "inference-time retrieval"]
+    },
+    {
+      "question": "ChatGPT reached 100 million users in 2 months versus Netflix's approximately 120 months. In the context of digital transformation theory, what does this adoption rate primarily illustrate?",
+      "options": [
+        "The inherent superiority of conversational AI over streaming entertainment services",
+        "The accelerating pace of technology adoption as mature global digital infrastructure lowers barriers to entry",
+        "The commercial failure of subscription-based media business models",
+        "That consumer AI is structurally more viral than subscription services regardless of context"
+      ],
+      "answerIndex": 1,
+      "explanation": "The example illustrates Thesis #2's implication: as global digital infrastructure (internet, smartphones, payment systems) matures, new technologies can reach mass adoption far faster. This is not a claim about AI superiority over entertainment, media business model failure, or an unconditional virality law.",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Hard",
+      "tags": ["ChatGPT", "adoption rate", "digital transformation", "infrastructure"]
+    },
+    {
+      "question": "Among the GenAI companies listed, Anthropic (Claude), OpenAI (ChatGPT), Meta (Llama), and DeepSeek represent different geopolitical origins. What strategic implication does this diversity raise?",
+      "options": [
+        "AI development is now fully commoditized with no remaining competitive differentiation",
+        "National AI strategies and geopolitical competition are actively shaping the global foundation model landscape",
+        "All major LLMs converge on identical architectures, making origin irrelevant to performance",
+        "Open-source models like Llama will imminently and completely displace closed proprietary models"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course's vertical integration section (GAFAM/BATX, Anthropic/OpenAI/DeepSeek) signals that AI is a strategic national and corporate priority with geopolitical dimensions. AI is not commoditized; architectures differ; and the open vs. closed model debate remains unresolved.",
+      "category": "Generative AI, LLMs & RAGs",
+      "level": "Hard",
+      "tags": ["GenAI", "geopolitics", "foundation models", "GAFAM", "BATX"]
+    },
+    {
+      "question": "In the traditional Big Data value chain, 'data integration' refers to:",
+      "options": [
+        "Selling processed data assets to third-party data brokers",
+        "Establishing a common view of disparate data from multiple heterogeneous sources",
+        "Real-time streaming of IoT sensor data into central repositories",
+        "Training ML models on labeled datasets extracted from operational databases"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course defines data integration as 'the ability to establish a common view of disparate data.' This is the ETL/data warehousing layer of the value chain. Data brokerage, streaming, and ML training are separate value chain activities.",
+      "category": "Value Chains & Business Models",
+      "level": "Easy",
+      "tags": ["data value chain", "data integration", "ETL", "data management"]
+    },
+    {
+      "question": "In the emerging GenAI value chain, 'Foundation Model Providers' occupy which layer?",
+      "options": [
+        "Hardware infrastructure (chips, GPUs)",
+        "Cloud hyperscaler services (AWS, Azure, GCP)",
+        "The creators of base pre-trained large models (OpenAI, Anthropic, Google, Meta)",
+        "Application-layer vertical SaaS solutions (Harvey, Jasper)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course places Foundation Model Providers as layer 3, described as 'The Creators': OpenAI, Anthropic, Google (Gemini), Meta (Llama), Mistral. Hardware is layer 1; cloud hyperscalers are layer 2; vertical SaaS companies are layer 5.",
+      "category": "Value Chains & Business Models",
+      "level": "Medium",
+      "tags": ["GenAI value chain", "foundation models", "Anthropic", "OpenAI"]
+    },
+    {
+      "question": "The 'Token Economy' in GenAI business models represents a shift away from which previous SaaS pricing paradigm?",
+      "options": [
+        "Revenue-sharing arrangements with training data providers",
+        "Per-user subscription pricing, toward pricing per unit of processed text or data",
+        "One-time perpetual software license fees",
+        "Hardware-bundled software pricing models"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states: 'Pricing is moving away from per user toward per token (units of text/data).' Traditional SaaS was per-user subscriptions. Revenue sharing with data owners is a separate emerging dynamic. Perpetual licenses and hardware bundles predate SaaS entirely.",
+      "category": "Value Chains & Business Models",
+      "level": "Medium",
+      "tags": ["token economy", "GenAI pricing", "SaaS", "business model"]
+    },
+    {
+      "question": "The 'Hardware Bottleneck' described in the GenAI business model means GPU supply constraints set costs. What economic phenomenon does this reflect?",
+      "options": [
+        "Perfect competition in the semiconductor market driving prices to marginal cost",
+        "A supply-constrained market where physical resource scarcity grants pricing power to hardware providers",
+        "Demand destruction from cloud overcapacity reducing infrastructure spending",
+        "Natural monopoly formation in cloud hyperscaler services"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states: 'because GPU supply is limited, the cost is often dictated by hardware availability rather than software competition.' This is a classic supply-constrained market where scarcity, not marginal cost competition, sets prices — giving NVIDIA in particular exceptional pricing power. There is no perfect competition or demand destruction in this context.",
+      "category": "Value Chains & Business Models",
+      "level": "Hard",
+      "tags": ["hardware bottleneck", "GPU", "supply constraint", "GenAI economics"]
+    },
+    {
+      "question": "Data owners like Reddit and Getty Images are increasingly demanding licensing fees from foundation model providers. Which implicit assumption of early AI value chain models does this challenge?",
+      "options": [
+        "That training data would always be user-generated and freely available for commercial use",
+        "That inference costs would continuously decrease over successive model generations",
+        "That cloud providers would indefinitely subsidize the cost of model training",
+        "That open-source models would dominate over proprietary commercial models"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course notes: 'Data Owners are increasingly becoming entities in the business model, demanding licensing fees.' Early AI value chain models implicitly assumed that internet-scraped, user-generated content was freely available for training. This assumption is now being contested legally and commercially.",
+      "category": "Value Chains & Business Models",
+      "level": "Hard",
+      "tags": ["data licensing", "training data", "value chain", "data owners"]
+    },
+    {
+      "question": "The tension between 'specialization vs. vertical integration' in the AI business model mirrors which classic industrial economics dilemma?",
+      "options": [
+        "Whether to patent AI algorithms or release them open-source",
+        "Whether to control the full stack for competitive advantage versus focusing on a single layer of the value chain",
+        "Whether to adopt per-token or per-user pricing for AI services",
+        "Whether national or global regulatory standards should govern AI development"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vertical integration — from chips (NVIDIA) through cloud (AWS) to models (OpenAI) to applications — versus horizontal specialization at one layer is a classic 'make vs. buy' and 'integrated vs. modular' industrial economics question. Patent strategy, pricing, and regulation are separate strategic dimensions.",
+      "category": "Value Chains & Business Models",
+      "level": "Hard",
+      "tags": ["vertical integration", "specialization", "business strategy", "value chain"]
+    },
+    {
+      "question": "The 2018 McKinsey data showed marketing-focused AI adoption. By 2024–2025 (BOND report), AI usage has become cross-company. What does this evolution primarily indicate?",
+      "options": [
+        "Marketing AI tools have become technologically obsolete",
+        "AI has transitioned from a functional-specific efficiency tool to a general-purpose enterprise technology",
+        "Companies have consolidated all AI investment into R&D departments",
+        "AI adoption has plateaued following initial marketing use case saturation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The shift from marketing-only AI to cross-functional enterprise AI is consistent with AI maturing into a General Purpose Technology (GPT) — the first triple-challenge theme. GPTs move from specific applications to pervasive use across the economy. Marketing tools are not obsolete; investment is broadening, not consolidating.",
+      "category": "Value Chains & Business Models",
+      "level": "Hard",
+      "tags": ["AI adoption", "McKinsey", "BOND", "general purpose technology"]
+    },
+    {
+      "question": "'Explainability' as a barrier to ML adoption refers to the fact that ML systems:",
+      "options": [
+        "Are too slow for real-time decision support applications",
+        "Often appear as a 'black box' — their internal reasoning is opaque to non-specialist users",
+        "Require excessive labeled data before producing any meaningful output",
+        "Cannot process unstructured data formats such as text and images"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course defines explainability as the issue that 'AI and ML techniques appear, very often, to non-specialist users to be a black-box type of a business-support system.' Speed, data requirements, and data format handling are separate technical concerns.",
+      "category": "Barriers to ML Adoption",
+      "level": "Easy",
+      "tags": ["explainability", "black box", "ML adoption", "XAI"]
+    },
+    {
+      "question": "Data labeling in supervised learning is described as 'extremely time-consuming' and error-prone. What direct risk does this create for ML models?",
+      "options": [
+        "Overfitting caused by excessive compute resources devoted to label verification",
+        "Poor label quality directly degrades model accuracy — garbage in, garbage out",
+        "Underfitting caused by insufficient model architectural complexity",
+        "Hardware failures triggered by processing large annotation file formats"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course notes that labeling 'may generate errors' and requires 'massive investments in human labor.' In supervised learning, the model learns from labels — if labels are wrong or inconsistent, the model learns incorrect mappings. This is the classic GIGO (garbage in, garbage out) principle. Overfitting and underfitting have separate causes.",
+      "category": "Barriers to ML Adoption",
+      "level": "Medium",
+      "tags": ["data labeling", "supervised learning", "GIGO", "ML barriers"]
+    },
+    {
+      "question": "Bias in the context of AI is defined in the course as:",
+      "options": [
+        "Systematic deviation in hardware processing performance under load",
+        "The likelihood of systematically producing erroneous results or reaching wrong conclusions",
+        "Random statistical noise present in any finite training dataset",
+        "Overfitting to minority class examples in imbalanced classification datasets"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course definition: 'Bias, in the context of AI, is related to the likelihood of, systematically, producing erroneous results, or reaching wrong conclusions.' The key qualifier is 'systematically' — bias is a repeatable, directional error, not random noise (option C) or an overfitting artifact (option D).",
+      "category": "Barriers to ML Adoption",
+      "level": "Medium",
+      "tags": ["AI bias", "systematic error", "ML barriers", "definition"]
+    },
+    {
+      "question": "Bias can be 'rooted both in data and in the computer model.' Which of the following best exemplifies model-level bias distinct from data-level bias?",
+      "options": [
+        "A training dataset collected exclusively from a non-representative demographic group",
+        "An algorithm that systematically favors one outcome due to its objective function or inductive bias, independent of the input data distribution",
+        "Missing outcome labels in a training dataset causing systematic gaps",
+        "Duplicate records in training data inflating the frequency of certain patterns"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data-level bias comes from the training data itself (options A, C, D). Model-level bias refers to the algorithm's structural assumptions — its inductive biases, regularization choices, or objective function — that can systematically skew predictions regardless of how representative the data is.",
+      "category": "Barriers to ML Adoption",
+      "level": "Hard",
+      "tags": ["algorithmic bias", "data bias", "model bias", "inductive bias"]
+    },
+    {
+      "question": "El-Mhamdi et al. (2023) argue that 'high accuracy requires memorizing large training datasets,' and that this creates a safety vulnerability. Why?",
+      "options": [
+        "Memorization prevents any generalization to new, unseen inputs",
+        "Memorized content from heterogeneous, user-generated data exposes models to data poisoning — LLMs 'repeat and amplify' training data including malicious injections",
+        "Large memorized datasets significantly slow inference time to unacceptable levels",
+        "Memorization violates copyright law in all major jurisdictions"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course cites: 'LLMs are stochastic parrots that repeat and amplify their training data, strongly encouraging data poisoning, and may be manipulated by this poisoning.' The safety risk is that memorization of heterogeneous, user-generated data — including data from malicious actors — makes LLMs vulnerable to adversarial manipulation. Options A, C, and D are either inaccurate or distinct concerns.",
+      "category": "Barriers to ML Adoption",
+      "level": "Hard",
+      "tags": ["LLM safety", "data poisoning", "memorization", "El-Mhamdi"]
+    },
+    {
+      "question": "Shumailov et al. (Nature, 2024) found that 'AI models collapse when trained on recursively generated data.' What does model collapse imply for the long-term AI ecosystem?",
+      "options": [
+        "Recursive training progressively improves model efficiency and specialization",
+        "Training on AI-generated outputs leads to progressive degradation of model quality, diversity, and accuracy over successive generations",
+        "Models trained on synthetic data become more robust to adversarial inputs",
+        "Model collapse is a purely theoretical concern with no empirical confirmation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Nature paper (cited in the course) empirically demonstrates that models trained on recursively generated (AI-produced) data progressively forget the true data distribution and converge on lower-quality, less diverse outputs — a compounding degradation. Option A inverts the finding; option C is contradicted by the evidence; option D is false (it was published in Nature with empirical results).",
+      "category": "Barriers to ML Adoption",
+      "level": "Hard",
+      "tags": ["model collapse", "recursive training", "synthetic data", "Shumailov"]
+    },
+    {
+      "question": "The explainability barrier is described as particularly impactful 'when the expected output informs decision-making.' In which scenario would it be MOST critical?",
+      "options": [
+        "A recommendation engine suggesting movies based on viewing history",
+        "An AI system informing medical diagnostics or judicial sentencing decisions",
+        "A generative AI tool drafting marketing copy from product descriptions",
+        "An anomaly detection system flagging unusual patterns in network traffic logs"
+      ],
+      "answerIndex": 1,
+      "explanation": "When AI informs high-stakes, irreversible decisions — medical diagnoses, criminal sentencing — opacity is critically dangerous because errors can harm individuals and stakeholders need to understand and contest the reasoning. Movie recommendations and marketing copy are low-stakes; network anomaly detection, while important, does not carry the same irreversible personal harm.",
+      "category": "Barriers to ML Adoption",
+      "level": "Hard",
+      "tags": ["explainability", "high stakes", "decision making", "XAI"]
+    },
+    {
+      "question": "The course cites the Institut Montaigne report on algorithmic bias and describes it as 'the most impeding hurdle.' Why is algorithmic bias ranked above explainability and data labeling as an adoption barrier?",
+      "options": [
+        "Bias is more financially expensive to remediate than infrastructure or compute barriers",
+        "Bias generates repeatable, systematic errors that can produce discriminatory, unfair, or illegal outcomes — simultaneously creating regulatory, ethical, and reputational risks",
+        "Bias affects only supervised learning, which limits its overall scope relative to other ML paradigms",
+        "Bias is uniquely difficult to measure quantitatively compared to explainability or labeling challenges"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states bias 'generates repeatable errors that may lead to erroneous, unfair, discriminatory, potentially dangerous, or illegal conclusions and/or actions.' This multi-dimensional risk — legal, ethical, social, reputational — compounds across all stakeholders. Options A and D may be partially true but are not the course's stated rationale. Option C is false — bias affects all ML paradigms.",
+      "category": "Barriers to ML Adoption",
+      "level": "Hard",
+      "tags": ["algorithmic bias", "discrimination", "AI ethics", "adoption barrier"]
+    },
+    {
+      "question": "AI as a 'General Purpose Technology' is compared to electricity and the internet. This framing implies that AI's economic impact will be:",
+      "options": [
+        "Confined to narrow vertical applications in technology-intensive sectors",
+        "Broad, transformative, and disruptive across multiple industries and institutions simultaneously",
+        "Primarily limited to efficiency gains in manufacturing supply chains",
+        "Strong in the short term but self-limiting as the technology matures"
+      ],
+      "answerIndex": 1,
+      "explanation": "GPTs — electricity, steam, IT, and now AI — are characterized by pervasive applicability across sectors, spawning complementary innovations and restructuring entire economies. The course explicitly cites: 'existing economic institutions shall be substantially altered.' Options A, C, and D all understate the expected reach of a GPT.",
+      "category": "Triple Challenge & Dark Side of AI",
+      "level": "Medium",
+      "tags": ["general purpose technology", "GPT", "AI economics", "Brynjolfsson"]
+    },
+    {
+      "question": "The concept of 'division of learning' (Zuboff) in the AI context refers to:",
+      "options": [
+        "The technical gap between deep learning and classical machine learning capabilities",
+        "The knowledge gap between those who understand data-driven systems and those who merely produce data without understanding it",
+        "The division of training data between supervised and unsupervised learning subsets",
+        "The institutional separation between AI research in academia and commercial deployment"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course cites Shoshana Zuboff's concept: 'Is there a barrier between the ability to access, understand, and benefit from this data, and the practice of simply producing it?' The division of learning describes asymmetric knowledge power — some actors understand and benefit from AI systems while others simply generate the data they run on.",
+      "category": "Triple Challenge & Dark Side of AI",
+      "level": "Medium",
+      "tags": ["division of learning", "Zuboff", "knowledge asymmetry", "AI society"]
+    },
+    {
+      "question": "The question of whether an AI chatbot should be 'considered an economic agent in its own right' relates to which concept in public policy theory?",
+      "options": [
+        "Market failure and the need for Pigouvian externality corrections",
+        "Intermediation and agency — whether AI acts as a neutral conduit or an active agent shaping social relationships",
+        "Antitrust regulation of technology platform monopolies",
+        "Intellectual property rights over AI-generated content authorship"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course defines public action instruments as devices that 'organize specific social relationships between public authorities and their recipients.' The agency question is: does an AI chatbot merely relay information (neutral conduit) or actively shape the interaction (economic/social agent)? Externalities, antitrust, and IP are distinct policy concerns.",
+      "category": "Triple Challenge & Dark Side of AI",
+      "level": "Hard",
+      "tags": ["AI agency", "public policy", "intermediation", "economic agent"]
+    },
+    {
+      "question": "The 'dark side' of AI includes the combination of deepfakes and algorithmic micro-targeting. How do these two technologies create a compound threat beyond either alone?",
+      "options": [
+        "Deepfakes reduce social media engagement while micro-targeting amplifies it, creating measurement confusion",
+        "Deepfakes generate fabricated audiovisual content while micro-targeting ensures it reaches the most susceptible audiences with maximum persuasive precision",
+        "Both are primarily defensive cybersecurity technologies repurposed for offense",
+        "Micro-targeting neutralizes deepfakes by filtering synthetic media from targeted feeds"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course states that deepfakes 'may become effective tools for disseminating fabricated political messages in the wrong hands, made even more persuasive with algorithmic micro-targeting.' Deepfakes are the weapon; micro-targeting is the precision delivery mechanism. Together they create scalable, personalized disinformation that is far more dangerous than either alone.",
+      "category": "Triple Challenge & Dark Side of AI",
+      "level": "Hard",
+      "tags": ["deepfakes", "micro-targeting", "disinformation", "dark side AI"]
+    },
+    {
+      "question": "The course quotes Brynjolfsson & McAfee (2017): ML is 'the most important general-purpose technology of our era.' What critical condition must hold for this claim to fully materialize?",
+      "options": [
+        "All competing technologies must become obsolete to clear adoption barriers",
+        "Complementary investments in human capital, organizational redesign, and institutional adaptation must accompany ML deployment",
+        "ML must achieve Artificial General Intelligence within a decade",
+        "Hardware costs must approach zero through Moore's Law continuation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Economic research on GPTs (Brynjolfsson, David) consistently shows that GPT productivity gains materialize only when organizations co-invest in complementary changes: retraining workers, redesigning processes, and updating institutions. The technology alone is insufficient. AGI, obsolescence of other technologies, and zero hardware costs are not conditions identified in the course material.",
+      "category": "Triple Challenge & Dark Side of AI",
+      "level": "Hard",
+      "tags": ["Brynjolfsson", "GPT economics", "complementary investment", "productivity"]
+    },
+    {
+      "question": "'AI as Digital Transformation driver' raises the question of where the frontier lies between activities that should remain human and those that can be delegated to machines. This question is fundamentally about:",
+      "options": [
+        "Optimizing labor costs through automation of repetitive tasks",
+        "The ethical and social boundaries of human agency versus algorithmic delegation in consequential decisions",
+        "Identifying which job categories will experience the highest wage growth from AI",
+        "Determining the technical performance threshold at which AI surpasses human accuracy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course frames this as a 'fundamental question' related to the 'division of learning' and human agency, not merely a cost optimization or performance benchmarking exercise. It concerns which decisions, knowledge, and responsibilities should remain with humans versus being delegated to machines — a question that is inherently normative and social.",
+      "category": "Triple Challenge & Dark Side of AI",
+      "level": "Hard",
+      "tags": ["human agency", "AI delegation", "digital transformation", "ethics"]
+    },
+    {
+      "question": "Which role in a data-driven organization is primarily responsible for ensuring compliance with data protection regulations?",
+      "options": [
+        "Chief Data Officer (CDO)",
+        "Data Scientist",
+        "Data Protection Officer (DPO)",
+        "BI Manager"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Data Protection Officer (DPO) is specifically responsible for data protection compliance — under frameworks like GDPR in Europe. The CDO focuses on data strategy and value extraction; the Data Scientist focuses on analytical modeling; the BI Manager focuses on business intelligence reporting.",
+      "category": "Data-Driven Organizations & Future of Jobs",
+      "level": "Easy",
+      "tags": ["DPO", "data governance", "GDPR", "organizational roles"]
+    },
+    {
+      "question": "The WEF Future of Jobs reports (2020 and 2025) are cited in the context of AI's labor market impact. What overarching trend do they illustrate?",
+      "options": [
+        "AI will exclusively create new jobs in the technology sector",
+        "AI simultaneously eliminates certain roles, transforms others, and creates new ones across the labor market",
+        "Job displacement from AI remains a theoretical risk with no empirical labor market evidence yet",
+        "Only low-skill, routine jobs face meaningful risk of automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The WEF reports, consistent with Thesis #4, show a complex, multi-directional effect: some jobs disappear, others are transformed, and new categories emerge. The impact is not confined to low-skill work — many cognitive and professional tasks are also affected.",
+      "category": "Data-Driven Organizations & Future of Jobs",
+      "level": "Medium",
+      "tags": ["future of jobs", "WEF", "labor market", "automation"]
+    },
+    {
+      "question": "The Data Steward role in data-driven organizations is distinct from a Data Scientist in what primary respect?",
+      "options": [
+        "Data Stewards build predictive models; Data Scientists manage regulatory compliance",
+        "Data Stewards focus on data quality, governance, and lifecycle management; Data Scientists focus on extracting analytical and predictive insights",
+        "Data Stewards manage cloud database infrastructure; Data Scientists handle on-premise systems",
+        "Data Stewards work exclusively with structured relational data; Data Scientists handle only unstructured data"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data Stewards own data quality, metadata, and governance policies across the data lifecycle. Data Scientists use data to build models and derive insights. The distinction is governance/quality (stewardship) versus analytics/modeling (science). Options C and D mischaracterize scope; option A inverts the roles.",
+      "category": "Data-Driven Organizations & Future of Jobs",
+      "level": "Hard",
+      "tags": ["data steward", "data scientist", "data governance", "organizational roles"]
+    },
+    {
+      "question": "The value chain distinguishes between 'Users,' 'Operators/Managers,' and 'Creators' of data. A media company producing original content that is then scraped to train foundation models occupies which dual role?",
+      "options": [
+        "Simultaneous User and Operator of data",
+        "Creator and, increasingly, a contested data asset whose content is incorporated into Foundation Model training without clear compensation",
+        "Operator and Manager only — media companies do not create data directly",
+        "Creator and exclusive Regulator of their produced content"
+      ],
+      "answerIndex": 1,
+      "explanation": "Media companies are Creators of original content (journalism, entertainment). As AI companies scrape this content to train LLMs, media companies find themselves involuntary data assets in the emerging GenAI value chain — leading to the licensing disputes cited in the course. They are not Users/Operators in the traditional sense, and they have no regulatory authority.",
+      "category": "Data-Driven Organizations & Future of Jobs",
+      "level": "Hard",
+      "tags": ["data creators", "media", "foundation models", "training data licensing"]
+    },
+    {
+      "question": "In the combinatorial effects framework (IoT, Blockchain, Big Data, AI), which of the extended Vs does Blockchain specifically address?",
+      "options": [
+        "Volume — by providing distributed storage capacity",
+        "Variety — by standardizing heterogeneous data formats",
+        "Velocity — by accelerating transaction confirmation times",
+        "inViolability — by providing data integrity, immutability, and tamper-resistance"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course lists five Vs in the combinatorial framework: Volume (IoT), Variety (Big Data), Velocity (Big Data/AI), inViolability (Blockchain), and Veracity/Value (AI). Blockchain's core contribution is immutable, cryptographically secured records — data inViolability and trustworthiness in a decentralized environment.",
+      "category": "IoT, Blockchain, Big Data & AI",
+      "level": "Medium",
+      "tags": ["Blockchain", "5Vs", "inViolability", "combinatorial effects"]
+    },
+    {
+      "question": "In the IoT-Blockchain-BigData-AI convergent stack, what does Blockchain contribute that neither Big Data nor AI can provide on its own?",
+      "options": [
+        "Real-time data ingestion from heterogeneous connected objects",
+        "Neural pattern recognition across large unstructured datasets",
+        "Decentralized trust and immutable transaction records across distributed participants without a central authority",
+        "Natural language interfaces for querying sensor data streams"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blockchain's unique contribution is trustless, decentralized consensus and immutable ledgers — enabling verification and trust in distributed networks without relying on a central trusted intermediary. Big Data handles volume/velocity; AI handles pattern recognition/intelligence; IoT handles data generation. None of the others provide decentralized trust.",
+      "category": "IoT, Blockchain, Big Data & AI",
+      "level": "Hard",
+      "tags": ["Blockchain", "decentralized trust", "IoT", "combinatorial stack"]
+    },
+    {
+      "question": "The adoption discussion uses QWERTY and MS-DOS as examples of 'installed base' effects. What technology adoption concept do these illustrate?",
+      "options": [
+        "Network effects driving winner-take-all market concentration",
+        "Path dependency — early adoption of a standard creates lock-in that resists superior alternatives even when they emerge",
+        "Dominant design emerging through competitive market selection of the optimal design",
+        "S-curve diffusion where adoption accelerates after a critical mass is reached"
+      ],
+      "answerIndex": 1,
+      "explanation": "QWERTY persists despite arguably better keyboard layouts; MS-DOS dominated despite technical limitations. These are classic examples of path dependency — where historical adoption decisions create switching costs and network effects that lock in suboptimal standards. Network effects (option A), dominant design (option C), and S-curves (option D) are related but distinct concepts.",
+      "category": "IoT, Blockchain, Big Data & AI",
+      "level": "Hard",
+      "tags": ["path dependency", "installed base", "QWERTY", "MS-DOS", "technology adoption"]
+    },
+    {
+      "question": "The course notes that DC and AC electricity and symbolic/connectionist AI were 'initially considered rival technologies' that ultimately coexisted. What broader lesson does this hold for the current LLM vs. symbolic AI debate?",
+      "options": [
+        "One paradigm always ultimately defeats the other through superior performance metrics",
+        "Apparently competing technological paradigms may discover complementary roles within a larger ecosystem — as reflected in the emergence of neuro-symbolic AI",
+        "Market consolidation will inevitably produce a single dominant winner in AI architectures",
+        "Coexistence is only possible when technologies operate in entirely separate, non-overlapping application domains"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course explicitly uses DC/AC and symbolic/connectionist coexistence as adoption lessons. The modern equivalent — neuro-symbolic AI — embodies exactly this principle: combining neural learning and symbolic reasoning rather than one defeating the other. Markets have not forced a single winner in electricity or early AI paradigms, and application domain separation is not the condition for coexistence.",
+      "category": "IoT, Blockchain, Big Data & AI",
+      "level": "Hard",
+      "tags": ["coexistence", "DC vs AC", "neuro-symbolic", "technology paradigms"]
+    }
+  ]
+}
