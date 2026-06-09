@@ -1,0 +1,1099 @@
+{
+  "title": "D&I4DBT Class 4 – Network Society & Digital Transformation",
+  "subtitle": "EPITA – Design & Innovation for Digital Business Transformation | Social (non-technical) drivers, Network Properties, Regulation",
+  "totalQuestions": 75,
+  "questions": [
+    {
+      "question": "Which term describes technologies that have relatively higher potential to bring about widespread economic and social change, such as AI and Machine Learning?",
+      "options": [
+        "General Purpose Technologies",
+        "Infrastructural Technologies",
+        "Disruptive Technologies",
+        "Platform Technologies"
+      ],
+      "answerIndex": 0,
+      "explanation": "General Purpose Technologies (GPT) are defined as technologies with higher potential to bring about transformative change. AI and ML are cited as examples (Thesis #5). Infrastructural technologies like IoT and Blockchain are explicitly contrasted with GPTs in Thesis #6.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Easy",
+      "tags": ["GPT", "AI", "ML", "digital transformation"]
+    },
+    {
+      "question": "According to Thesis #6, what distinguishes AI/ML from other infrastructural technologies like IoT or Blockchain?",
+      "options": [
+        "AI/ML encompasses activities and processes normally performed by humans, such as decision-making",
+        "AI/ML is exclusively used for data storage and retrieval",
+        "AI/ML requires more hardware infrastructure than IoT",
+        "AI/ML operates independently of any social context"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thesis #6 states that AI/ML's potential encompasses human activities like decision-making, increasing 'human activity embeddedness in technology.' This is what sets it apart from IoT and Blockchain, which do not inherently replace human cognitive tasks at the same scale.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Medium",
+      "tags": ["AI", "ML", "human activities", "decision-making"]
+    },
+    {
+      "question": "Thesis #7 raises which fundamental question in the era of AI-driven Digital Transformation?",
+      "options": [
+        "Which activities should remain human and which can be delegated to AI",
+        "How to maximize algorithmic efficiency in production lines",
+        "Whether blockchain can replace traditional financial systems",
+        "How to reduce the cost of digital infrastructure"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thesis #7 explicitly asks which activities should continue to be performed by humans versus delegated to AI. This reflects the ethical and strategic dimension of AI adoption, beyond purely technical questions of cost or efficiency.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Easy",
+      "tags": ["AI", "human agency", "delegation"]
+    },
+    {
+      "question": "The concept of 'human agency' in the context of digital transformation refers to:",
+      "options": [
+        "Humans making decisions and enacting them on the world, independently",
+        "The capacity of algorithms to act and make decisions with limited human intervention",
+        "The tendency to view technology as central to addressing complex social issues",
+        "The ability of platforms to predict user behavior from past data"
+      ],
+      "answerIndex": 0,
+      "explanation": "Human agency entails the claim that humans make decisions and enact them on the world, independent of whether this is deterministic or through free will. Algorithmic agency (option B) and technocentrism (option C) are distinct concepts defined separately in the course material.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Medium",
+      "tags": ["human agency", "algorithmic agency", "definitions"]
+    },
+    {
+      "question": "Technocentrism is defined as:",
+      "options": [
+        "The tendency to view technology as a central component for addressing complex social issues and driving transformative change",
+        "The process by which algorithms replace human workers in production",
+        "The study of how digital networks reshape political power structures",
+        "A framework for measuring the economic impact of new technologies"
+      ],
+      "answerIndex": 0,
+      "explanation": "Technocentrism is the tendency to view technology as a central component for addressing complex social issues and driving transformative changes. It is one of three definitions introduced as a starting point in Class 4, alongside human agency and algorithmic agency.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Easy",
+      "tags": ["technocentrism", "definitions"]
+    },
+    {
+      "question": "In the historical model presented (Society, Economy, and Technology), what role did technology play in a pre-digital society?",
+      "options": [
+        "A means for reaching goals: building infrastructure to support society's needs",
+        "The primary driver of cultural values and social norms",
+        "An autonomous force reshaping markets independently of human intent",
+        "A tool for surveillance and social control"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the pre-digital model (Phase I), technology served as a means for reaching goals — building infrastructure like railroads, electricity, and telecommunications — in support of society's needs. It was not yet an autonomous or dominant force shaping society itself.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Medium",
+      "tags": ["society", "economy", "technology", "history"]
+    },
+    {
+      "question": "Which internal factor influencing technology diffusion relates to the ability of different technologies or systems to work together?",
+      "options": [
+        "Interoperability and compatibility",
+        "Cultural reluctance",
+        "Organizational factors",
+        "Social amplification"
+      ],
+      "answerIndex": 0,
+      "explanation": "Interoperability and compatibility are listed as internal factors influencing technology diffusion. Cultural reluctance and social amplification are external factors, while organizational factors (individual vs. collective action) are also external.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Medium",
+      "tags": ["technology diffusion", "internal factors", "interoperability"]
+    },
+    {
+      "question": "Which of the following is an EXTERNAL factor in technology diffusion?",
+      "options": [
+        "Social factors — amplification of positive or harmful social phenomena",
+        "Modularity of component technologies",
+        "Stability and safety of the technology",
+        "Range of possible applications"
+      ],
+      "answerIndex": 0,
+      "explanation": "Social factors (amplification of phenomena), cultural factors, and organizational factors are all external factors. Modularity, stability/safety, and range of applications are internal factors pertaining to the technology itself.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Hard",
+      "tags": ["technology diffusion", "external factors"]
+    },
+    {
+      "question": "The Arab Spring (2010–2012) is frequently cited in digital transformation studies primarily because:",
+      "options": [
+        "Social media and digital technologies enabled collective activism that circumvented state-operated media",
+        "It demonstrated that algorithmic recommendation systems can prevent political conflict",
+        "Governments used AI to predict and suppress protests before they occurred",
+        "It showed that digital literacy was insufficient in developing countries"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Arab Spring showed how social media allowed citizens to circumvent state media for collective activism. The course frames it as an early large-scale illustration of social digital transformation — both its beneficial potential (collective action) and risks.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Easy",
+      "tags": ["Arab Spring", "social media", "collective action"]
+    },
+    {
+      "question": "Cambridge Analytica (2018 scandal) is cited as an example of which phenomenon?",
+      "options": [
+        "The use of personal data harvested from social platforms to influence political outcomes",
+        "A government regulator successfully enforcing data privacy law",
+        "A tech company developing an open-source AI recommendation system",
+        "Corporate whistleblowing leading to voluntary platform reform"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cambridge Analytica was accused of harvesting the personal data of 87 million Facebook users to build psychographic profiles used in political campaigning. It illustrates the harmful social consequences of data misuse by a commercial entity, not regulatory success or voluntary reform.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Easy",
+      "tags": ["Cambridge Analytica", "personal data", "social harm"]
+    },
+    {
+      "question": "The 2020 US House of Representatives inquiry found that Facebook's monopoly power was 'firmly entrenched' partly because of:",
+      "options": [
+        "Strategic acquisitions and copying competitor products, with Onavo providing early warning signals",
+        "Exclusive government contracts that blocked rival social platforms",
+        "Superior algorithmic recommendations unavailable to competitors",
+        "A legal framework that actively protected social media monopolies"
+      ],
+      "answerIndex": 0,
+      "explanation": "The inquiry found that Facebook used strategic acquisitions (e.g., Instagram, WhatsApp) and copied rivals, while Onavo — a data analytics firm it acquired — helped identify rising competitors as 'early bird warning' signals. Options B, C, and D are not supported by the course material.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Medium",
+      "tags": ["Facebook", "monopoly", "antitrust", "Onavo"]
+    },
+    {
+      "question": "The 2023 'Pause Giant AI Experiments' open letter called for:",
+      "options": [
+        "All AI labs to pause for at least 6 months the training of AI systems more powerful than GPT-4",
+        "A permanent ban on large language models in educational settings",
+        "Mandatory open-sourcing of all AI models above a certain parameter threshold",
+        "The creation of an international AI governance body under UN oversight"
+      ],
+      "answerIndex": 0,
+      "explanation": "The letter, published by the Future of Life Institute in March 2023, called for a 6-month pause on training AI systems more powerful than GPT-4, citing risks including AI-generated propaganda, extreme automation, and societal loss of control. It did not call for a permanent ban or specific international governance structure.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Easy",
+      "tags": ["AI letter", "Future of Life Institute", "GPT-4"]
+    },
+    {
+      "question": "Herding in humans is defined as:",
+      "options": [
+        "The alignment of thoughts or behaviors of individuals in a group through local interactions rather than centralized coordination",
+        "The adoption of technology by a dominant social class that then influences others",
+        "Centralized media campaigns that shift public opinion simultaneously",
+        "The process by which prices converge in competitive markets through supply and demand"
+      ],
+      "answerIndex": 0,
+      "explanation": "Herding is defined as alignment of thoughts or behaviors through local interactions, not centralized coordination. This is key: it is a bottom-up, emergent phenomenon, not a top-down campaign (option C) or market price mechanism (option D).",
+      "category": "Social Aspects and Case Studies",
+      "level": "Medium",
+      "tags": ["herding", "social influence", "collective behavior"]
+    },
+    {
+      "question": "Mark Granovetter's contribution to the study of herding and social networks concerns:",
+      "options": [
+        "The role of weak ties in social networks and the transmission of information",
+        "The mathematical modeling of epidemic spread in urban populations",
+        "The economic theory of rational expectations in financial markets",
+        "The impact of strong hierarchical ties on organizational performance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Granovetter (1973) demonstrated the role of 'weak ties' in social networks, showing that novel information flows primarily through weak ties, not strong ties. His work is cited in the context of social interdependence analysis and herding.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Medium",
+      "tags": ["Granovetter", "weak ties", "social networks"]
+    },
+    {
+      "question": "In the context of social digital transformation, which pairing correctly matches a harmful social phenomenon with its digital manifestation?",
+      "options": [
+        "Misinformation → fake news and disinformation online",
+        "Shared knowledge → conspiracy theories on social platforms",
+        "Mass movements → crowdsourcing for commercial gain",
+        "Global mobilization → hate speech moderation algorithms"
+      ],
+      "answerIndex": 0,
+      "explanation": "Misinformation maps to fake news and disinformation — both are listed together as harmful social phenomena amplified by digital transformation. Shared knowledge and mass movements are listed as beneficial phenomena, not harmful ones.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Hard",
+      "tags": ["misinformation", "fake news", "social phenomena"]
+    },
+    {
+      "question": "Boullier (2023) identifies several types of social propagation. Which type corresponds to the spread of scientific theories across research communities?",
+      "options": [
+        "Propagation of ideas (Science Paradigms)",
+        "Propagation of values (Social Cohesion)",
+        "Propagation of information (Consensus/Dissension)",
+        "Mass propagations (Herding/Migrations)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Boullier's framework maps types of propagation to phenomena: ideas map to science paradigms, values to social cohesion, information to consensus/dissension, and mass propagations to herding/migrations. Virus propagation maps to epidemics.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Hard",
+      "tags": ["Boullier", "propagation", "social phenomena"]
+    },
+    {
+      "question": "John Maynard Keynes is cited in the context of herding because he identified:",
+      "options": [
+        "The influence of human emotions ('animal spirits') on economic agents",
+        "The mathematical relationship between social network size and economic output",
+        "The tendency of markets to self-correct without external intervention",
+        "The role of strong institutional hierarchies in stabilizing economic systems"
+      ],
+      "answerIndex": 0,
+      "explanation": "Keynes identified 'animal spirits' — human emotions influencing economic decision-making — as an example of herding in economics. This is contrasted with rational agent models and illustrates that social influence operates in economic contexts as well.",
+      "category": "Social Aspects and Case Studies",
+      "level": "Medium",
+      "tags": ["Keynes", "animal spirits", "herding", "economics"]
+    },
+    {
+      "question": "According to Manuel Castells, what distinguishes a 'network society' from earlier forms of social organization based on networks?",
+      "options": [
+        "Social networks that process and manage information using micro-electronic technologies",
+        "The size of the network exceeding national borders for the first time",
+        "The shift from informal networks to legally codified organizational structures",
+        "The replacement of market mechanisms by network-based exchange protocols"
+      ],
+      "answerIndex": 0,
+      "explanation": "Castells specifies that the network society is not just about social networks (which have existed for millennia) but about networks that process and manage information using micro-electronic technologies. This technological dimension is the distinguishing feature.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Medium",
+      "tags": ["Castells", "network society", "information networks"]
+    },
+    {
+      "question": "In Powell's (1990) framework, what is the primary mode of conflict resolution in hierarchies?",
+      "options": [
+        "Administrative authority (fiat) through detailed contracts",
+        "Relational and recurrent contracts with joint negotiation and reciprocity",
+        "Market norms and courts or legal systems",
+        "Reputation-based mediation through peer review"
+      ],
+      "answerIndex": 0,
+      "explanation": "In hierarchies, conflict is resolved through administrative authority (fiat) and detailed contracts. Networks rely on relational/recurrent contracts and reciprocity, while markets use market norms and legal systems (courts). These are key distinguishing attributes in Powell's framework.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Hard",
+      "tags": ["Powell", "hierarchies", "conflict resolution", "coordination"]
+    },
+    {
+      "question": "In Powell's (1990) framework, how are individual preferences characterized in market-based coordination?",
+      "options": [
+        "Independent ('arm's length'), with no relational ties between transacting parties",
+        "Dependent on the authority of a central executive",
+        "Interdependent, shaped by reciprocal relationships within a community",
+        "Fixed by regulatory constraints and pricing mechanisms"
+      ],
+      "answerIndex": 0,
+      "explanation": "In markets, individual preferences are independent ('arm's length'): each transaction is discrete and atomic. In hierarchies, preferences are dependent on central authority; in networks, they are interdependent through reciprocal relationships.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Hard",
+      "tags": ["Powell", "markets", "individual preferences"]
+    },
+    {
+      "question": "According to Van Alstyne (1997), the mode of influence/control in networks is based on:",
+      "options": [
+        "Expertise or reputation",
+        "Status or rules",
+        "Pricing mechanisms and persuasion",
+        "Administrative procedures and bureaucracy"
+      ],
+      "answerIndex": 0,
+      "explanation": "In networks, control/authority is based on expertise or reputation. In hierarchies, it is based on status or rules; in markets, on persuasion via pricing mechanisms. This reflects the decentralized, trust-based nature of network coordination.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Hard",
+      "tags": ["Van Alstyne", "networks", "authority", "reputation"]
+    },
+    {
+      "question": "Which organizational form has boundaries characterized as 'flexible and permeable'?",
+      "options": [
+        "Networks",
+        "Hierarchies",
+        "Markets",
+        "Bureaucracies"
+      ],
+      "answerIndex": 0,
+      "explanation": "Networks have flexible and permeable boundaries, with strong and weak, often dynamic ties. Hierarchies have fixed, rigid boundaries with strong stable associations. Markets have discrete, atomic boundaries with arm's-length, one-time ties.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Medium",
+      "tags": ["networks", "boundaries", "organizational forms"]
+    },
+    {
+      "question": "The 'diffusion of a networking logic' according to Castells substantially modifies outcomes in which domains?",
+      "options": [
+        "Production, experience, power, and culture",
+        "Pricing, competition, regulation, and innovation",
+        "Manufacturing, logistics, finance, and retail",
+        "Hardware, software, connectivity, and security"
+      ],
+      "answerIndex": 0,
+      "explanation": "Castells states that 'the diffusion of a networking logic substantially modifies the operation and outcomes in processes of production, experience, power, and culture.' This is a broad sociological claim, not limited to economic or technical domains.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Hard",
+      "tags": ["Castells", "networking logic", "society"]
+    },
+    {
+      "question": "Which coordination mechanism typically requires external intervention through regulation to function properly?",
+      "options": [
+        "Markets",
+        "Hierarchies",
+        "Networks",
+        "Communities"
+      ],
+      "answerIndex": 0,
+      "explanation": "Markets may require external intervention through regulation because individual preferences are independent and there is no built-in governance mechanism. Hierarchies have internal authority; networks have built-in governance through reciprocity and trust.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Medium",
+      "tags": ["markets", "regulation", "coordination"]
+    },
+    {
+      "question": "A market is defined in the course as a mechanism where:",
+      "options": [
+        "Exchange takes place as a result of buyers and sellers engaging through prices, establishing value",
+        "Individuals are arranged according to their relative importance in a social hierarchy",
+        "Resources are allocated through reciprocal relationships among members of a community",
+        "Information is processed and distributed through micro-electronic networks"
+      ],
+      "answerIndex": 0,
+      "explanation": "A market is defined as a composition of systems and institutions whereby parties engage in exchange, with prices of goods and services being established. Option B describes a hierarchy; option C describes a network; option D describes the network society concept.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Easy",
+      "tags": ["market", "definition", "coordination"]
+    },
+    {
+      "question": "Social capital, as a sociological concept, relates a person's network position or ties to outcomes such as:",
+      "options": [
+        "Power, leadership, mobility, employment, and entrepreneurship",
+        "Algorithmic ranking, audience size, and digital reach",
+        "Regulatory compliance, legal standing, and contractual rights",
+        "Hardware ownership, software licensing, and platform access"
+      ],
+      "answerIndex": 0,
+      "explanation": "Social capital relates network ties or position to outcomes including power, leadership, mobility, employment, individual performance, and entrepreneurship. It is a sociological concept about the value of one's relationships, not a digital metrics concept.",
+      "category": "Network Properties",
+      "level": "Easy",
+      "tags": ["social capital", "network position", "outcomes"]
+    },
+    {
+      "question": "A structural hole, as defined by Ronald Burt (1992), is:",
+      "options": [
+        "A gap between two individuals who have complementary sources of information, bridged by a third party",
+        "A missing node in a scale-free network that prevents information flow between hubs",
+        "A regulatory gap exploited by tech companies to avoid antitrust enforcement",
+        "The absence of weak ties between geographically distant communities"
+      ],
+      "answerIndex": 0,
+      "explanation": "A structural hole is a gap between two individuals with complementary information. An individual who builds a bridge between these groups is in a privileged position to transfer or gatekeep valuable information. This is Burt's (1992) concept of social capital through network position.",
+      "category": "Network Properties",
+      "level": "Medium",
+      "tags": ["structural hole", "Burt", "social capital"]
+    },
+    {
+      "question": "Stanley Milgram's 1967 experiment established that the maximum number of intermediaries between any two randomly selected people in the world is:",
+      "options": [
+        "5 intermediaries (6 degrees of separation)",
+        "3 intermediaries (4 degrees of separation)",
+        "10 intermediaries (11 degrees of separation)",
+        "19 intermediaries (20 degrees of separation)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Milgram established that the longest path between any 2 people involves 5 intermediaries — hence '6 degrees of separation' (counting both endpoints). The path is X–1–2–3–4–5–Y. The figure of 19 refers to the 'diameter' of the web (Albert, Barabasi), not Milgram's social experiment.",
+      "category": "Network Properties",
+      "level": "Easy",
+      "tags": ["Milgram", "6 degrees", "small worlds"]
+    },
+    {
+      "question": "The 'Small Worlds' phenomenon in social networks results in:",
+      "options": [
+        "Strangers being linked by a short chain of acquaintances",
+        "All nodes in a network having identical numbers of connections",
+        "The emergence of a single dominant hub connecting all other nodes",
+        "The complete disconnection of local communities from global networks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Small Worlds refers to the observation — triggered by Milgram's experiment — that strangers are linked by a surprisingly short chain of acquaintances. It does not imply uniform degree distribution (option B) or a single dominant hub (option C).",
+      "category": "Network Properties",
+      "level": "Easy",
+      "tags": ["small worlds", "Milgram", "network properties"]
+    },
+    {
+      "question": "Strong ties in a social network are characterized by:",
+      "options": [
+        "Frequent interaction between people who know each other very well (family, old friends, co-workers)",
+        "Rare, informal interaction with distant acquaintances who provide novel information",
+        "Connections between individuals who have never interacted but share indirect paths",
+        "Algorithmic connections generated by platform recommendation engines"
+      ],
+      "answerIndex": 0,
+      "explanation": "Strong ties are between people who know each other very well and interact frequently — family, old friends, boss, co-workers. Weak ties (option B) are acquaintances with infrequent, informal interaction. Invisible ties are between people who know each other by sight without significant interaction.",
+      "category": "Network Properties",
+      "level": "Easy",
+      "tags": ["strong ties", "weak ties", "network properties"]
+    },
+    {
+      "question": "According to Granovetter (1973), why do weak ties carry greater social value than strong ties for job searching?",
+      "options": [
+        "Acquaintances move in different social circles, providing access to novel information not already known",
+        "Strong ties are legally restricted from sharing professional opportunities under labor law",
+        "Weak ties have greater algorithmic visibility on professional networking platforms",
+        "Close friends tend to have more formal education, but are less willing to share contacts"
+      ],
+      "answerIndex": 0,
+      "explanation": "Granovetter showed that close friends move in the same circles and share overlapping information. Acquaintances (weak ties) move in different circles, bringing novel information — including job leads. This is why weak ties are the 'likeliest to help finding a job.' Options B, C, and D introduce factors not present in Granovetter's argument.",
+      "category": "Network Properties",
+      "level": "Medium",
+      "tags": ["Granovetter", "weak ties", "job search", "social value"]
+    },
+    {
+      "question": "Invisible ties in a social network refer to connections between people who:",
+      "options": [
+        "Know each other by sight and meet infrequently, without significant interaction",
+        "Have never met but are connected through more than 5 intermediaries",
+        "Are members of the same online community but have never met offline",
+        "Share professional credentials but have no personal relationship"
+      ],
+      "answerIndex": 0,
+      "explanation": "Invisible ties are defined as connections between people who know each other by sight and meet infrequently without significant interaction — like a commuting neighbor or a newspaper stand owner. They are distinct from both strong ties (high frequency, deep relationship) and weak ties (acquaintances with some interaction).",
+      "category": "Network Properties",
+      "level": "Hard",
+      "tags": ["invisible ties", "network properties", "types of ties"]
+    },
+    {
+      "question": "A person who occupies a structural hole — bridging two distinct, disconnected social groups — is said to be in what kind of position?",
+      "options": [
+        "A privileged position to transfer or gatekeep valuable information between groups",
+        "A vulnerable position due to conflicting loyalties from both groups",
+        "A neutral position with equal information access from all network nodes",
+        "A regulated position subject to data protection obligations"
+      ],
+      "answerIndex": 0,
+      "explanation": "Burt's theory holds that the broker occupying a structural hole — bridging two groups — is privileged: they control the flow of information between groups, giving them power or advantage. This is the essence of social capital derived from network position.",
+      "category": "Network Properties",
+      "level": "Hard",
+      "tags": ["structural hole", "Burt", "bridge", "social capital"]
+    },
+    {
+      "question": "The Pareto Principle (80-20 rule) is a manifestation of which mathematical distribution?",
+      "options": [
+        "A power-law distribution",
+        "A normal (Gaussian) distribution",
+        "A uniform distribution",
+        "A binomial distribution"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Pareto Principle is a power-law: 80% of outcomes arise from 20% of causes. Power-laws appear in wealth distribution, network connectivity, and many social phenomena. Normal distributions are symmetric and do not exhibit the long-tail 'winner-takes-most' property of the Pareto distribution.",
+      "category": "Network Distributions",
+      "level": "Medium",
+      "tags": ["Pareto", "power-law", "network distributions"]
+    },
+    {
+      "question": "In a scale-free network, nodes with a disproportionately high number of connections compared to the average are called:",
+      "options": [
+        "Hubs",
+        "Bridges",
+        "Cliques",
+        "Brokers"
+      ],
+      "answerIndex": 0,
+      "explanation": "In scale-free networks (Albert, Barabasi, 1999), nodes with higher degrees (more connections) are called 'hubs.' Bridges connect separate clusters; cliques are fully connected subgraphs; brokers occupy structural holes. Hubs are the defining structural feature of scale-free networks.",
+      "category": "Network Distributions",
+      "level": "Easy",
+      "tags": ["scale-free networks", "hubs", "Albert", "Barabasi"]
+    },
+    {
+      "question": "Preferential attachment in scale-free networks is also known as the 'Matthew effect' because:",
+      "options": [
+        "Nodes that already have more connections continue to attract more connections — 'the rich get richer'",
+        "Early adopters of a technology gain permanent regulatory protection from new entrants",
+        "Users who generate the most data are compensated proportionally for their contributions",
+        "The most popular content on a platform receives algorithmic downranking to maintain fairness"
+      ],
+      "answerIndex": 0,
+      "explanation": "Preferential attachment means that wealth, credit, or connections are distributed such that those who already have more continue to receive more — 'rich get richer' or the Matthew effect. This is the mechanism that generates hubs in scale-free networks, not a regulatory or fairness concept.",
+      "category": "Network Distributions",
+      "level": "Medium",
+      "tags": ["preferential attachment", "Matthew effect", "scale-free"]
+    },
+    {
+      "question": "Albert, Barabasi, and Jeong estimated that the 'diameter' of the world-wide web is approximately:",
+      "options": [
+        "19 clicks",
+        "6 clicks",
+        "100 clicks",
+        "50 clicks"
+      ],
+      "answerIndex": 0,
+      "explanation": "The estimated diameter of the web is 19 clicks — meaning two randomly chosen documents are on average 19 clicks apart. This is distinct from Milgram's 6 degrees of separation in social networks. The key insight is that considerable growth of the web increases this by only one or two clicks.",
+      "category": "Network Distributions",
+      "level": "Medium",
+      "tags": ["web diameter", "Albert", "Barabasi", "scale-free"]
+    },
+    {
+      "question": "Which of the following is NOT an example of a scale-free network?",
+      "options": [
+        "A fully random Erdős–Rényi graph with uniform degree distribution",
+        "The world-wide web",
+        "Most social networks",
+        "Some metabolic processes"
+      ],
+      "answerIndex": 0,
+      "explanation": "A fully random Erdős–Rényi graph has a Poisson (approximately normal) degree distribution, not a power-law. Scale-free networks — defined by power-law degree distributions and preferential attachment — include the web, social networks, and metabolic processes (all cited in the course material).",
+      "category": "Network Distributions",
+      "level": "Hard",
+      "tags": ["scale-free", "random graph", "network types"]
+    },
+    {
+      "question": "What does the 'constant distance' property of scale-free networks imply for the growth of the web?",
+      "options": [
+        "Considerable growth in web size will only increase the diameter by one or two clicks",
+        "All nodes remain equidistant from the central hub regardless of network size",
+        "Distance between nodes decreases proportionally as the network grows",
+        "The 19-click diameter is fixed permanently and cannot change"
+      ],
+      "answerIndex": 0,
+      "explanation": "Despite exponential growth of the web, the diameter increases only marginally (by one or two clicks). This is a property of scale-free networks where new hubs absorb most new connections, keeping the overall path length short. It does not mean distance is fixed or decreases proportionally.",
+      "category": "Network Distributions",
+      "level": "Hard",
+      "tags": ["constant distance", "scale-free", "web diameter"]
+    },
+    {
+      "question": "Scale-free networks govern which type of technology adoption?",
+      "options": [
+        "Network-based digital technologies with preferential attachment dynamics",
+        "Linear adoption technologies where each user has an equal probability of adopting",
+        "Technologies governed by top-down mandates and regulatory requirements",
+        "Hardware technologies with fixed compatibility standards"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course specifically cites 'some forms of technology adoption, notably the network-based digital technologies' as examples of scale-free networks. This is because adoption follows preferential attachment: popular platforms attract more users, reinforcing their dominance.",
+      "category": "Network Distributions",
+      "level": "Hard",
+      "tags": ["scale-free", "technology adoption", "network-based"]
+    },
+    {
+      "question": "A network effect is defined as the phenomenon where:",
+      "options": [
+        "The value a user derives from a product depends on the number of users of compatible products",
+        "Platform prices increase as more users join, reflecting growing scarcity of network resources",
+        "Regulatory bodies intervene to limit monopolistic behavior in digital markets",
+        "Algorithmic recommendation engines amplify popular content over niche content"
+      ],
+      "answerIndex": 0,
+      "explanation": "Network effects (also called demand-side economies of scale) occur when a user's utility from a product grows as more users adopt compatible products. This is a social mutual influence phenomenon, not a price mechanism (option B) or regulatory intervention (option C).",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Easy",
+      "tags": ["network effects", "demand-side", "utility"]
+    },
+    {
+      "question": "The hardware-software paradigm in network economics refers to:",
+      "options": [
+        "The value of a good depending also on the availability of compatible additional goods",
+        "The technical relationship between processing power and software complexity",
+        "The legal framework separating hardware manufacturers from software developers",
+        "A pricing strategy where hardware is sold at a loss and software at a premium"
+      ],
+      "answerIndex": 0,
+      "explanation": "The hardware-software paradigm holds that the value of a good (hardware) depends on the foreseen utility of compatible additional goods (software). Examples: a computer's value depends on available software; a DVD player's value depends on available movies. Option D (razor/blade model) is a related but distinct pricing strategy.",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Medium",
+      "tags": ["hardware-software", "complementarity", "network economics"]
+    },
+    {
+      "question": "Which of the following is NOT listed as a main characteristic of industries displaying network properties (Shy Oz)?",
+      "options": [
+        "Diminishing returns to scale in production",
+        "Complementarity, compatibility, and standards",
+        "Consumption externalities (network effects)",
+        "Switching costs and lock-in"
+      ],
+      "answerIndex": 0,
+      "explanation": "Shy Oz identifies four characteristics: (i) complementarity/compatibility/standards, (ii) consumption externalities, (iii) switching costs and lock-in, and (iv) significant economies of SCALE in production. Diminishing returns — the opposite — is not a characteristic of these markets.",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Hard",
+      "tags": ["Shy Oz", "network industries", "characteristics"]
+    },
+    {
+      "question": "Iansiti and Lakhani (2017) describe an additional challenge posed by economic hubs in the digital world as:",
+      "options": [
+        "Hub firms use network assets scaled in one industry to enter and re-architect other industries",
+        "Hub firms tend to reduce innovation because their market dominance discourages R&D investment",
+        "Hub firms are required by law to share their network infrastructure with competitors",
+        "Hub firms lose competitive advantage once their network effects plateau"
+      ],
+      "answerIndex": 0,
+      "explanation": "Iansiti and Lakhani (2017) argue that hub firms take network-based assets already at scale in one setting and use them to enter another industry and re-architect its structure. This 'platform expansion' dynamic is distinct from innovation disincentives or legal sharing requirements.",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Hard",
+      "tags": ["Iansiti", "Lakhani", "hub firms", "platform expansion"]
+    },
+    {
+      "question": "Which company is cited as the dominant player in internet search as an example of a 'economic hub'?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Yahoo",
+        "Amazon"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google is cited as the dominant player (economic hub) in internet search, Facebook in social media, and Amazon in e-commerce. These examples illustrate how network properties and economies of scale lead to the emergence of large players.",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Easy",
+      "tags": ["Google", "economic hub", "internet search"]
+    },
+    {
+      "question": "Which of the following industries is NOT listed as displaying network properties by the course material (citing Shy Oz)?",
+      "options": [
+        "Pharmaceutical research",
+        "Telephone services",
+        "Computer software",
+        "Airline services"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course lists telephone, e-mail, internet, computer hardware, computer software, music players/titles, video players/movies, banking services, airline services, and legal services as industries displaying network properties. Pharmaceutical research is not among them.",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Medium",
+      "tags": ["network industries", "Shy Oz", "examples"]
+    },
+    {
+      "question": "When Facebook acquired WhatsApp (2014), Instagram (2012), and Waze (2013), this strategy is best described as:",
+      "options": [
+        "Using network-based assets as strategic assets to eliminate or absorb potential competitors",
+        "Vertical integration to control the hardware and software supply chain",
+        "A regulatory compliance strategy to meet EU digital market requirements",
+        "A diversification strategy into unrelated business sectors"
+      ],
+      "answerIndex": 0,
+      "explanation": "These acquisitions exemplify the course's discussion of networks as strategic assets — dominant players (hubs) acquire potential competitors to consolidate their network-based advantages. The US House inquiry specifically cited this pattern as anti-competitive (snuffing out competitors through strategic acquisitions).",
+      "category": "Economic Consequences of Network Properties",
+      "level": "Hard",
+      "tags": ["Facebook", "acquisitions", "strategic assets", "network effects"]
+    },
+    {
+      "question": "What does 'compliance' mean as a form of social influence?",
+      "options": [
+        "Publicly agreeing with a group while privately maintaining a different opinion",
+        "Genuinely adopting the beliefs of a group as one's own internal values",
+        "Following orders from an authority figure under fear of punishment",
+        "Spreading beliefs through propaganda and systematic media control"
+      ],
+      "answerIndex": 0,
+      "explanation": "Compliance is surface-level conformity — publicly agreeing to meet social demands while privately holding different views. Internalization (option B) involves genuinely adopting group beliefs. Obedience (option C) involves following authority. Propaganda (option D) is a form of manipulation.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Hard",
+      "tags": ["social influence", "compliance", "internalization"]
+    },
+    {
+      "question": "According to Dominique Cardon's framework, measuring 'authority' on the web is done:",
+      "options": [
+        "From above the web, using links (e.g., Google PageRank, Wikipedia)",
+        "From the side of the web, using clicks and visits (e.g., Google Analytics)",
+        "From within the web, using likes (e.g., Facebook, Twitter retweets)",
+        "From below the web, using traces (e.g., cookies, purchase history)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cardon's framework maps measurement position to what is measured: Above = links → authority (PageRank); Side = visits/clicks → popularity; Within = likes → reputation; Below = traces/cookies → predictability. Each position uses different units and underlying principles.",
+      "category": "Web Measurement",
+      "level": "Medium",
+      "tags": ["Cardon", "web measurement", "authority", "PageRank"]
+    },
+    {
+      "question": "In Cardon's framework, measures 'from the side of the web' (e.g., Médiamétrie, Google Analytics) measure:",
+      "options": [
+        "Popularity, using visits and clicks as the unit of measure",
+        "Authority, using incoming links as the unit of measure",
+        "Reputation, using likes and shares as the unit of measure",
+        "Predictability, using cookies and purchase history as the unit of measure"
+      ],
+      "answerIndex": 0,
+      "explanation": "Measures from the side of the web measure audience popularity. The unit is visits/clicks, and the underlying principle is 'vote.' This contrasts with above (links → authority), within (likes → reputation), and below (traces → predictability).",
+      "category": "Web Measurement",
+      "level": "Medium",
+      "tags": ["Cardon", "web measurement", "popularity", "audience"]
+    },
+    {
+      "question": "In Cardon's framework, Amazon's recommendation engine operates 'from below the web' because it:",
+      "options": [
+        "Uses traces of past behavior (cookies, purchases) to predict and influence future actions",
+        "Ranks products by the number of inbound links from other websites",
+        "Measures audience popularity through unique visitor counts and page views",
+        "Applies social influence by counting likes and shares from user communities"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Below the web' measures the past in order to influence the future, using traces (cookies, purchases) and machine learning (programmability). Amazon's recommendation engine exemplifies this: it predicts the user's next action based on history of past behavior and patterns from other users.",
+      "category": "Web Measurement",
+      "level": "Hard",
+      "tags": ["Cardon", "below the web", "recommendation engine", "machine learning"]
+    },
+    {
+      "question": "Measures 'from within the web' (Facebook, Twitter retweets) measure which quality?",
+      "options": [
+        "Reputation, with likes as the unit of measure and benchmarking as the underlying principle",
+        "Authority, with incoming links as the unit of measure and ranking as the underlying principle",
+        "Popularity, with clicks as the unit of measure and voting as the underlying principle",
+        "Predictability, with behavioral traces as the unit of measure"
+      ],
+      "answerIndex": 0,
+      "explanation": "Within the web measures reputation through likes/retweets, with benchmarking as the underlying principle. Authority (above, links, ranking), popularity (side, clicks, vote), and predictability (below, traces, programmability) each correspond to a different position in Cardon's framework.",
+      "category": "Web Measurement",
+      "level": "Medium",
+      "tags": ["Cardon", "within the web", "reputation", "likes"]
+    },
+    {
+      "question": "Shoshana Zuboff's concept of 'surveillance capitalism' refers to:",
+      "options": [
+        "The commodification of personal behavioral data at scale for purposes of prediction and behavioral modification",
+        "State-sponsored mass surveillance programs targeting political dissidents",
+        "The voluntary sharing of personal data in exchange for free digital services",
+        "Legal frameworks that permit governments to access user data held by platforms"
+      ],
+      "answerIndex": 0,
+      "explanation": "Surveillance capitalism (Zuboff) refers to the mass collection and commodification of personal data by platforms — not primarily by states. It raises concerns about who owns data, who benefits from it, and the 'division of learning' between data producers and those who exploit that data commercially.",
+      "category": "Web Measurement",
+      "level": "Hard",
+      "tags": ["Zuboff", "surveillance capitalism", "personal data"]
+    },
+    {
+      "question": "Zuboff's 'division of learning' concept refers to:",
+      "options": [
+        "The barrier between those who can access and benefit from data and those who merely produce it",
+        "The gap in digital literacy between developed and developing countries",
+        "The difference in learning rates between human workers and AI systems",
+        "The unequal distribution of educational resources in the digital economy"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Division of learning' (Zuboff) is the notion that data producers (users) face a barrier to accessing, understanding, and benefiting from the data they generate, while platforms and companies exploit it. It is a power asymmetry concept, not about geographic inequality or AI learning rates.",
+      "category": "Web Measurement",
+      "level": "Hard",
+      "tags": ["Zuboff", "division of learning", "data power"]
+    },
+    {
+      "question": "The principle of 'Who decides who decides?' in Zuboff's framework relates to:",
+      "options": [
+        "The balance of knowledge, authority, and power in the digital economy",
+        "Democratic procedures for electing technology regulators",
+        "Platform governance models for moderating user-generated content",
+        "The technical architecture of distributed ledger systems"
+      ],
+      "answerIndex": 0,
+      "explanation": "Zuboff's three questions — Who knows? Who decides? Who decides who decides? — address the balance of knowledge, authority, and power in the digital economy. It is a meta-governance question: beyond who makes decisions, who has the power to determine the decision-making structure itself.",
+      "category": "Web Measurement",
+      "level": "Hard",
+      "tags": ["Zuboff", "power", "knowledge", "authority"]
+    },
+    {
+      "question": "The statement 'When it's free for you, you become the product' reflects which finding about the digital economy?",
+      "options": [
+        "There is no free lunch: free services are monetized through collection and exploitation of user data",
+        "Open-source software is inherently less secure than proprietary paid alternatives",
+        "Users who pay for digital services receive stronger privacy protections",
+        "Advertising-funded platforms provide worse user experience than subscription models"
+      ],
+      "answerIndex": 0,
+      "explanation": "This statement encapsulates the core insight: platforms that appear free monetize user data and attention. It is one of the key 'implications of measuring the web' (Summary 1, point 1). The other options introduce comparative claims not made in the course material.",
+      "category": "Web Measurement",
+      "level": "Easy",
+      "tags": ["free services", "data monetization", "digital economy"]
+    },
+    {
+      "question": "The attention economy arises because:",
+      "options": [
+        "In a world of information abundance, human attention becomes scarce and therefore valuable",
+        "Digital platforms generate more revenue per user when they capture longer viewing sessions",
+        "Cognitive science has proven that humans can focus on at most three simultaneous information streams",
+        "Network effects make it profitable to maximize the number of advertisements per page view"
+      ],
+      "answerIndex": 0,
+      "explanation": "The attention economy concept is based on the scarcity principle: when information becomes abundant (a direct consequence of network society), human attention — the capacity to process that information — becomes the scarce and valuable resource. Options B, C, D are consequences or related business practices, not the root cause.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Medium",
+      "tags": ["attention economy", "scarcity", "information abundance"]
+    },
+    {
+      "question": "In the attention economy, the 'delegation of agency' refers to:",
+      "options": [
+        "The progressive transfer of decision-making and filtering capacity from humans to algorithmic platforms",
+        "The formal legal authorization given to AI systems to act on behalf of corporations",
+        "The outsourcing of content moderation to third-party contractors",
+        "The granting of data access rights from individual users to regulatory authorities"
+      ],
+      "answerIndex": 0,
+      "explanation": "As platforms filter, organize, and process information on our behalf, they become more autonomous and 'intelligent.' This represents a delegation of agency from the human to the machine — a central concern connecting the attention economy to broader questions of human vs. algorithmic agency.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Hard",
+      "tags": ["attention economy", "delegation", "agency", "algorithms"]
+    },
+    {
+      "question": "An echo chamber is characterized by:",
+      "options": [
+        "An environment where participants encounter only beliefs that reinforce their preexisting views, insulated from rebuttal",
+        "A social network in which all members have identical connection patterns",
+        "A platform algorithm that randomly distributes content across all user segments",
+        "A regulatory framework that enforces balanced content presentation on social media"
+      ],
+      "answerIndex": 0,
+      "explanation": "An echo chamber is an environment that amplifies existing beliefs through repetition within a closed system, shielded from opposing views. It functions by circulating existing views — the opposite of a balanced content system (option D) or random distribution (option C).",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Easy",
+      "tags": ["echo chamber", "filter bubble", "reinforcement"]
+    },
+    {
+      "question": "'Confirmation bias' as a reinforcing mechanism in echo chambers refers to:",
+      "options": [
+        "Sharing only content that confirms the preexisting beliefs of a community, reinforcing the credibility of certain information",
+        "The algorithmic suppression of content that contradicts mainstream scientific consensus",
+        "Users deliberately seeking out opposing viewpoints to validate their own position",
+        "Platform A/B testing that gradually adjusts content based on user engagement metrics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Confirmation bias in the context of echo chambers means sharing only certain types of content within a community of like-minded users, reinforcing the perceived credibility of that content (e.g., 'The world is flat'). It is a user-level cognitive bias amplified by platform design, not an algorithmic suppression mechanism.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Medium",
+      "tags": ["confirmation bias", "echo chamber", "filter bubble"]
+    },
+    {
+      "question": "'Recommendation bias' as a reinforcing mechanism refers to:",
+      "options": [
+        "Algorithms that privilege transgressive or extreme content because it generates higher engagement",
+        "A tendency for users to prefer recommendations from friends over algorithmic suggestions",
+        "The systematic underrepresentation of minority viewpoints in search results",
+        "Platform policies that require equal representation of all political viewpoints"
+      ],
+      "answerIndex": 0,
+      "explanation": "Recommendation bias means algorithms favor transgressive or sensationalist content (e.g., 'The world is flat') because such content generates more engagement — clicks, shares, time on site. This is a platform design effect that amplifies extreme views, not a user preference or regulatory requirement.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Medium",
+      "tags": ["recommendation bias", "algorithmic amplification", "engagement"]
+    },
+    {
+      "question": "Which of the three limits of human attention states that 'focus acts as a filter'?",
+      "options": [
+        "Attention is volatile",
+        "Perception is subjective",
+        "Memory is fallible",
+        "Judgment is biased"
+      ],
+      "answerIndex": 0,
+      "explanation": "The three limits are: (1) Perception is subjective — the world is a construction of our brain; (2) Memory is fallible — we cannot always remember accurately; (3) Attention is volatile — focus acts as a filter. 'Judgment is biased' is not listed as one of the three limits in the course.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Medium",
+      "tags": ["attention economy", "limits of attention", "cognition"]
+    },
+    {
+      "question": "'Dark patterns' in digital design are best described as:",
+      "options": [
+        "UX design techniques that divert users from their intended goals to serve platform interests",
+        "Security vulnerabilities in dark web platforms used for illegal transactions",
+        "Visual design choices that reduce readability for users with visual impairments",
+        "Algorithmic techniques that detect and remove harmful content from platforms"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dark patterns are UX design techniques that game designers (and other digital designers) use to divert users — e.g., to make in-app purchases harder to avoid or to trigger addictive behaviors — serving platform interests at the expense of user autonomy. This is distinct from cybersecurity vulnerabilities or accessibility issues.",
+      "category": "Attention Economy, Echo Chambers, Social Influence",
+      "level": "Hard",
+      "tags": ["dark patterns", "UX", "attention economy", "game design"]
+    },
+    {
+      "question": "Jean Tirole identifies 'information asymmetry between firms and consumers' as a reason for market regulation. Which example best illustrates this in a digital context?",
+      "options": [
+        "Users being unable to determine how their personal data is collected and monetized by platforms",
+        "Governments using classified information to regulate technology companies without public scrutiny",
+        "Developers having less technical knowledge than platform operators about API design",
+        "Investors lacking access to financial data about early-stage tech startups"
+      ],
+      "answerIndex": 0,
+      "explanation": "Information asymmetry in digital markets arises primarily when users cannot evaluate the full extent of data collection and monetization by platforms — they cannot make fully informed choices. This maps to Tirole's reason #3 (information asymmetry) and connects directly to surveillance capitalism concerns.",
+      "category": "Regulation",
+      "level": "Hard",
+      "tags": ["Tirole", "information asymmetry", "regulation", "digital markets"]
+    },
+    {
+      "question": "The AT&T antitrust case (1984) resulted in:",
+      "options": [
+        "The breakup of American Telephone & Telegraph into 7 regional Bell operating companies and long-distance AT&T",
+        "Microsoft being forced not to bundle Internet Explorer with Windows",
+        "Google being fined for antitrust violations in internet search",
+        "Facebook being ordered to divest WhatsApp by the European Commission"
+      ],
+      "answerIndex": 0,
+      "explanation": "United States v. AT&T (1984) broke up the old AT&T into 7 regional Bell operating companies (RBOCs) and a long-distance AT&T. Microsoft's IE case (option B) was from 1994; Google EU fines (option C) are more recent; Facebook/WhatsApp (option D) is a different proceeding.",
+      "category": "Regulation",
+      "level": "Medium",
+      "tags": ["AT&T", "antitrust", "regulation", "historical precedents"]
+    },
+    {
+      "question": "The EU GDPR (General Data Protection Regulation), in force from May 2018, gives individuals:",
+      "options": [
+        "More control over their personal data and establishes one set of data protection rules for all companies operating in the EU",
+        "The right to receive compensation from platforms for every byte of personal data collected",
+        "Full ownership rights over all data generated through their digital interactions",
+        "The ability to opt out of algorithmic recommendation entirely on all platforms"
+      ],
+      "answerIndex": 0,
+      "explanation": "The GDPR establishes one set of data protection rules across the EU (regardless of company location) and gives people more control over their personal data. It does not provide monetary compensation per byte (option B), full ownership (option C is broader than GDPR's actual provisions), or a guaranteed algorithmic opt-out (option D).",
+      "category": "Regulation",
+      "level": "Medium",
+      "tags": ["GDPR", "EU regulation", "data protection"]
+    },
+    {
+      "question": "The Digital Markets Act (DMA, 2023) specifically targets which type of company?",
+      "options": [
+        "The largest digital platforms operating in the EU, designated as 'gatekeepers'",
+        "All technology companies with more than 500 employees operating in the EU",
+        "Social media platforms with more than 1 million monthly active users",
+        "Companies providing cloud computing services to EU public administrations"
+      ],
+      "answerIndex": 0,
+      "explanation": "The DMA targets the largest digital platforms in the EU designated as 'gatekeepers' due to their durable market position. In September 2023, 22 services across six companies (Alphabet, Amazon, Apple, ByteDance, Meta, Microsoft) were named. The threshold is not simply employee count or user numbers.",
+      "category": "Regulation",
+      "level": "Medium",
+      "tags": ["DMA", "gatekeepers", "EU regulation", "digital platforms"]
+    },
+    {
+      "question": "The Digital Services Act (DSA, 2023) primarily addresses:",
+      "options": [
+        "Content moderation practices and illegal/harmful content (hate speech, counterfeit goods) on online platforms",
+        "The pricing of digital services and protection from unfair commercial practices",
+        "Data sharing obligations between EU public bodies and private companies",
+        "The regulation of artificial intelligence systems in high-risk applications"
+      ],
+      "answerIndex": 0,
+      "explanation": "The DSA governs content moderation on social media platforms, addressing illegal content, hate speech, and counterfeit goods. Pricing and market contestability is the DMA's domain; data sharing with public bodies is separate; AI regulation falls under the AI Act.",
+      "category": "Regulation",
+      "level": "Medium",
+      "tags": ["DSA", "content moderation", "EU regulation", "illegal content"]
+    },
+    {
+      "question": "Under the EU AI Act, which category of AI usage is explicitly forbidden?",
+      "options": [
+        "Unacceptable risk uses, such as neuro-behavioral manipulation of vulnerable people and real-time biometric ID systems",
+        "High risk uses, such as AI in planes, toys, cars, and public infrastructure",
+        "Limited risk generative AI, which requires transparency obligations only",
+        "Open-source AI models, which are exempt from all risk classifications"
+      ],
+      "answerIndex": 0,
+      "explanation": "The AI Act defines Unacceptable Risk as forbidden, including neuro-behavioral manipulation of vulnerable people (e.g., voice-activated toys encouraging hazardous behavior), social scoring, and real-time biometric ID systems. High Risk (option B) is regulated but permitted; Limited Risk (option C) requires transparency.",
+      "category": "Regulation",
+      "level": "Hard",
+      "tags": ["AI Act", "unacceptable risk", "EU regulation", "forbidden AI"]
+    },
+    {
+      "question": "The EU Commission's antitrust case against Amazon focused primarily on:",
+      "options": [
+        "Amazon systematically using non-public data from third-party sellers to benefit its own competing retail business",
+        "Amazon's refusal to accept payments in EU currencies on its marketplace",
+        "Amazon's cloud computing pricing practices discriminating against EU competitors",
+        "Amazon's acquisition of a European logistics company blocking domestic competitors"
+      ],
+      "answerIndex": 0,
+      "explanation": "The EU Commission found Amazon in preliminary breach of antitrust rules for using non-public business data from independent marketplace sellers to benefit Amazon's own retail operations — which directly compete with those sellers. A second investigation also examined preferential treatment for Amazon's logistics services.",
+      "category": "Regulation",
+      "level": "Hard",
+      "tags": ["Amazon", "EU antitrust", "marketplace", "data misuse"]
+    },
+    {
+      "question": "Which six companies were designated as 'gatekeepers' under the Digital Markets Act in September 2023?",
+      "options": [
+        "Alphabet, Amazon, Apple, ByteDance, Meta, and Microsoft",
+        "Google, Facebook, Apple, Twitter, Netflix, and Spotify",
+        "Alphabet, Meta, Samsung, Tencent, Amazon, and Oracle",
+        "Apple, Microsoft, IBM, Intel, Amazon, and Adobe"
+      ],
+      "answerIndex": 0,
+      "explanation": "The DMA designated Alphabet, Amazon, Apple, ByteDance, Meta, and Microsoft as gatekeepers in September 2023, with 22 specific services across these six companies. The other options include companies not designated (Twitter/X, Netflix, Tencent, etc.) or exclude ByteDance and Meta.",
+      "category": "Regulation",
+      "level": "Hard",
+      "tags": ["DMA", "gatekeepers", "Alphabet", "ByteDance"]
+    },
+    {
+      "question": "According to the course, one key problem with regulating social media for underage users is:",
+      "options": [
+        "The regulated party (underage young people) is often not the root cause of the harmful consequences that prompted regulation",
+        "Social media companies lobby governments to weaken regulations before they are enacted",
+        "Young users are the most digitally literate group and thus most able to circumvent restrictions",
+        "International law prevents individual countries from restricting access to global platforms"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course highlights that in the case of social media regulation for minors, the 'regulated party' (underage young people) may not be at the root cause of the harmful consequences — the real drivers may be platform design, algorithmic amplification, or advertiser incentives. This is cited as a problem with regulation.",
+      "category": "Regulation",
+      "level": "Hard",
+      "tags": ["regulation", "social media", "underage", "unintended consequences"]
+    },
+    {
+      "question": "The 'reciprocal influence mechanism' between technology and society means:",
+      "options": [
+        "Technology shapes social relationships while society simultaneously shapes and may hijack technology's purposes",
+        "Technology diffuses through society only when endorsed by institutional actors",
+        "Social cohesion is a prerequisite for technology adoption in developing economies",
+        "Regulatory frameworks must evolve at the same pace as technological innovation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The reciprocal mechanism has two directions: Technology → Society (distortion of social institutions through massive usage) and Society → Technology (society's 'manyness' shaping usage and potentially hijacking technology from its initial purposes). This bidirectional relationship is a central theme of Class 4.",
+      "category": "Regulation",
+      "level": "Hard",
+      "tags": ["reciprocal influence", "technology hijacking", "society", "distortion"]
+    },
+    {
+      "question": "Melvin Kranzberg's first law of technology states that:",
+      "options": [
+        "Technology is neither good nor bad, nor is it neutral",
+        "Technology always serves the interests of those who control it",
+        "Although technology might be a prime element in many public issues, nontechnical factors take precedence",
+        "Every technological advancement generates both a solution and an equivalent new problem"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kranzberg's first law is 'Technology is neither good nor bad, nor is it neutral.' His fourth law (option C) states that nontechnical factors take precedence in technology-policy decisions. Both are cited in the Class 4 concluding thoughts to emphasize the social embeddedness of technology.",
+      "category": "Regulation",
+      "level": "Medium",
+      "tags": ["Kranzberg", "technology", "law", "concluding thoughts"]
+    },
+    {
+      "question": "Network science, as opposed to network theory, is characterized by:",
+      "options": [
+        "The study of complex real-world networks (biological, social, telecommunication) using interdisciplinary methods from mathematics, physics, and data mining",
+        "The formal mathematical study of graphs as representations of abstract relations between discrete objects",
+        "The economic analysis of how network effects influence pricing strategies in digital markets",
+        "The computational simulation of organizational hierarchies and market structures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Network science is the interdisciplinary field studying complex real-world networks — drawing on graph theory (mathematics), statistical mechanics (physics), data mining, and computational social science. Network theory (option B) is the more abstract, graph-theoretic foundation. Network economics (option C) is a separate economic sub-field.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Hard",
+      "tags": ["network science", "network theory", "interdisciplinary"]
+    },
+    {
+      "question": "Network economics refers to:",
+      "options": [
+        "Business economics where value of a good or service increases as more others adopt the same good or service",
+        "The study of how internet infrastructure costs are distributed across network providers",
+        "Economic models that treat all market participants as equally connected nodes",
+        "The branch of economics that studies trade routes and international supply chains"
+      ],
+      "answerIndex": 0,
+      "explanation": "Network economics refers to business economics benefiting from the network effect: value increases as more users adopt compatible goods or services (e.g., eBay, where community participation drives platform value). This is the demand-side economies of scale concept applied to economic modeling.",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Medium",
+      "tags": ["network economics", "network effect", "value"]
+    },
+    {
+      "question": "Computational social science is defined as:",
+      "options": [
+        "The use of computers to model, simulate, and analyze social phenomena, including computational economics and automated analysis of social media content",
+        "The application of social science methods to evaluate the societal impact of computing technologies",
+        "A branch of computer science focused on building AI systems that can participate in social interactions",
+        "The statistical analysis of digital platform usage data for commercial and marketing purposes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Computational social science uses computers to model, simulate, and analyze social phenomena. It includes computational economics, computational sociology, and automated analysis of social and traditional media. It is social science using computational methods — not the reverse (option B) or purely commercial data analysis (option D).",
+      "category": "Network Society and Coordination Mechanisms",
+      "level": "Hard",
+      "tags": ["computational social science", "simulation", "social phenomena"]
+    },
+    {
+      "question": "The concept that 'understanding the versatile (multifaceted) nature of technology and its embeddedness in social structures is becoming an increasingly valuable skill' best supports which overall thesis of Class 4?",
+      "options": [
+        "Digital transformation cannot be understood through purely technical lenses; social, cultural, and regulatory factors are equally decisive",
+        "Data scientists who specialize in network analysis will command higher salaries than AI engineers",
+        "Social media platforms should be required to hire sociologists in addition to engineers",
+        "Technical solutions are sufficient to address the harmful consequences of digital technologies"
+      ],
+      "answerIndex": 0,
+      "explanation": "This concluding statement from Class 4 supports the core thesis that social (non-technical) drivers are integral to understanding digital transformation. Combined with Kranzberg's fourth law ('nontechnical factors take precedence in technology-policy decisions'), it argues for an interdisciplinary approach — not a purely technical or economic one.",
+      "category": "Digital Transformation Fundamentals",
+      "level": "Hard",
+      "tags": ["digital transformation", "interdisciplinary", "concluding thoughts", "Kranzberg"]
+    }
+  ]
+}

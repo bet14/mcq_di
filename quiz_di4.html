@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Digital Innovation &amp; Big Data/AI — Chapter 3</title>
+  <title>D&amp;I4DBT Class 4 – Network Society &amp; Digital Transformation</title>
   <link rel="stylesheet" href="layoutquiz.css" />
   <style>
+    /* Light/dark toggle button */
     #themeToggle {
       position: fixed; bottom: 20px; right: 20px; z-index: 2000;
       padding: 10px 18px; border: none; border-radius: 12px; cursor: pointer;
@@ -63,7 +64,7 @@
     <section class="panel">
       <div class="panel-head">
         <h2>Quiz Area</h2>
-        <p>Select an answer for each question. Each question locks after the choice and shows immediate feedback.</p>
+        <p>Select an answer for each question. Each question locks after your choice and shows immediate feedback.</p>
       </div>
       <div class="quiz-area" id="quizArea"></div>
       <div class="actions">
@@ -78,7 +79,7 @@
   <button id="themeToggle" onclick="toggleTheme()">Light mode</button>
 
   <script>
-    window.QUIZ_DATA_FILE = "quiz_di3.json";
+    window.QUIZ_DATA_FILE = "quiz_di4.json";
     function toggleTheme() {
       const body = document.body;
       const btn = document.getElementById('themeToggle');
