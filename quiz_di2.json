@@ -1,707 +1,1029 @@
 {
-  "title": "Design Innovation Quiz 2",
-  "subtitle": "Multiple-choice questions on IoT and Blockchain.",
-  "totalQuestions": 70,
+  "title": "Design & Innovation — Chapter 2: IoT and Blockchain",
+  "subtitle": "EPITA D&I4DBT Class 2. Concept-focused questions on IoT fundamentals, protocols and 5G, architecture and security, use cases, network economics and standards, blockchain fundamentals, applications, adoption challenges, and the IoT+Blockchain value chain. Emphasis on reasoning and situational understanding.",
+  "totalQuestions": 72,
   "questions": [
     {
-      "question": "What best describes the Internet of Things (IoT)?",
+      "question": "Today's Internet first underwent convergence (TV, radio, telecom, web all moving onto it) and is now described as diverging. Why is this divergence happening?",
       "options": [
-        "A system where only humans exchange data through the Internet",
-        "A system of interconnected physical and digital devices that can transfer data over a network without human intervention",
-        "A blockchain-based ledger for financial transactions",
-        "A cloud-only architecture for storing databases"
+        "Network bandwidth is shrinking, forcing services to separate onto dedicated infrastructures",
+        "Present-day technology adoption pushes distinct domains (social networks, cloud, data indexing, IoT) to specialize and grow apart",
+        "Regulators have legally mandated separation of services into isolated networks",
+        "The Internet is becoming offline as physical media regain dominance"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The slides frame convergence (everything coming onto the Internet) as the past trend, and divergence as the current one: as adoption matures, specialized domains such as social networks, cloud computing, content/data indexing and emerging IoT differentiate and expand. Bandwidth is increasing not shrinking, and the divergence is driven by adoption dynamics, not regulation or a return offline.",
+      "category": "IoT Fundamentals",
+      "level": "Hard",
+      "tags": ["convergence", "divergence", "technology trends"]
     },
     {
-      "question": "Which organization defines IoT as “a network of items – each embedded with sensors – which are connected to the Internet”?",
+      "question": "The single feature that most distinguishes IoT from the traditional human-centric Internet is the ability to:",
       "options": [
-        "IEEE",
-        "ETSI",
-        "ITU",
-        "Wikipedia"
+        "Compress data more efficiently for faster downloads",
+        "Transfer data over a network without requiring human-to-human or human-to-computer interaction",
+        "Store all records permanently in a central database",
+        "Encrypt every message end to end"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "IoT centers on devices that exchange data autonomously, without human-to-human or human-to-computer interaction. Compression, central storage and encryption may be present but are not the defining property; the defining property is machine autonomy in data transfer.",
+      "category": "IoT Fundamentals",
+      "level": "Easy",
+      "tags": ["definition", "autonomy", "M2M"]
     },
     {
-      "question": "According to ETSI, M2M communications are primarily about:",
+      "question": "M2M (machine-to-machine) communication is presented as communication between entities that do not necessarily need direct human intervention. Why is that autonomy strategically important for IoT?",
       "options": [
-        "Human-to-human messaging",
-        "Communication between entities that do not necessarily need direct human intervention",
-        "Cryptocurrency mining",
-        "Data encryption algorithms"
+        "It removes the need for any network infrastructure",
+        "It allows decision and communication processes to be automated at a scale humans could not manually sustain",
+        "It guarantees that no data is ever collected about people",
+        "It makes every device cheaper than a barcode"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "ETSI frames M2M services as intended to automate decision and communication processes. The value is automation at scale: billions of devices acting and coordinating without manual mediation. M2M still requires networks, still can collect personal data, and says nothing about device cost.",
+      "category": "IoT Fundamentals",
+      "level": "Medium",
+      "tags": ["M2M", "automation", "scale"]
     },
     {
-      "question": "The ITU definition of IoT emphasizes that it is:",
+      "question": "Why are unique identifiers (UIDs) treated as a foundational requirement in IoT systems?",
       "options": [
-        "Only for industrial devices",
-        "Available anywhere, anytime, by anything and anyone",
-        "Limited to Wi-Fi-connected devices",
-        "A central database architecture"
+        "They encrypt the data payload carried by each device",
+        "They allow each of a vast number of devices to be individually addressed so data can be attributed and routed",
+        "They reduce the energy consumption of sensors",
+        "They replace the need for any communication protocol"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "With huge numbers of interrelated devices, each must be uniquely addressable so data can be attributed to and routed from the right thing. UIDs are about identity and addressing, not encryption, power saving, or replacing protocols.",
+      "category": "IoT Fundamentals",
+      "level": "Medium",
+      "tags": ["UID", "addressing", "identity"]
     },
     {
-      "question": "In the slides, the Internet today is described as including:",
+      "question": "IoT is characterized in the summary as a 'data generation technology set' rather than a single technology. What is the reasoning behind that characterization?",
       "options": [
-        "Only people and websites",
-        "People, companies, machines, software, data, and network traffic",
-        "Only cloud platforms and apps",
-        "Only connected sensors"
+        "It refers to a single standardized protocol adopted worldwide",
+        "It combines several distinct technologies — RFID, sensors, smart technologies, nanotechnology — that together generate data",
+        "It is purely a software layer with no hardware component",
+        "It is defined by one dominant vendor's platform"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The slides describe IoT as a set that combines RFID, sensors, smart technologies and nano-technologies to generate data across supply chains. It is explicitly not one protocol, not software-only, and not a single vendor's platform.",
+      "category": "IoT Fundamentals",
+      "level": "Medium",
+      "tags": ["technology set", "data generation", "composition"]
     },
     {
-      "question": "Which trend is highlighted regarding the Internet?",
+      "question": "By 2026 the slides report machine traffic at 53% versus 47% human, having crossed 50% in 2024. What is cited as the main cause of the recent rise in bot traffic?",
       "options": [
-        "Convergence is increasing and divergence is disappearing",
-        "The Internet is diverging as different domains specialize and separate",
-        "The Internet is becoming offline",
-        "The Internet is limited to social media"
+        "Wider rollout of 5G networks",
+        "Adoption of Generative AI",
+        "Growth in online video streaming",
+        "Expansion of smart metering programs"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The Imperva Bad Bot figures attribute the increase in bot traffic primarily to the adoption of Generative AI. The other items are real trends but are not named as the driver of the bot-traffic shift.",
+      "category": "IoT Fundamentals",
+      "level": "Easy",
+      "tags": ["bot traffic", "generative AI", "statistics"]
     },
     {
-      "question": "Which of the following is presented as an IoT enabling technology?",
+      "question": "The ITU view of IoT as available 'anywhere, anytime, by anything and anyone' chiefly expresses which property?",
       "options": [
-        "RFID",
-        "SQL",
-        "HTML",
-        "JPEG"
+        "Ubiquity / pervasiveness of connected things",
+        "Cryptographic security of the network",
+        "Centralized control of all devices",
+        "Low energy consumption of endpoints"
       ],
-      "answer": 0
+      "answerIndex": 0,
+      "explanation": "The phrase captures ubiquity — pervasive availability across places, times and actors. It is not a statement about security, centralization or power efficiency.",
+      "category": "IoT Fundamentals",
+      "level": "Easy",
+      "tags": ["ubiquity", "ITU", "pervasiveness"]
     },
     {
-      "question": "In the IoT context, sensors are mainly used for:",
+      "question": "Across mobile generations, why is 5G — rather than 4G — the generation explicitly associated with IoT in the comparison table?",
       "options": [
-        "Rendering graphics",
-        "Sensing and actuating",
-        "Blockchain consensus",
-        "Web indexing"
+        "5G is analog and therefore better suited to sensors",
+        "5G's far higher bandwidth (up to ~10 Gb/s) supports the massive density and data volumes of connected things, whereas 4G's main application is video streaming",
+        "4G cannot transmit any data, only voice",
+        "5G eliminates the need for any protocol standardization"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The table maps each generation to a main application: 4G to video streaming and 5G to the Internet of Things, enabled by 5G's much higher bandwidth supporting device density and throughput. 5G is digital, 4G clearly carries data, and 5G does not remove standardization needs.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Hard",
+      "tags": ["5G", "4G", "bandwidth", "IoT"]
     },
     {
-      "question": "In the slides, actuators are best described as:",
+      "question": "In the ITU enabling-technologies framing, sensors and actuators play complementary roles. Which pairing is correct?",
       "options": [
-        "Input devices that collect information",
-        "Output units that implement decisions",
-        "Storage devices for IoT data",
-        "Protocols for machine communication"
+        "Sensors are output 'hands' that act; actuators are input 'eyes' that observe",
+        "Sensors are input 'eyes' that collect information; actuators are output 'hands' that implement decisions",
+        "Both sensors and actuators only collect information",
+        "Both sensors and actuators only implement decisions"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The slides cast sensors as input devices ('eyes' that collect information) and actuators as output units ('hands' that implement decisions). The complementarity — sensing then acting — is what lets IoT close the loop between observation and action.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Easy",
+      "tags": ["sensors", "actuators", "input output"]
     },
     {
-      "question": "Smart materials are described as materials that:",
+      "question": "Why are smart materials singled out as a distinct enabling category rather than just sensors or just actuators?",
       "options": [
-        "Contain only sensors",
-        "Contain only actuators",
-        "Incorporate both sensors and actuators",
-        "Are unrelated to IoT"
+        "They contain neither sensors nor actuators but store data",
+        "They incorporate both sensors and actuators and can be passive, active or autonomous",
+        "They are purely decorative and have no IoT function",
+        "They only work when wired to a central server"
       ],
-      "answer": 2
+      "answerIndex": 1,
+      "explanation": "Smart materials are described as incorporating both sensors and actuators, and can be passive, active or autonomous. That fusion of sensing and acting within the material itself is what distinguishes them.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Medium",
+      "tags": ["smart materials", "sensors", "actuators"]
     },
     {
-      "question": "Which of the following is presented as a specific IoT protocol?",
+      "question": "RFID is presented as having an advantage over barcode technologies for tagging things. What is the practical basis for that advantage?",
+      "options": [
+        "RFID requires direct line of sight like a camera",
+        "RFID can be read without line of sight and supports unique identification of individual items",
+        "RFID is always cheaper than a printed barcode",
+        "RFID stores no identifying information at all"
+      ],
+      "answerIndex": 1,
+      "explanation": "RFID's edge over barcodes lies in readability without line of sight and unique item-level identification, which suits large-scale automated tagging. Barcodes need line of sight; RFID is not always cheaper; and RFID exists precisely to carry identifying data.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Medium",
+      "tags": ["RFID", "barcode", "tagging"]
+    },
+    {
+      "question": "Among the protocols listed, which is classified as general-purpose rather than specific to IoT?",
       "options": [
         "Zigbee",
-        "FTP",
-        "SMTP",
-        "HTTP/2"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which of the following is classified in the slides as a general-purpose protocol used in IoT applications?",
-      "options": [
-        "LoRaWAN",
-        "Sigfox",
-        "Wi-Fi",
-        "Zigbee"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "Which protocol is included among general-purpose cellular technologies in the slides?",
-      "options": [
-        "NFC",
-        "GSM/GPRS/EDGE, UMTS/HSPA, LTE",
         "Z-Wave",
-        "Sigfox"
+        "Wi-Fi",
+        "LoRaWAN"
       ],
-      "answer": 1
+      "answerIndex": 2,
+      "explanation": "The protocol table marks Wi-Fi (along with 6LoWPAN, Thread, cellular, NFC) as general-purpose, while Zigbee, Z-Wave, Sigfox, Neul and LoRaWAN are specific to IoT. The distinction matters because mixing IoT-specific and general-purpose stacks is part of the interoperability problem.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Medium",
+      "tags": ["protocols", "Wi-Fi", "general purpose"]
     },
     {
-      "question": "The 5G generation is associated in the slides mainly with:",
+      "question": "The ITU groups enabling technologies by function: tagging, feeling, thinking, shrinking. Which mapping is correct?",
       "options": [
-        "Voice calls",
-        "Data messages only",
-        "Internet of Things",
-        "Analog communication"
+        "Tagging = nanotechnology; shrinking = RFID",
+        "Feeling = sensor technologies; shrinking = nanotechnology",
+        "Thinking = RFID; feeling = smart technologies",
+        "Shrinking = sensors; thinking = nanotechnology"
       ],
-      "answer": 2
+      "answerIndex": 1,
+      "explanation": "The mapping is: tagging = RFID, feeling = sensor technologies, thinking = smart technologies, shrinking = nanotechnology. Only the pairing of feeling with sensors and shrinking with nanotechnology is internally consistent.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Hard",
+      "tags": ["enabling technologies", "ITU", "classification"]
     },
     {
-      "question": "In the slide comparing mobile generations, 4G is mainly associated with:",
+      "question": "Why does the large variety of IoT frameworks, architectures and protocols create the interoperability challenge highlighted in the slides?",
       "options": [
-        "Voice calls",
-        "Internet of Things",
-        "Video streaming",
-        "SMS only"
+        "Because all standards are identical and therefore redundant",
+        "Because fragmented and often siloed standards make it hard for heterogeneous devices to work together, prompting consortia to form",
+        "Because there is only one global standard and no alternatives",
+        "Because interoperability is irrelevant once devices are connected"
       ],
-      "answer": 2
+      "answerIndex": 1,
+      "explanation": "Supply-side complexity — many frameworks, OS, protocols, industry-specific versus general-purpose and open versus proprietary choices — fragments the landscape, which is exactly why consortia like the Open Connectivity Foundation, oneM2M and Thread Group work on interoperability.",
+      "category": "Protocols, 5G & Enabling Tech",
+      "level": "Hard",
+      "tags": ["interoperability", "fragmentation", "consortia"]
     },
     {
-      "question": "Which of the following best represents a switching cost category mentioned in the slides?",
+      "question": "Why are IoT security challenges considered to intensify specifically as deployments scale up?",
       "options": [
-        "Emotional branding",
-        "Learning costs",
-        "Advertising reach",
-        "Market capitalization"
+        "Larger networks automatically become more secure",
+        "The sheer number of devices and transactions, network complexity, device anonymity and access/authentication and identity-management difficulties compound at scale",
+        "Security only depends on the presence of Wi-Fi",
+        "Scaling removes the need for identity management"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The slides list the causes of IoT security challenges as the number of devices, number of transactions, network complexity, device 'anonymity', access and authentication, and identity management. These do not shrink with scale — they compound, which is why scale aggravates security.",
+      "category": "IoT Architecture & Security",
+      "level": "Hard",
+      "tags": ["security", "scale", "authentication"]
     },
     {
-      "question": "Costs of changing suppliers are associated with:",
+      "question": "Why is identity management an especially acute problem in IoT compared with traditional IT?",
       "options": [
-        "Specialized suppliers",
-        "Generic websites",
-        "Social media platforms",
-        "Mobile operating systems"
+        "IoT devices never need to communicate",
+        "Devices are effectively anonymous and access/authentication become difficult to manage across a very large number of endpoints",
+        "Identity management only applies to paper records",
+        "IoT devices each have a permanent human operator"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Device 'anonymity' plus access and authentication across enormous device counts make identity management hard. The other options contradict how IoT works — devices do communicate and rarely have a dedicated human operator.",
+      "category": "IoT Architecture & Security",
+      "level": "Medium",
+      "tags": ["identity management", "anonymity", "authentication"]
     },
     {
-      "question": "Costs of converting data to new formats are associated with:",
+      "question": "In the Edge–Core–Endpoints architecture, what do 'endpoints' refer to?",
       "options": [
-        "Loyalty programs",
-        "Information and databases",
-        "Production capacity",
-        "Brand reputation"
+        "Designated computing datacenters on premises and in the cloud",
+        "Enterprise servers and appliances located outside the datacenters",
+        "Terminal devices such as PCs, smartphones, sensors and wearables",
+        "The cryptographic keys used to sign transactions"
       ],
-      "answer": 1
+      "answerIndex": 2,
+      "explanation": "Endpoints are the terminal devices: PCs, smartphones, sensors and wearables. Core refers to datacenters and all cloud forms; Edge refers to enterprise servers and appliances not in the datacenter.",
+      "category": "IoT Architecture & Security",
+      "level": "Easy",
+      "tags": ["architecture", "endpoints", "edge core"]
     },
     {
-      "question": "Which item is listed as a key factor in standard-setting strategies?",
+      "question": "The 'Core' tier in the IoT architecture is best described as:",
       "options": [
-        "Installed base",
-        "Product packaging",
-        "Employee morale",
-        "Geographic weather"
+        "Terminal devices like wearables and sensors",
+        "Designated computing datacenters on premises and in the cloud, covering private, public and hybrid cloud",
+        "Enterprise appliances at the network edge outside the datacenter",
+        "The set of communication protocols only"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Core denotes the designated computing datacenters — on premises and in the cloud — and explicitly spans private, public and hybrid cloud. Endpoints are terminal devices; Edge sits outside the datacenter.",
+      "category": "IoT Architecture & Security",
+      "level": "Medium",
+      "tags": ["core", "cloud", "datacenter"]
     },
     {
-      "question": "Which of the following is one of the seven factors in standard-setting strategies?",
+      "question": "The IEEE describes the long-term IoT technology challenge as 'shifting intelligence.' What does this mean in practice and why is it pursued?",
+      "options": [
+        "Removing all computing from devices and centralizing it in one datacenter",
+        "Devolving information-processing capability toward the edges of the network so embedded intelligence enhances overall network power",
+        "Returning all processing to paper-based systems",
+        "Eliminating sensors so devices only transmit raw signals"
+      ],
+      "answerIndex": 1,
+      "explanation": "The IEEE position is that embedded intelligence in the things themselves, by devolving processing to the edges, enhances the power of the network. This is the rationale for edge computing — the opposite of full centralization or removing intelligence from devices.",
+      "category": "IoT Architecture & Security",
+      "level": "Hard",
+      "tags": ["edge computing", "shifting intelligence", "IEEE"]
+    },
+    {
+      "question": "Why is 'availability of adjacent technologies' listed as an internal factor influencing IoT adoption?",
+      "options": [
+        "Because IoT works in complete isolation from other technologies",
+        "Because IoT depends on complementary technologies being in place for it to deliver value",
+        "Because adjacent technologies are competitors that must be blocked",
+        "Because it determines the colour of the device casing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adoption is shaped by whether complementary, adjacent technologies are available to support IoT use. IoT is not isolated; complementarity is an enabler, not a competitive threat, and has nothing to do with cosmetic attributes.",
+      "category": "IoT Architecture & Security",
+      "level": "Medium",
+      "tags": ["adoption factors", "complementarity", "internal factors"]
+    },
+    {
+      "question": "Why is 'ease of use' treated as an intrinsic factor in technology adoption for IoT and blockchain?",
+      "options": [
+        "It is unrelated to whether people and organizations actually adopt the technology",
+        "Lower friction in using the technology directly raises the likelihood and speed of adoption",
+        "It only matters for marketing brochures",
+        "It guarantees the technology is energy-efficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ease of use lowers the barrier to adoption, which is why it sits among intrinsic adoption factors alongside standards, interoperability and availability of adjacent technologies. It is an adoption driver, not a marketing detail or an energy property.",
+      "category": "IoT Architecture & Security",
+      "level": "Medium",
+      "tags": ["ease of use", "adoption", "internal factors"]
+    },
+    {
+      "question": "Connected cars are described as 'computers on wheels.' Why does this framing raise a strategic question for manufacturers?",
+      "options": [
+        "Because cars no longer need any hardware",
+        "Because it opens the question of which operating system will dominate and whether carmakers build their own software or rely on existing platforms",
+        "Because software is irrelevant to modern vehicles",
+        "Because it eliminates all competition in the automotive sector"
+      ],
+      "answerIndex": 1,
+      "explanation": "Treating cars as computers on wheels surfaces the discussion points in the slides: the dominant OS for cars, how many software applications already exist, and whether manufacturers create their own software or depend on platforms such as Android Automotive OS. It is a question about software strategy, not the absence of hardware.",
+      "category": "IoT Use Cases",
+      "level": "Medium",
+      "tags": ["connected cars", "operating system", "strategy"]
+    },
+    {
+      "question": "Smart-mobility P2P carpooling is distinguished from services like Uber and Lyft on what basis?",
+      "options": [
+        "It requires a larger intermediation platform than Uber",
+        "Relationships are 1-to-1 (peer-to-peer) with no need for an intermediation platform in the middle",
+        "It only works for freight, not passengers",
+        "It is fully controlled by a central dispatch authority"
+      ],
+      "answerIndex": 1,
+      "explanation": "The slides define smart mobility as P2P applications for carpooling and on-demand car sharing where relationships are 1-2-1 and there is no need for an intermediation platform — the key contrast with platform-mediated Uber/Lyft. IoT acts as the enabler of direct peer interaction.",
+      "category": "IoT Use Cases",
+      "level": "Hard",
+      "tags": ["smart mobility", "P2P", "platforms"]
+    },
+    {
+      "question": "Smart metering records consumption in intervals of an hour or less and reports it to the utility. Why is data collection a central discussion point for this use case?",
+      "options": [
+        "Because the data has no commercial or personal value",
+        "Because fine-grained consumption data raises privacy and regulation concerns while also enabling value creation",
+        "Because meters cannot transmit any data",
+        "Because regulation forbids any data collection entirely"
+      ],
+      "answerIndex": 1,
+      "explanation": "The discussion points for smart metering are roll-out/adoption rate, data collection and privacy (regulation), and data usage (value creation). Granular data is simultaneously a privacy/regulatory issue and a source of value — not valueless, and the meters explicitly do transmit data.",
+      "category": "IoT Use Cases",
+      "level": "Medium",
+      "tags": ["smart metering", "privacy", "value creation"]
+    },
+    {
+      "question": "For the smart-home use case (real-time adaptation of blinds, lights, cooling based on humidity, occupancy and natural light), which question is flagged as a primary discussion point?",
+      "options": [
+        "The brand of the light bulbs",
+        "Ownership of the data and ownership of the IoT system",
+        "The colour temperature of the display",
+        "The number of Wi-Fi channels available"
+      ],
+      "answerIndex": 1,
+      "explanation": "The smart-home discussion points are ownership of data and ownership of the IoT system — governance questions about who controls the generated data and the platform, not cosmetic or purely technical radio details.",
+      "category": "IoT Use Cases",
+      "level": "Medium",
+      "tags": ["smart home", "data ownership", "governance"]
+    },
+    {
+      "question": "Which set correctly lists macro-level IoT use cases presented in the course?",
+      "options": [
+        "Email encryption, password hashing, NFT minting",
+        "Smart Home, Smart City, Smart Transportation/Mobility",
+        "Server virtualization, browser caching, OCR",
+        "Audio compression, image rendering, web indexing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The summary cites Smart Home, Smart City and Smart Transportation as macro-level IoT use cases. The other lists are unrelated computing tasks, not IoT use cases.",
+      "category": "IoT Use Cases",
+      "level": "Easy",
+      "tags": ["use cases", "smart city", "smart home"]
+    },
+    {
+      "question": "In the case-study themes, which mapping of theme to interaction type is correct?",
+      "options": [
+        "Industry 4.0 = B2C consumer IoT",
+        "Industry 4.0 = B2B industrial IoT; Smart Homes = B2C consumer IoT",
+        "Smart Mobility = paper-based identity systems",
+        "Smart Cities = offline photo editing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The themes map Industry 4.0 to B2B industrial IoT and Smart Homes to B2C consumer IoT, with human-to-machine and machine-to-machine patterns across the rest. The other options pair themes with unrelated activities.",
+      "category": "IoT Use Cases",
+      "level": "Medium",
+      "tags": ["Industry 4.0", "B2B", "B2C"]
+    },
+    {
+      "question": "Ben Green's 'Smart Enough Cities' critique is cited as an external (non-technical) factor. What is the substance of the critique?",
+      "options": [
+        "Cities should be optimized purely with more sensors and algorithms",
+        "Treating cities as abstract technical processes to be optimized risks ignoring the fundamental social and political challenges of urban life",
+        "Smart cities are technically impossible to build",
+        "Privacy is never a concern in urban deployments"
+      ],
+      "answerIndex": 1,
+      "explanation": "Green warns against framing cities as abstract technical processes optimized by sensors, data and algorithms while sidestepping the social and political challenges of urban life. The critique is precisely against a sensor-only, optimization-first view.",
+      "category": "IoT Use Cases",
+      "level": "Hard",
+      "tags": ["smart cities", "external factors", "critique"]
+    },
+    {
+      "question": "The slides discuss a 'dark side' of IoT through examples like firms tracking employees' keystrokes and mouse clicks. Why are these raised?",
+      "options": [
+        "To showcase IoT's entertainment value",
+        "To highlight ethical concerns such as workplace surveillance and exploitative digital labour used to train AI",
+        "To demonstrate that IoT has no social downsides",
+        "To prove that IoT only operates offline"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 'dark side' examples — keystroke tracking to train AI models and platform 'digital labour' — are raised to surface ethical concerns around surveillance and low-paid digital work. They illustrate downsides, not benefits or offline operation.",
+      "category": "IoT Use Cases",
+      "level": "Medium",
+      "tags": ["dark side", "surveillance", "digital labour"]
+    },
+    {
+      "question": "Shapiro and Varian's classification of switching costs is invoked to explain why technology change is often resisted. What is the underlying argument?",
+      "options": [
+        "Switching is always free, so adoption is instant",
+        "The cost of change (lock-in plus switching costs) is frequently a decisive decision element and a potential barrier to change",
+        "Switching costs only matter for hardware, never data",
+        "Lock-in disappears once a contract is signed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shapiro and Varian argue that the cost of change — combining lock-in and switching costs — is often an important decision element and therefore a barrier to change. This explains slow adoption even of superior technologies; switching is rarely free.",
+      "category": "Network Economics & Standards",
+      "level": "Hard",
+      "tags": ["switching costs", "lock-in", "Shapiro Varian"]
+    },
+    {
+      "question": "Which lock-in type is correctly paired with its associated switching cost?",
+      "options": [
+        "Loyalty programs — learning costs",
+        "Information and databases — costs of converting data to new formats",
+        "Specific skill set — cancellation costs",
+        "Durable equipment — loss of acquired advantages"
+      ],
+      "answerIndex": 1,
+      "explanation": "Information and databases are paired with the cost of converting data to new formats. The correct pairings elsewhere are: loyalty programs → loss of acquired advantages; specific skill set → learning costs; durable equipment → replacement costs; contracts → cancellation costs.",
+      "category": "Network Economics & Standards",
+      "level": "Hard",
+      "tags": ["lock-in", "switching costs", "databases"]
+    },
+    {
+      "question": "Why would a 'specialized suppliers' lock-in deter a firm from switching technologies?",
+      "options": [
+        "Because the cost lies in changing suppliers when the new technology requires different ones",
+        "Because specialized suppliers are always free to replace",
+        "Because suppliers have no influence on technology choice",
+        "Because it only affects loyalty-program points"
+      ],
+      "answerIndex": 0,
+      "explanation": "The switching cost tied to specialized suppliers is the cost of changing suppliers — replacing relationships and dependencies built around the current technology. That friction is what makes the lock-in deter change.",
+      "category": "Network Economics & Standards",
+      "level": "Medium",
+      "tags": ["lock-in", "suppliers", "switching costs"]
+    },
+    {
+      "question": "Among Shapiro and Varian's seven standard-setting factors, why is 'installed base' so frequently decisive?",
+      "options": [
+        "A large installed base creates momentum and network effects that pull further adoption toward the same standard",
+        "A large installed base makes a technology obsolete faster",
+        "Installed base only matters for hardware colour choices",
+        "Installed base is irrelevant once IP rights exist"
+      ],
+      "answerIndex": 0,
+      "explanation": "Installed base is the first of the seven factors because an existing user base generates momentum and network effects, drawing further adoption toward the established standard (the QWERTY example illustrates this). It is a driver of dominance, not obsolescence.",
+      "category": "Network Economics & Standards",
+      "level": "Hard",
+      "tags": ["installed base", "standard setting", "network effects"]
+    },
+    {
+      "question": "Which of the following is NOT one of the seven standard-setting factors listed by Shapiro and Varian?",
       "options": [
         "IP rights",
+        "Pioneer's advantage",
         "Tax policy",
-        "Office size",
-        "Social influence marketing only"
+        "Brand reputation"
       ],
-      "answer": 0
+      "answerIndex": 2,
+      "explanation": "The seven factors are installed base, IP rights, capacity to innovate, pioneer's advantage, production capacity, product complementarity and brand reputation. Tax policy is not among them.",
+      "category": "Network Economics & Standards",
+      "level": "Medium",
+      "tags": ["standard setting", "seven factors", "which is not"]
     },
     {
-      "question": "In standard wars, the slide suggests that the weak can sometimes:",
+      "question": "In the standard-setting strategy map, when there is conflict between players the slide notes that the weak tends to:",
       "options": [
-        "Dominate by blocking the strong",
-        "Always lose immediately",
-        "Avoid compatibility issues by default",
-        "Eliminate installed base effects"
+        "Immediately surrender to the strong",
+        "Block the strong, leading to a 'standard war'",
+        "Avoid all compatibility issues automatically",
+        "Eliminate the installed base of the strong"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Under conflict, the choice of the weak is to block the strong, producing a 'standard war'; agreement on a standard is the alternative outcome. The weak does not automatically surrender or erase the strong's installed base.",
+      "category": "Network Economics & Standards",
+      "level": "Medium",
+      "tags": ["standard war", "strategy", "conflict"]
     },
     {
-      "question": "In the slides, compatibility versus discontinuity is part of:",
+      "question": "Among generic strategies for launching a new technology, what does choosing 'compatibility' (controlled or open migration) trade off against?",
       "options": [
-        "Strategies in standard-setting",
-        "Blockchain mining",
-        "Data visualization",
-        "Sensor calibration"
+        "It trades off against 'performance', which implies discontinuity from the existing base",
+        "It trades off against lowering production capacity",
+        "It trades off against brand reputation only",
+        "It has no trade-off; it dominates all other choices"
       ],
-      "answer": 0
+      "answerIndex": 0,
+      "explanation": "The strategy grid contrasts compatibility (controlled migration / open migration) with performance (discontinuity). Backward compatibility eases migration but constrains performance, while a performance leap implies discontinuity from the installed base — a genuine trade-off.",
+      "category": "Network Economics & Standards",
+      "level": "Hard",
+      "tags": ["compatibility", "performance", "migration"]
     },
     {
-      "question": "Which of the following is a generic strategy when launching a new technology in network economics?",
+      "question": "Why might a firm choose 'openness / open migration' over 'control' when launching a new technology in a network market?",
       "options": [
-        "Openness",
-        "Monopoly pricing only",
-        "Random adoption",
-        "Total secrecy without migration"
+        "To restrict the technology to a single licensee",
+        "To accelerate adoption and grow the installed base by lowering barriers, at the cost of tighter proprietary control",
+        "To guarantee the highest possible per-unit price",
+        "To avoid having any installed base at all"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Openness lowers barriers and can rapidly build the installed base and network effects, trading away the tighter appropriation that control offers. The choice is fundamentally about adoption speed versus proprietary control.",
+      "category": "Network Economics & Standards",
+      "level": "Hard",
+      "tags": ["openness", "control", "adoption"]
     },
     {
-      "question": "Which statement best matches the slide’s view of IoT?",
+      "question": "Porter and Heppelmann argue that smart, connected products are strategically significant. Why?",
       "options": [
-        "IoT is only a consumer technology",
-        "IoT is a data generation technology set combining many technologies",
-        "IoT is only about blockchain integration",
-        "IoT is a single protocol"
+        "They have no effect on how value is created or captured",
+        "They raise new choices about how value is created and captured, how data is utilized and managed, how partner relationships are redefined, and how industry boundaries expand",
+        "They only matter for personal entertainment",
+        "They automatically remove all channel partners"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The Porter/Heppelmann quote stresses new strategic choices on value creation and capture, management of large amounts of sensitive data, redefinition of partner (e.g., channel) relationships, and expanding industry boundaries. They reshape strategy rather than being entertainment or automatically eliminating partners.",
+      "category": "Network Economics & Standards",
+      "level": "Hard",
+      "tags": ["Porter", "smart connected products", "strategy"]
     },
     {
-      "question": "Which of the following is an example of a macro-level IoT use case mentioned in the slides?",
+      "question": "Why is a blockchain considered resistant to modification of its data?",
       "options": [
-        "Smart Home",
-        "Email encryption",
-        "Cryptocurrency mining",
-        "Web browser caching"
+        "Because each block is stored on a single secured server",
+        "Because each block contains a cryptographic hash of the previous block plus a timestamp and transaction data, so altering one block breaks the chain",
+        "Because the data is never written to disk",
+        "Because a central administrator approves every edit"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Each block embeds the cryptographic hash of the previous block, a timestamp and transaction data; tampering with any block invalidates all subsequent hashes, making modification detectable. There is deliberately no central administrator, and the data is persisted across many nodes.",
+      "category": "Blockchain Fundamentals",
+      "level": "Medium",
+      "tags": ["immutability", "hash", "blocks"]
     },
     {
-      "question": "Which of the following is another macro-level IoT use case mentioned in the slides?",
+      "question": "A blockchain block typically contains which combination of elements?",
       "options": [
-        "Smart City",
-        "Password hashing",
-        "NFT minting",
-        "Server virtualization"
+        "A user interface, image files and a password list",
+        "A cryptographic hash of the previous block, a timestamp and transaction data",
+        "A single central server address and nothing else",
+        "Only the current account balances"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "By design a block holds the hash of the previous block, a timestamp and transaction data (often as a Merkle tree). The other options describe artefacts that are not the structure of a block.",
+      "category": "Blockchain Fundamentals",
+      "level": "Easy",
+      "tags": ["block structure", "hash", "timestamp"]
     },
     {
-      "question": "Connected cars are described in the slides as:",
+      "question": "A distributed ledger (DLT) differs from a centralized database in what essential way?",
       "options": [
-        "Cars with no software",
-        "Cars that are essentially computers on wheels",
-        "Cars that only use barcode readers",
-        "Cars that cannot connect to the Internet"
+        "It is controlled by a single administrator at one site",
+        "It is a consensus of replicated, shared and synchronized data spread across multiple sites with no central administrator",
+        "It can only be stored on smartphones",
+        "It is a temporary cache that is erased after each transaction"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "A DLT is a consensus of replicated, shared and synchronized digital data spread across sites, countries or institutions, and crucially has no central administrator — the defining contrast with a centralized database.",
+      "category": "Blockchain Fundamentals",
+      "level": "Medium",
+      "tags": ["distributed ledger", "DLT", "decentralization"]
     },
     {
-      "question": "In the slides, smart mobility is described as:",
+      "question": "In blockchain, the role of the 'trusted third party' is said to become 'the system itself.' What makes this possible?",
       "options": [
-        "A centralized taxi dispatch platform only",
-        "P2P applications for carpooling and on-demand car sharing",
-        "A protocol for vehicle sensors",
-        "A fuel efficiency standard"
+        "A bank validates each transaction off-chain",
+        "Each distributed block contains the information that guarantees data integrity through a cryptographic algorithm",
+        "A human notary signs every block manually",
+        "A cloud password manager stores the trust credentials"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "Trust shifts from an external entity to the system because each block in the distributed chain carries the information that guarantees integrity of exchanged data via cryptography. No bank, manual notary or password manager is required.",
+      "category": "Blockchain Fundamentals",
+      "level": "Hard",
+      "tags": ["trusted third party", "trust", "cryptography"]
     },
     {
-      "question": "Blockchain is defined in the slides as primarily a growing list of records called:",
+      "question": "Why is a peer-to-peer (P2P) relationship foundational to blockchain rather than a client-server one?",
       "options": [
-        "Nodes",
-        "Blocks",
-        "Tokens",
-        "Ledgers"
+        "Because one privileged server must coordinate all peers",
+        "Because peers are equally privileged, equipotent nodes that partition tasks among themselves without a central coordinator",
+        "Because P2P requires constant human messaging",
+        "Because P2P only works for broadcast television"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "P2P networking partitions tasks among peers that are equally privileged and equipotent (the Napster example), which underpins blockchain's lack of a central coordinator. A privileged central server would contradict the architecture.",
+      "category": "Blockchain Fundamentals",
+      "level": "Medium",
+      "tags": ["P2P", "nodes", "architecture"]
     },
     {
-      "question": "A blockchain block typically contains:",
+      "question": "In the centralized–decentralized–distributed distinction, why is a distributed architecture more resistant to single points of failure?",
       "options": [
-        "A hash of the previous block, a timestamp, and transaction data",
-        "A user interface and image files",
-        "Only a password list",
-        "A single central server address"
+        "Because control and data sit on one master node",
+        "Because data and control are replicated and synchronized across many nodes, so no single node is essential",
+        "Because it runs entirely offline",
+        "Because it forbids any replication of data"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "A distributed system replicates and synchronizes across many independent nodes, removing the single chokepoint that a centralized (one master) design has. Replication is the source of resilience, not something the architecture forbids.",
+      "category": "Blockchain Fundamentals",
+      "level": "Hard",
+      "tags": ["distributed", "resilience", "single point of failure"]
     },
     {
-      "question": "The blockchain architecture is best described as:",
+      "question": "Iansiti and Lakhani compare blockchain to TCP/IP. What is the basis of that analogy?",
       "options": [
-        "Centralized",
-        "Distributed and resistant to modification",
-        "Offline-only",
-        "Manual ledger management"
+        "Both are sensor protocols for IoT devices",
+        "Just as TCP/IP dramatically lowered the cost of connections, blockchain could dramatically lower the cost of transactions and become a system of record",
+        "Both are mobile operating systems",
+        "Both eliminate the need for any cryptography"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The HBR argument is that TCP/IP unlocked value by lowering connection costs, and blockchain could similarly lower transaction costs and become the system of record for all transactions, triggering a comparable economic shift. The analogy is economic and infrastructural.",
+      "category": "Blockchain Fundamentals",
+      "level": "Hard",
+      "tags": ["TCP/IP", "transaction cost", "infrastructure"]
     },
     {
-      "question": "A distributed ledger is best described as:",
+      "question": "Why is blockchain described as an 'infrastructural' technology in the summary?",
       "options": [
-        "A ledger controlled by one administrator",
-        "A consensus of replicated, shared, and synchronized digital data spread across multiple sites",
-        "A database stored only on smartphones",
-        "A temporary cache of transaction logs"
+        "Because it is only useful as a consumer app",
+        "Because, like TCP/IP for communication networks, it can serve as a foundational layer on which many digital services are built",
+        "Because it must run on dedicated physical cables",
+        "Because it replaces the need for the Internet entirely"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The summary frames blockchain as infrastructural: 'Blockchain is to digital services what TCP/IP is for communication networks' — a base layer enabling many services, not a single consumer app nor a wholesale replacement for the Internet.",
+      "category": "Blockchain Fundamentals",
+      "level": "Medium",
+      "tags": ["infrastructure", "foundational", "TCP/IP"]
     },
     {
-      "question": "The role of the trusted third party in blockchain is replaced by:",
+      "question": "Which trio correctly lists blockchain application domains shown in the course?",
       "options": [
-        "A bank branch",
-        "The system itself",
-        "A cloud password manager",
-        "A manual notary only"
+        "Image compression, voice recognition, web indexing",
+        "Asset transfer, traceability, automatic execution of contracts",
+        "Spreadsheet formatting, cabling, weather forecasting",
+        "Keyboard optimization, OCR, audio mixing"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The application-domains slide names asset transfer, traceability and automatic execution of contracts (smart contracts). The other lists are unrelated computing tasks.",
+      "category": "Blockchain Applications",
+      "level": "Easy",
+      "tags": ["application domains", "asset transfer", "traceability"]
     },
     {
-      "question": "Blockchain relies on which of the following relationships?",
+      "question": "Why does a smart contract remove the need for a human intermediary, using the 'immediate refund if a plane is delayed' insurance example?",
       "options": [
-        "Peer-to-peer relationships",
-        "Only client-server relationships",
-        "Human-to-human messaging",
-        "Broadcast television relationships"
+        "Because a claims adjuster manually reviews each flight",
+        "Because the contract executes automatically when predefined conditions are met, without arbitration by a central authority",
+        "Because passengers must call the airline to trigger it",
+        "Because it only works on paper contracts"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Smart contracts are about automatic execution: when the triggering condition (flight delay) is verified, the refund executes without manual intervention or a central arbiter. That self-execution is what displaces the intermediary.",
+      "category": "Blockchain Applications",
+      "level": "Hard",
+      "tags": ["smart contracts", "automation", "insurance"]
     },
     {
-      "question": "Which of the following is an application domain of blockchain mentioned in the slides?",
+      "question": "Why are NFTs 'non-fungible,' and how does that distinguish them from cryptocurrencies?",
       "options": [
-        "Asset transfer",
-        "Spreadsheet formatting",
-        "Image compression",
-        "Voice recognition only"
+        "They are fully interchangeable, exactly like one bitcoin for another",
+        "They are pieces of code tied to a specific digital asset (with a license to use/copy/display) and are not mutually interchangeable, unlike fungible cryptocurrencies",
+        "They are anonymous packets of sensor data",
+        "They are private keys for Wi-Fi access"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "An NFT is code associated with a digital asset, usually with a license to use, copy or display it; because each is unique and not mutually interchangeable, it is non-fungible — the opposite of interchangeable cryptocurrency units.",
+      "category": "Blockchain Applications",
+      "level": "Medium",
+      "tags": ["NFT", "non-fungible", "cryptocurrency"]
     },
     {
-      "question": "Which of the following is another blockchain application domain mentioned in the slides?",
+      "question": "Why does blockchain enable peer-to-peer energy trading between individual producers?",
       "options": [
-        "Traceability",
-        "Keyboard layout optimization",
-        "Network cabling",
-        "Weather forecasting only"
+        "Because it forces all energy through the central distribution network",
+        "Because it lets producers (often of renewable energy) trade directly with one another without going through the central distribution network",
+        "Because it generates electricity itself",
+        "Because it bans renewable energy sources"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Blockchain-enabled energy trading allows individuals — often renewable producers — to trade energy directly, bypassing the central distribution network. Blockchain is the enabler of the P2P interaction, not a power generator.",
+      "category": "Blockchain Applications",
+      "level": "Medium",
+      "tags": ["energy trading", "P2P", "renewables"]
     },
     {
-      "question": "Smart contracts are best associated with:",
+      "question": "In food-product traceability, why is blockchain positioned as a 'source of trust'?",
       "options": [
-        "Automatic execution of contracts",
-        "Manual arbitration by a central authority",
-        "Physical sensor calibration",
-        "Wireless signal amplification"
+        "Because it hides the origin of products",
+        "Because it provides a single, tamper-resistant source of information on origin, ingredients, transformation, transport and distribution, improving supply-chain transparency",
+        "Because it slows down the supply chain deliberately",
+        "Because it only records the final retail price"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Traceability uses blockchain to give a unique, reliable record across the food chain — origin, ingredients, transformation, transport, intermediaries and distribution — which is exactly what makes it a source of trust and transparency.",
+      "category": "Blockchain Applications",
+      "level": "Medium",
+      "tags": ["traceability", "trust", "supply chain"]
     },
     {
-      "question": "Which of the following is listed as a main blockchain application type?",
+      "question": "In the luxury industry (e.g., the Aura Blockchain Consortium), what is blockchain/NFT primarily used for and at what adoption stage?",
       "options": [
-        "Cryptocurrencies",
-        "Spreadsheet macros",
-        "Optical character recognition",
-        "Email spam filtering"
+        "Mass production, at full maturity",
+        "Digital passports and anti-counterfeiting collectibles, still at an early adoption stage relative to 3D printing and RFID",
+        "Replacing all physical stores, at peak adoption",
+        "Energy generation, at the decline stage"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Aura groups luxury brands around digital passports and NFT collectibles, an anti-counterfeit use; the Comité Colbert/Bain study places blockchain (mainly NFT) in early adoption compared with 3D printing and RFID. It is an authentication use case, not mass production or energy.",
+      "category": "Blockchain Applications",
+      "level": "Hard",
+      "tags": ["luxury", "NFT", "anti-counterfeit"]
     },
     {
-      "question": "NFTs are described as:",
+      "question": "Among blockchain's main application types, which concrete example is correctly matched?",
       "options": [
-        "Fungible tokens identical to cryptocurrencies",
-        "Pieces of code associated with a digital asset and typically a license to use, copy, or display it",
-        "Sensor data packets",
-        "Private keys for Wi-Fi access"
+        "Smart contracts — image compression",
+        "Cryptocurrencies — liquid stock exchange via security tokens",
+        "Distributed ledgers — keyboard layout optimization",
+        "Anti-counterfeiting/NFT — Wi-Fi roaming"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The overview matches application types to concrete cases: cryptocurrencies/security tokens to a liquid stock exchange, smart contracts to immediate insurance refunds, traceability to food markets, and NFT to tokenized artwork and game assets. Only the cryptocurrency/security-token pairing is correct here.",
+      "category": "Blockchain Applications",
+      "level": "Medium",
+      "tags": ["application types", "security tokens", "matching"]
     },
     {
-      "question": "The term “non-fungible” means:",
+      "question": "Why is scalability listed as an internal blockchain adoption challenge?",
       "options": [
-        "Fully interchangeable with any other token",
-        "Not mutually interchangeable",
-        "Always anonymous",
-        "Always energy-free"
+        "Because blockchain handles far more transactions per second than traditional networks",
+        "Because a blockchain network enables a relatively lower number of transactions per second compared with traditional transaction networks",
+        "Because it cannot store any transactions",
+        "Because it requires no processing power"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "Scalability is a challenge precisely because blockchain networks process relatively fewer transactions per second than conventional networks, limiting throughput for high-volume uses.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Medium",
+      "tags": ["scalability", "throughput", "adoption"]
     },
     {
-      "question": "One blockchain use case mentioned for NFTs is:",
+      "question": "Why does interoperability remain a challenge across blockchain networks?",
       "options": [
-        "Digital artwork",
-        "Smart meter reading",
-        "Cellular handoff",
-        "Wi-Fi roaming"
+        "Because all blockchains are designed to interconnect seamlessly by default",
+        "Because most blockchain networks are designed to work in silo mode",
+        "Because blockchains never store digital data",
+        "Because they only operate with barcodes"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Most blockchain networks are built to operate in silo mode, so they do not naturally interoperate — the opposite of seamless interconnection. This fragmentation is the interoperability challenge.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Medium",
+      "tags": ["interoperability", "silos", "adoption"]
     },
     {
-      "question": "In the slides, blockchain is described as a technology that is strategic because it could:",
+      "question": "Why is energy consumption a notable blockchain adoption challenge?",
       "options": [
-        "Increase the cost of transactions",
-        "Dramatically reduce the cost of transactions",
-        "Eliminate all encryption",
-        "Replace all network traffic"
+        "Because transaction validation requires a large amount of processing power",
+        "Because blockchain runs entirely on paper",
+        "Because it cannot store timestamps",
+        "Because it uses only analog hardware"
       ],
-      "answer": 1
+      "answerIndex": 0,
+      "explanation": "Validating transactions demands significant processing power, which translates into high energy consumption — a recognized barrier, also reflected in concerns about NFTs and cryptocurrencies.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Easy",
+      "tags": ["energy", "validation", "adoption"]
     },
     {
-      "question": "According to the slides, blockchain could become:",
+      "question": "Why is 'talent' counted among blockchain adoption challenges?",
       "options": [
-        "A system of record for all transactions",
-        "A replacement for all Internet services",
-        "A sensor protocol",
-        "A mobile operating system"
+        "Because blockchain requires no specialized knowledge",
+        "Because trained blockchain specialists are scarce and the field demands interdisciplinarity",
+        "Because talent only affects marketing",
+        "Because it concerns the physical size of offices"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "The slides list talent as a challenge due to the shortage of trained blockchain specialists and the need for interdisciplinary skills. It is a human-capital constraint, not a marketing or facilities matter.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Easy",
+      "tags": ["talent", "skills", "adoption"]
     },
     {
-      "question": "Which of the following is an internal blockchain adoption challenge mentioned in the slides?",
+      "question": "A SYN flood attack weakens blockchain security by which mechanism?",
       "options": [
-        "Scalability",
-        "Fashion trends",
-        "Physical distance between users only",
-        "Screen resolution"
+        "Splitting the network into isolated groups",
+        "Sending requests rapidly and repeatedly until the target is overwhelmed and lacks the processing power to legitimize and control traffic",
+        "Controlling a majority of mining nodes",
+        "Intercepting and silently modifying valid transactions"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "A SYN flood overwhelms the target with rapid, repeated requests so it no longer has enough processing power to validate and control traffic. Network splitting describes an Eclipse attack, node control a Sybil attack, and interception a man-in-the-middle attack.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Medium",
+      "tags": ["SYN flood", "attacks", "DoS"]
     },
     {
-      "question": "Interoperability is a challenge for blockchain because:",
+      "question": "What characterizes a Sybil attack on a blockchain network?",
       "options": [
-        "All blockchain networks naturally work together seamlessly",
-        "Most blockchain networks are designed to work in silo mode",
-        "Blockchain does not use digital data",
-        "Blockchain only works with barcodes"
+        "A user simply forgets a password",
+        "An attacker gains influence by controlling multiple nodes (and their associated miners), forming a network of colluding participants",
+        "A device runs out of battery",
+        "A block becomes too large to transmit"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "In a Sybil attack the attacker accesses the network through nodes they control, with the associated miners being their own, creating a network of 'traffickers' that facilitates further attacks. It is about controlling many identities/nodes, not a forgotten password or hardware failure.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Medium",
+      "tags": ["Sybil attack", "nodes", "miners"]
     },
     {
-      "question": "Energy consumption is a blockchain adoption challenge because:",
+      "question": "Why is an Eclipse attack problematic for a blockchain network?",
       "options": [
-        "Transaction validation requires significant processing power",
-        "Blockchain cannot store timestamps",
-        "It uses only analog hardware",
-        "It always runs on paper"
+        "It speeds up all transactions uniformly",
+        "It splits the network into separate groups so users in one group cannot join another and parallel chains grow independently",
+        "It automatically executes smart contracts",
+        "It recovers energy lost during mining"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "An Eclipse attack causes the network to split into groups that cannot communicate, so chains grow separately; awareness of another group requires receiving a block from an unknown chain. It fragments consensus rather than improving performance.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Hard",
+      "tags": ["Eclipse attack", "network split", "consensus"]
     },
     {
-      "question": "Which of the following is also listed as a blockchain adoption challenge?",
+      "question": "Why can a man-in-the-middle attack succeed in inserting invalid transactions on a blockchain?",
       "options": [
-        "Talent",
-        "Screen brightness",
-        "Cable length",
-        "Browser cookies"
+        "Because every transaction is audited in real time by a regulator",
+        "Because, since valid transactions are not audited, a hacker who intercepts and modifies information can insert invalid transactions that appear valid",
+        "Because the attacker physically destroys the nodes",
+        "Because blockchains store no transaction data"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "The slide notes that because valid transactions are not audited, an attacker intercepting and modifying information can slip invalid transactions that appear valid into the ledger. The vulnerability stems from the lack of auditing, not regulator review or physical destruction.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Hard",
+      "tags": ["man-in-the-middle", "attacks", "ledger integrity"]
     },
     {
-      "question": "Which attack is described as overwhelming the target with rapid and repeated requests?",
+      "question": "Roubini's 'dark side' critique argues that blockchain decentralization is largely a myth. What evidence is cited for that view?",
       "options": [
-        "Sybil attack",
-        "Eclipse attack",
-        "SYN flood attack",
-        "Man-in-the-middle attack"
+        "All mining is evenly distributed among millions of small participants",
+        "A handful of companies control most mining, and crypto trading runs on centralized exchanges that are frequently hacked",
+        "Blockchain has eliminated every security risk",
+        "Decentralized governance is fully transparent everywhere"
       ],
-      "answer": 2
+      "answerIndex": 1,
+      "explanation": "Roubini points out that decision-making is often centralized and opaque, a few 'anonymous cartels' control most mining, and crypto trading occurs on centralized exchanges that are frequently hacked — undercutting the decentralization claim. The other options describe the idealized view he criticizes.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Hard",
+      "tags": ["dark side", "centralization", "Roubini"]
     },
     {
-      "question": "A Sybil attack involves:",
+      "question": "Why is blockchain adoption outside cryptocurrencies described as relatively slow?",
       "options": [
-        "A hacker controlling multiple nodes to gain network influence",
-        "A single user forgetting a password",
-        "A device running out of battery",
-        "A blockchain block being too large"
+        "Because it is already universal across all sectors",
+        "Because of inherent complexity, transparency/trust issues, and the difficulty of embedding existing legal provisions at the technology layer",
+        "Because it has no real-world applications",
+        "Because it requires no legal or organizational adaptation"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "The summary attributes slow non-crypto adoption to inherent complexity, transparency (trust) challenges, and the difficulty of embedding existing legal provisions at the technology layer. It is neither universal nor free of legal adaptation needs.",
+      "category": "Blockchain Challenges & Security",
+      "level": "Medium",
+      "tags": ["adoption", "complexity", "legal"]
     },
     {
-      "question": "An Eclipse attack causes:",
+      "question": "Why might combining IoT and blockchain (IBM's 'device democracy' idea) be attractive?",
       "options": [
-        "The network to split into several groups",
-        "Total energy recovery",
-        "Faster transaction speed",
-        "Automatic smart contract execution"
+        "To make IoT fully centralized under one vendor",
+        "To address IoT's scaling and trust challenges by using a distributed, tamper-resistant ledger among devices",
+        "To remove all data generation from IoT",
+        "To replace sensors with cryptocurrency tokens"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "The 'device democracy' approach pairs IoT's data generation and scale with blockchain's distributed trust to tackle scaling and trust problems in large device networks. It is about decentralized trust, not centralization or removing IoT's core functions.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Hard",
+      "tags": ["device democracy", "IoT blockchain", "trust"]
     },
     {
-      "question": "Which statement best describes the “dark side” of blockchain in the slides?",
+      "question": "In the simple IoT/Blockchain value-chain model, what is the role of the sensor at the start of the chain?",
       "options": [
-        "Blockchain is always fully decentralized in practice",
-        "Crypto trading often depends on centralized exchanges, and mining may be controlled by a few large actors",
-        "Blockchain has no security risks",
-        "Blockchain removes all need for governance"
+        "It performs final data visualization for executives",
+        "It acts as the source of data/information that the rest of the chain collects, transmits, processes and feeds back to actuators",
+        "It stores the entire distributed ledger",
+        "It replaces the networking layer"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "In the model the sensor is the source of data/information; the chain then handles data collection, connectivity/networking, processing, and feedback to actuators. The sensor originates data rather than visualizing it or storing the ledger.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Medium",
+      "tags": ["value chain", "sensor", "model"]
     },
     {
-      "question": "Which statement best matches the slide’s summary of blockchain adoption outside cryptocurrencies?",
+      "question": "The value-creation-through-data steps are ordered for a reason. Which sequence matches the model?",
       "options": [
-        "It is relatively slow",
-        "It is already universal in all sectors",
-        "It has no complexity",
-        "It requires no legal adaptation"
+        "Insights → analytics → integration → collection",
+        "Data collection → cleansing/preparation → integration of several sources → analytics → visualization → insights and recommendations",
+        "Analytics → collection → insights → cleansing",
+        "Visualization → collection → recommendations → integration"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "Value creation through data follows collection, then cleansing/preparation, then integration of several sources, then analytics, then (optionally) visualization, and finally insights and recommendations. The ordering matters because each stage depends on the quality of the prior one.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Hard",
+      "tags": ["value creation", "data pipeline", "ordering"]
     },
     {
-      "question": "Why is transparency a challenge for blockchain adoption?",
+      "question": "In the European regulatory landscape for IoT and blockchain, which is correctly classified?",
       "options": [
-        "Because blockchain hides all transactions",
-        "Because trust and visibility raise governance and adoption issues",
-        "Because it prevents any data from being shared",
-        "Because it only works offline"
+        "GDPR is only a draft proposal",
+        "GDPR is an existing regulation, while the E-Privacy Regulation and Free Flow of Data Regulation are noted as proposed/draft",
+        "PSD2 was never enacted",
+        "The NIS Directive is purely hypothetical"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The slides list GDPR (May 2018), the NIS Directive and PSD2 as existing regulations, and the E-Privacy Regulation and Free Flow of Data Regulation as proposed/draft. GDPR is in force, not a draft.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Medium",
+      "tags": ["GDPR", "regulation", "Europe"]
     },
     {
-      "question": "Which of the following is a key reason blockchain adoption is difficult in real-world legal contexts?",
+      "question": "The wrap-up uses examples like DC vs AC electricity and the QWERTY keyboard. What general adoption lesson do these illustrate?",
       "options": [
-        "Existing legal provisions are difficult to embed at the technology layer",
-        "It cannot store timestamps",
-        "It requires only paper contracts",
-        "It cannot be used with digital data"
+        "That superior technologies always win immediately on merit",
+        "That standards, installed base and the co-existence or rivalry of technologies shape adoption beyond pure technical merit",
+        "That technology adoption is unrelated to history or installed base",
+        "That only government mandates determine standards"
       ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "The examples show that installed base (QWERTY), standards, convergence of different knowledge, and the co-existence of initially rival technologies (DC and AC) drive adoption — outcomes are not decided by technical superiority alone.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Hard",
+      "tags": ["installed base", "standards", "adoption lessons"]
     },
     {
-      "question": "Which of the following is a basic characteristic of blockchain applications discussed in the slides?",
+      "question": "Why does the course conclude that both IoT and blockchain should be carefully assessed before society-wide implementation?",
       "options": [
-        "They are always centralized services",
-        "They often enable peer-to-peer transactions without a middleman",
-        "They cannot involve value transfer",
-        "They are limited to mobile phones"
+        "Because they are simple technologies with no trade-offs",
+        "Because each combines several technologies and raises technical, ethical, regulatory and trust considerations whose impacts at societal scale are significant",
+        "Because neither has any real use case",
+        "Because assessment is only needed for entertainment products"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The summary stresses careful assessment, especially for society-wide initiatives, because both are composite technologies (combining many sub-technologies) with security, privacy, energy, legal and trust implications that scale with deployment. They are neither trivial nor use-case-free.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Medium",
+      "tags": ["assessment", "societal impact", "summary"]
     },
     {
-      "question": "Which technology is described as more about trust and control?",
+      "question": "Why is blockchain summarized as being 'about trust (and control)' while IoT is summarized as a 'data generation technology set'?",
       "options": [
-        "IoT",
-        "Blockchain",
-        "NFC",
-        "Wi-Fi"
+        "Because both phrases mean exactly the same thing",
+        "Because blockchain's core contribution is establishing trust without an intermediary, whereas IoT's core contribution is generating data by combining sensing technologies",
+        "Because IoT is about trust and blockchain is about sensors",
+        "Because neither technology relates to data"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The summary contrasts the two: blockchain is fundamentally about trust and control via a distributed ledger used (outside crypto) for P2P transactions, while IoT is a data generation technology set combining RFID, sensors, smart and nano technologies. The framings are deliberately distinct.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Medium",
+      "tags": ["comparison", "trust", "data generation"]
     },
     {
-      "question": "Which technology is described as a data generation technology set?",
+      "question": "Why are privacy and personal-data collection treated as primary external factors when implementing IoT 'solutions' to real-world problems?",
       "options": [
-        "Blockchain",
-        "IoT",
-        "NFC",
-        "Ethereum only"
+        "Because IoT never collects any personal data",
+        "Because mass sensing raises privacy, personal-data collection and surveillance concerns that are non-technical yet decisive for acceptance",
+        "Because privacy only matters for paper records",
+        "Because external factors have no effect on adoption"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The slides flag privacy, personal-data collection and mass surveillance as primary considerations — non-technical (sociological, cultural, organizational) factors that strongly shape whether IoT solutions are accepted. They are external adoption factors, not irrelevant ones.",
+      "category": "IoT Architecture & Security",
+      "level": "Medium",
+      "tags": ["privacy", "external factors", "surveillance"]
     },
     {
-      "question": "Which of the following best reflects the strategic perspective on smart, connected products?",
+      "question": "Why does the course emphasize 'combinatorial effects of technologies' (WEF/Accenture) when discussing IoT and blockchain?",
       "options": [
-        "They do not affect value creation or capture",
-        "They create new choices about value creation, data management, and business relationships",
-        "They are only useful for personal entertainment",
-        "They eliminate all channel partners automatically"
+        "Because each technology delivers maximum value only in isolation",
+        "Because much of digital transformation's value arises from combining technologies, so their joint effects exceed what any one delivers alone",
+        "Because combining technologies always reduces value",
+        "Because combination is only relevant to hardware pricing"
       ],
-      "answer": 1
+      "answerIndex": 1,
+      "explanation": "The combinatorial-effects framing (securing large societal/industry value) argues that combining digital technologies multiplies impact — IoT and blockchain among them — rather than each working best alone. Combination amplifies rather than reduces value.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Hard",
+      "tags": ["combinatorial effects", "WEF", "value"]
     },
     {
-      "question": "Which of the following is a major internal factor influencing IoT adoption?",
+      "question": "Why is connectivity/networking a necessary middle stage in the IoT value chain rather than an optional add-on?",
       "options": [
-        "Security challenges",
-        "Color of device casing",
-        "Social media popularity",
-        "Advertising slogans"
+        "Because sensors can deliver value without ever transmitting data",
+        "Because data captured at the endpoint must be transmitted and networked before it can be processed and acted upon elsewhere",
+        "Because networking replaces the need for sensors and actuators",
+        "Because connectivity is only used for billing"
       ],
-      "answer": 0
-    },
-    {
-      "question": "Why is identity management important in IoT?",
-      "options": [
-        "Because devices are anonymous and access/authentication become difficult at large scale",
-        "Because IoT devices never communicate",
-        "Because identity management is only needed for paper records",
-        "Because IoT devices do not need networks"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which of the following is an architecture challenge in IoT?",
-      "options": [
-        "Edge, Core, and Endpoints",
-        "Mining pools, wallets, and exchanges",
-        "HTML, CSS, and JavaScript",
-        "Barcodes, QR codes, and PDFs"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "In IoT architecture, endpoints refer to:",
-      "options": [
-        "Datacenters only",
-        "Terminal devices such as PCs, smartphones, sensors, and wearables",
-        "Blockchain nodes only",
-        "Internet cables"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "The long-term IoT technology challenge mentioned by IEEE is to:",
-      "options": [
-        "Remove all edge devices",
-        "Shift intelligence toward the edges of the network",
-        "Return all processing to paper systems",
-        "Eliminate sensors from devices"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "Which statement best describes IoT security challenges?",
-      "options": [
-        "They are caused only by a lack of Wi-Fi",
-        "They are driven by many devices, many transactions, complex networks, anonymity, and access/authentication issues",
-        "They disappear when systems become smart",
-        "They are unrelated to identity management"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "Which of the following best captures IoT’s supply-side complexity?",
-      "options": [
-        "Few frameworks, few architectures, and one universal protocol",
-        "A large variety of frameworks, architectures, technologies, applications, and standards choices",
-        "No need for interoperability",
-        "Only one industry uses IoT"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "Which of the following is a major external factor influencing IoT adoption?",
-      "options": [
-        "Privacy and personal data collection concerns",
-        "Keyboard design",
-        "Screen refresh rate",
-        "CPU brand only"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which of the following is a major theme in IoT use cases from the slides?",
-      "options": [
-        "Industry 4.0",
-        "Offline photo editing",
-        "Manual bookkeeping",
-        "Paper-based identity systems"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which of the following is one of the main application types of blockchain beyond cryptocurrencies?",
-      "options": [
-        "Traceability",
-        "Spreadsheet formatting",
-        "Browser bookmarking",
-        "Audio compression"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which concept best explains why blockchain can be used for trust without a central administrator?",
-      "options": [
-        "Replicated and synchronized shared ledger with cryptography",
-        "A single master database controlled by one company",
-        "Manual approval by a human operator for every transaction",
-        "A hidden offline archive"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "Which of the following is a common strategic tension in blockchain adoption?",
-      "options": [
-        "Openness versus control",
-        "Paper versus pencil",
-        "Color versus shape",
-        "Voice versus keyboard"
-      ],
-      "answer": 0
+      "answerIndex": 1,
+      "explanation": "In the model, data is collected at the point of capture and must move through connectivity/networking to reach processing and ultimately feedback to actuators. Without transmission the data cannot be aggregated, processed or acted on, so connectivity is integral, not optional.",
+      "category": "IoT+Blockchain, Value Chain & Regulation",
+      "level": "Medium",
+      "tags": ["value chain", "connectivity", "networking"]
     }
   ]
 }
